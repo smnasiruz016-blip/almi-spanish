@@ -13,3 +13,6 @@ dist/
 
 # Generated SEO formation dataset (regenerable from the open-data API)
 /data/
+
+.vercel
+.env*.local
