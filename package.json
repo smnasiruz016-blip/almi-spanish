@@ -1,0 +1,43 @@
+{
+  "name": "almi-spanish",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AlmiSpanish — AI-powered Spanish exam practice in the AlmiWorld family. DELE, SIELE and CCSE across four skills and six CEFR levels (A1–C2), with three honest scoring engines — DELE's APTO/NO APTO per-group floor, SIELE's 0–1000 placement, CCSE's 15/25 civic pass — each on its own real scale, mapped to CEFR. Separate product (almispanish.almiworld.com). Original, pan-Hispanic content — never copied from the test-makers. Practice estimates only; confirm with the official body.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma generate && next build",
+    "start": "next start",
+    "postinstall": "prisma generate",
+    "seed:a1": "tsx scripts/seed/a1.ts",
+    "seed:a2": "tsx scripts/seed/a2.ts",
+    "seed:b1": "tsx scripts/seed/b1.ts",
+    "seed:b2": "tsx scripts/seed/b2.ts",
+    "seed:c1": "tsx scripts/seed/c1.ts",
+    "seed:c2": "tsx scripts/seed/c2.ts",
+    "seed:ccse": "tsx scripts/seed/ccse.ts",
+    "seed:append": "tsx scripts/seed/append.ts",
+    "validate:seed": "tsx scripts/validate-seed.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.91.1",
+    "@prisma/client": "^6.19.3",
+    "bcryptjs": "^3.0.3",
+    "next": "16.2.6",
+    "prisma": "^6.19.3",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "resend": "^6.12.3",
+    "stripe": "^22.1.0",
+    "tsx": "^4.21.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
