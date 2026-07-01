@@ -1,0 +1,530 @@
+[
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Nota para Lucía en Madrid",
+    "prompt": "Tarea de expresión escrita (DELE A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "vida-social",
+    "guidanceNote": "Valorar la adecuación a la tarea (saludo, invitación, despedida) y la coherencia. Aceptar frases cortas en presente; premiar el léxico cotidiano básico y la corrección gramatical mínima.",
+    "payload": {
+      "situation": "Tu amiga Lucía vive cerca de tu casa en Madrid. Quieres ir al cine con ella el sábado.",
+      "instruction": "Escribe una nota a Lucía. Salúdala, dile qué película quieres ver y a qué hora quedáis. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Correo de presentación en la escuela",
+    "prompt": "Tarea de expresión escrita (DELE A1).",
+    "difficulty": "CORE",
+    "topicTag": "presentacion-personal",
+    "guidanceNote": "Comprobar que aparecen datos personales (nombre, país, edad) con coherencia. Premiar el uso correcto del verbo ser/tener en presente y un vocabulario básico y variado.",
+    "payload": {
+      "situation": "Empiezas un curso de español en una escuela de Guadalajara, México. La profesora pide un correo de presentación.",
+      "instruction": "Escribe un correo. Di tu nombre, de dónde eres, tu edad y por qué estudias español. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Postal desde la playa de Cancún",
+    "prompt": "Tarea de expresión escrita (DELE A1).",
+    "difficulty": "CORE",
+    "topicTag": "vacaciones",
+    "guidanceNote": "Valorar el formato de postal (saludo y despedida) y la coherencia temporal. Aceptar presente simple; premiar conectores básicos (y, pero) y léxico de vacaciones.",
+    "payload": {
+      "situation": "Estás de vacaciones en la playa de Cancún, México. Quieres escribir una postal a tu familia.",
+      "instruction": "Escribe una postal. Di dónde estás, qué tiempo hace y qué haces cada día. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Mensaje para quedar con Mateo",
+    "prompt": "Tarea de expresión escrita (DELE A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "vida-social",
+    "guidanceNote": "Comprobar la adecuación a la tarea (proponer lugar y hora). Premiar la coherencia y el uso correcto de expresiones de tiempo sencillas en presente.",
+    "payload": {
+      "situation": "Tu amigo Mateo estudia contigo en Buenos Aires. Quieres tomar un café con él mañana.",
+      "instruction": "Escribe un mensaje a Mateo. Propón un lugar, di la hora y pregúntale si puede ir. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Nota con instrucciones para el vecino",
+    "prompt": "Tarea de expresión escrita (DELE A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "vida-cotidiana",
+    "guidanceNote": "Valorar la claridad de las instrucciones simples y la adecuación a la tarea. Premiar el imperativo o el presente básico y el léxico de la casa.",
+    "payload": {
+      "situation": "Vas a estar fuera dos días. Tu vecino en Bogotá cuida tu gato.",
+      "instruction": "Escribe una nota para tu vecino. Explica cómo dar de comer al gato y dónde está la llave. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Mensaje a Sofía por su cumpleaños",
+    "prompt": "Tarea de expresión escrita (DELE A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "celebraciones",
+    "guidanceNote": "Comprobar la adecuación (felicitación y deseo). Aceptar frases muy cortas en presente; premiar el léxico afectivo básico y la corrección.",
+    "payload": {
+      "situation": "Hoy es el cumpleaños de tu amiga Sofía, que vive en Santiago de Chile.",
+      "instruction": "Escribe un mensaje a Sofía. Felicítala, dile qué le deseas y proponle una comida juntos. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Correo para un nuevo compañero de piso",
+    "prompt": "Tarea de expresión escrita (DELE A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "vivienda",
+    "guidanceNote": "Valorar la presentación personal y la coherencia de la información sobre la casa. Premiar el presente, los posesivos básicos y un léxico variado del hogar.",
+    "payload": {
+      "situation": "Vas a compartir un piso en Valencia con Andrés, a quien no conoces todavía.",
+      "instruction": "Escribe un correo a Andrés. Preséntate, di tus horarios y pregunta algo sobre el piso. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Postal desde Cusco",
+    "prompt": "Tarea de expresión escrita (DELE A1).",
+    "difficulty": "CORE",
+    "topicTag": "vacaciones",
+    "guidanceNote": "Comprobar el formato de postal y la coherencia. Premiar el léxico de viajes y el uso correcto de gustar en presente.",
+    "payload": {
+      "situation": "Estás de viaje en Cusco, Perú, y visitas lugares bonitos.",
+      "instruction": "Escribe una postal a un amigo. Di dónde estás, qué te gusta de la ciudad y cuándo vuelves. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Nota para pedir un favor a Carla",
+    "prompt": "Tarea de expresión escrita (DELE A1).",
+    "difficulty": "CORE",
+    "topicTag": "vida-social",
+    "guidanceNote": "Valorar la adecuación (pedir un favor con cortesía) y la coherencia. Premiar fórmulas sencillas de cortesía y el presente.",
+    "payload": {
+      "situation": "Tu compañera Carla, de Caracas, tiene los apuntes de la clase de ayer.",
+      "instruction": "Escribe una nota a Carla. Pídele los apuntes, di cuándo los necesitas y dale las gracias. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Correo a la profesora de baile",
+    "prompt": "Tarea de expresión escrita (DELE A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "aficiones",
+    "guidanceNote": "Comprobar la adecuación (interés por una actividad) y la coherencia. Premiar preguntas sencillas bien formadas y léxico de aficiones.",
+    "payload": {
+      "situation": "Quieres apuntarte a una clase de baile en Medellín, Colombia.",
+      "instruction": "Escribe un correo a la profesora. Preséntate, di qué baile te gusta y pregunta por el horario y el precio. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Mensaje para cancelar la cena",
+    "prompt": "Tarea de expresión escrita (DELE A1).",
+    "difficulty": "CORE",
+    "topicTag": "vida-social",
+    "guidanceNote": "Valorar la adecuación (disculpa y nueva propuesta) y la coherencia. Premiar el presente, porque para dar una razón, y el léxico básico.",
+    "payload": {
+      "situation": "Habías quedado para cenar con tu amigo Diego en Sevilla, pero no puedes ir.",
+      "instruction": "Escribe un mensaje a Diego. Discúlpate, explica por qué no puedes y propón otro día. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Rellenar datos para la biblioteca",
+    "prompt": "Tarea de expresión escrita (DELE A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "datos-personales",
+    "guidanceNote": "Comprobar que aparecen los datos personales pedidos con corrección. Premiar el orden claro de la información y el léxico básico de identidad.",
+    "payload": {
+      "situation": "Te haces socio de la biblioteca de tu barrio en Rosario, Argentina, y escribes un correo con tus datos.",
+      "instruction": "Escribe un correo. Di tu nombre, tu dirección, tu teléfono y qué libros te gustan. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Nota para la familia sobre la compra",
+    "prompt": "Tarea de expresión escrita (DELE A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "vida-cotidiana",
+    "guidanceNote": "Valorar la claridad de la lista o instrucción y la adecuación. Premiar el léxico de la comida y frases muy simples en presente.",
+    "payload": {
+      "situation": "Sales de casa y dejas una nota a tu hermano en Lima para que haga la compra.",
+      "instruction": "Escribe una nota. Dile qué comprar en el supermercado y a qué hora vuelves. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Correo para presentar a mi familia",
+    "prompt": "Tarea de expresión escrita (DELE A1).",
+    "difficulty": "CORE",
+    "topicTag": "familia",
+    "guidanceNote": "Comprobar la coherencia al describir a la familia y la adecuación a la tarea. Premiar los posesivos, el verbo tener y un léxico familiar variado.",
+    "payload": {
+      "situation": "Tu amiga por correspondencia de Ciudad de México quiere conocer a tu familia.",
+      "instruction": "Escribe un correo. Habla de tu familia: cuántos sois, cómo se llaman y qué hacen. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Mensaje para invitar a la fiesta",
+    "prompt": "Tarea de expresión escrita (DELE A1).",
+    "difficulty": "CORE",
+    "topicTag": "celebraciones",
+    "guidanceNote": "Valorar la adecuación (invitación con datos claros: día, hora, lugar) y la coherencia. Premiar el presente y el léxico de fiestas.",
+    "payload": {
+      "situation": "Haces una fiesta en tu casa de Barcelona el viernes y quieres invitar a tu amiga Paula.",
+      "instruction": "Escribe un mensaje a Paula. Invítala, dile el día, la hora y el lugar. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Postal desde Bariloche en invierno",
+    "prompt": "Tarea de expresión escrita (DELE A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "vacaciones",
+    "guidanceNote": "Comprobar el formato de postal y la coherencia. Premiar el léxico del clima y las actividades, y el uso correcto del presente.",
+    "payload": {
+      "situation": "Estás de vacaciones de invierno en Bariloche, Argentina, con mucha nieve.",
+      "instruction": "Escribe una postal a un amigo. Di qué tiempo hace, qué ropa llevas y qué actividades haces. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Me presento en clase",
+    "prompt": "Tarea de expresión oral (DELE A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "presentacion-personal",
+    "guidanceNote": "Valorar la adecuación a la tarea, la fluidez y la eficacia comunicativa; aceptar frases cortas en presente. Evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Preséntate. Di tu nombre, tu edad, de dónde eres, dónde vives y a qué te dedicas.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Describo una foto del parque",
+    "prompt": "Tarea de expresión oral (DELE A1).",
+    "difficulty": "CORE",
+    "topicTag": "descripcion",
+    "guidanceNote": "Valorar la adecuación, la coherencia y la eficacia comunicativa al describir personas y lugares; premiar hay y estar y el léxico básico. Evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Imagina una foto de un parque en Ciudad de México. Describe qué ves: personas, cosas y qué hacen.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Mi rutina cada día",
+    "prompt": "Tarea de expresión oral (DELE A1).",
+    "difficulty": "CORE",
+    "topicTag": "rutina",
+    "guidanceNote": "Valorar la coherencia temporal, la fluidez y la eficacia comunicativa; premiar los verbos de rutina en presente y las horas. Evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Habla de tu rutina diaria. Di a qué hora te levantas, qué haces por la mañana, por la tarde y por la noche.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "En la panadería de Bogotá",
+    "prompt": "Tarea de expresión oral (DELE A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "vida-cotidiana",
+    "guidanceNote": "Valorar la adecuación a la situación de compra, la eficacia comunicativa y la interacción; premiar fórmulas de cortesía y precios. Evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Estás en una panadería en Bogotá. Saluda, pide dos productos, pregunta el precio y despídete.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Mi familia y yo",
+    "prompt": "Tarea de expresión oral (DELE A1).",
+    "difficulty": "CORE",
+    "topicTag": "familia",
+    "guidanceNote": "Valorar la coherencia, la fluidez y la eficacia comunicativa al hablar de la familia; premiar los posesivos y el verbo tener. Evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Habla de tu familia. Di cuántas personas sois, cómo se llaman, qué edad tienen y qué hacen.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Mis gustos y aficiones",
+    "prompt": "Tarea de expresión oral (DELE A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "aficiones",
+    "guidanceNote": "Valorar la adecuación, la fluidez y la eficacia comunicativa; premiar el verbo gustar y el léxico de ocio en presente. Evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Habla de tus gustos. Di qué te gusta hacer en tu tiempo libre y qué no te gusta.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Describo mi casa en Santiago",
+    "prompt": "Tarea de expresión oral (DELE A1).",
+    "difficulty": "CORE",
+    "topicTag": "vivienda",
+    "guidanceNote": "Valorar la coherencia, la eficacia comunicativa y la organización de la descripción; premiar hay, las habitaciones y los muebles. Evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Describe tu casa o tu piso en Santiago de Chile. Di cuántas habitaciones tiene y qué hay en ellas.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Saludar a un vecino nuevo",
+    "prompt": "Tarea de expresión oral (DELE A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "vida-social",
+    "guidanceNote": "Valorar la interacción cotidiana, la adecuación y la eficacia comunicativa; premiar saludos, preguntas sencillas y despedida. Evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Tienes un vecino nuevo en tu edificio de Valencia. Salúdalo, preséntate, hazle dos preguntas y despídete.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Mi comida favorita",
+    "prompt": "Tarea de expresión oral (DELE A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "comida",
+    "guidanceNote": "Valorar la adecuación, la fluidez y la eficacia comunicativa; premiar el léxico de comidas y el verbo gustar. Evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Habla de tu comida favorita. Di qué es, cuándo la comes y por qué te gusta.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Comprar ropa en un mercado",
+    "prompt": "Tarea de expresión oral (DELE A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "compras",
+    "guidanceNote": "Valorar la interacción de compra, la adecuación y la eficacia comunicativa; premiar colores, tallas y precios. Evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Estás en un mercado de Lima y quieres comprar una camiseta. Saluda, di qué buscas, pregunta el precio y la talla.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Mi ciudad de Caracas",
+    "prompt": "Tarea de expresión oral (DELE A1).",
+    "difficulty": "CORE",
+    "topicTag": "descripcion",
+    "guidanceNote": "Valorar la coherencia, la fluidez y la eficacia comunicativa al describir un lugar; premiar hay y el léxico de la ciudad. Evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Habla de tu ciudad o de Caracas. Di cómo es, qué lugares hay y qué te gusta hacer allí.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Pido información en la estación",
+    "prompt": "Tarea de expresión oral (DELE A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "viajes",
+    "guidanceNote": "Valorar la interacción, la adecuación y la eficacia comunicativa; premiar preguntas de horario y precio y fórmulas de cortesía. Evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Estás en la estación de trenes de Madrid. Pregunta a qué hora sale el tren, cuánto cuesta y dónde compras el billete.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Mi día favorito de la semana",
+    "prompt": "Tarea de expresión oral (DELE A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "rutina",
+    "guidanceNote": "Valorar la adecuación, la fluidez y la eficacia comunicativa; premiar los días de la semana y los verbos de actividad en presente. Evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Habla de tu día favorito de la semana. Di cuál es, qué haces ese día y por qué te gusta.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Describo a mi mejor amigo",
+    "prompt": "Tarea de expresión oral (DELE A1).",
+    "difficulty": "CORE",
+    "topicTag": "descripcion",
+    "guidanceNote": "Valorar la coherencia, la fluidez y la eficacia comunicativa al describir a una persona; premiar adjetivos básicos y el verbo ser. Evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Describe a tu mejor amigo o amiga. Di cómo se llama, cómo es físicamente y cómo es su carácter.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Reservar una mesa en Guadalajara",
+    "prompt": "Tarea de expresión oral (DELE A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "vida-cotidiana",
+    "guidanceNote": "Valorar la interacción, la adecuación y la eficacia comunicativa; premiar la hora, el número de personas y las fórmulas de cortesía. Evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Llamas a un restaurante de Guadalajara para reservar una mesa. Saluda, di para cuántas personas, el día y la hora.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "El tiempo y mi ropa",
+    "prompt": "Tarea de expresión oral (DELE A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "clima",
+    "guidanceNote": "Valorar la adecuación, la fluidez y la eficacia comunicativa; premiar el léxico del clima y de la ropa en presente. Evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Habla del tiempo hoy en tu ciudad. Di qué tiempo hace, qué estación es y qué ropa llevas.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  }
+]

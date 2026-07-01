@@ -1,0 +1,562 @@
+[
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Correo a la academia de baile",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "correo-solicitud-informacion",
+    "guidanceNote": "Premia el saludo y despedida semiformales, las preguntas claras y los conectores básicos (además, por eso); vigila la concordancia y el registro de usted.",
+    "payload": {
+      "situation": "Has visto en internet el anuncio de una academia de baile en Cali (Colombia) que ofrece cursos de salsa para principiantes.",
+      "instruction": "Escribe un correo a la academia. Preséntate, explica por qué te interesa el curso, pregunta por los horarios y el precio, y pide información sobre el nivel necesario. Escribe entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Queja suave por un pedido tardío",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B1).",
+    "difficulty": "CORE",
+    "topicTag": "correo-queja-suave",
+    "guidanceNote": "Busca un tono cortés pero firme, la descripción ordenada del problema y una petición concreta de solución; valora los marcadores de secuencia y el condicional de cortesía.",
+    "payload": {
+      "situation": "Compraste unos libros en una librería en línea de Buenos Aires (Argentina) y el pedido llegó con dos semanas de retraso y un libro equivocado.",
+      "instruction": "Escribe un correo a la librería. Explica qué compraste, describe el problema con el pedido, expresa tu malestar de forma educada y propón una solución. Escribe entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Foro: ¿móvil en clase?",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B1).",
+    "difficulty": "CORE",
+    "topicTag": "foro-opinion-tecnologia",
+    "guidanceNote": "Evalúa una postura clara sostenida con dos o tres argumentos, ejemplos personales y conectores de contraste (sin embargo, aunque); atiende a la variedad léxica sobre educación.",
+    "payload": {
+      "situation": "En el foro de una revista educativa se debate si se debería permitir el uso del teléfono móvil en las aulas de secundaria.",
+      "instruction": "Escribe un mensaje para el foro. Expón tu opinión sobre el tema, da al menos dos argumentos que la apoyen, menciona una posible desventaja y termina con una conclusión. Escribe entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Una excursión inolvidable",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "experiencia-viaje-valoracion",
+    "guidanceNote": "Premia el relato en pasado bien secuenciado (pretérito e imperfecto), los detalles sensoriales y una valoración final personal; vigila los tiempos verbales.",
+    "payload": {
+      "situation": "Una amiga te ha pedido que le cuentes una excursión reciente que hiciste a la naturaleza.",
+      "instruction": "Escribe un texto para tu amiga. Describe adónde fuiste y con quién, cuenta qué hiciste durante la excursión, explica qué fue lo que más te gustó y valora la experiencia. Escribe entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Respuesta a un anuncio de voluntariado",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B1).",
+    "difficulty": "CORE",
+    "topicTag": "anuncio-voluntariado",
+    "guidanceNote": "Valora la adecuación al anuncio, la presentación de aptitudes y disponibilidad, y la motivación; revisa el registro semiformal y los conectores causales.",
+    "payload": {
+      "situation": "Has leído un anuncio de una asociación de Montevideo (Uruguay) que busca voluntarios para ayudar en un refugio de animales los fines de semana.",
+      "instruction": "Escribe un correo a la asociación. Preséntate, explica por qué quieres ser voluntario, describe tu experiencia o tus cualidades e indica tu disponibilidad. Escribe entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Foro: vivir en la ciudad o en el pueblo",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "foro-opinion-ciudad-pueblo",
+    "guidanceNote": "Busca una comparación equilibrada, una postura personal justificada y conectores de contraste y adición; premia el léxico de calidad de vida y la cohesión entre párrafos.",
+    "payload": {
+      "situation": "En un foro sobre estilos de vida se pregunta a los usuarios si es mejor vivir en una gran ciudad o en un pueblo pequeño.",
+      "instruction": "Escribe un mensaje para el foro. Compara las ventajas y desventajas de las dos opciones, explica cuál prefieres y por qué, y da un ejemplo de tu propia vida. Escribe entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Mensaje para cambiar una cita",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "correo-cambio-cita",
+    "guidanceNote": "Premia la disculpa breve, la explicación del motivo y la propuesta de nueva fecha; valora las fórmulas de cortesía y la claridad.",
+    "payload": {
+      "situation": "Tienes una cita con el dentista en Ciudad de México, pero ese día te ha surgido un compromiso de trabajo y no puedes acudir.",
+      "instruction": "Escribe un correo a la clínica dental. Explica que no puedes ir a la cita, discúlpate, indica el motivo y propón otro día y hora para reprogramarla. Escribe entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Opinión sobre el trabajo desde casa",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "foro-opinion-teletrabajo",
+    "guidanceNote": "Evalúa argumentos matizados a favor y en contra, ejemplos concretos y conectores de consecuencia (por lo tanto); atiende al léxico del mundo laboral y a la corrección.",
+    "payload": {
+      "situation": "Una página web para profesionales ha abierto un debate sobre las ventajas y los inconvenientes de trabajar desde casa.",
+      "instruction": "Escribe un texto para el debate. Explica qué opinas sobre el trabajo desde casa, presenta al menos dos ventajas y un inconveniente, y termina recomendando en qué casos es una buena opción. Escribe entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Correo a un intercambio de idiomas",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B1).",
+    "difficulty": "CORE",
+    "topicTag": "correo-intercambio-idiomas",
+    "guidanceNote": "Premia la presentación personal, la descripción de intereses y una propuesta de encuentro; valora la coherencia y el uso de tiempos de presente y futuro.",
+    "payload": {
+      "situation": "En una aplicación de intercambio de idiomas has encontrado a una persona de Lima (Perú) que quiere practicar tu lengua a cambio de ayudarte con el español.",
+      "instruction": "Escribe un correo a esa persona. Preséntate, explica por qué quieres aprender español, describe tus aficiones y propón cómo y cuándo podríais practicar juntos. Escribe entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Opinión sobre un restaurante",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B1).",
+    "difficulty": "CORE",
+    "topicTag": "resena-restaurante",
+    "guidanceNote": "Busca la descripción de la experiencia, adjetivos valorativos variados y una recomendación final justificada; vigila la concordancia de género y número.",
+    "payload": {
+      "situation": "Una web de reseñas te invita a compartir tu opinión sobre un restaurante que visitaste hace poco en San José (Costa Rica).",
+      "instruction": "Escribe una reseña. Explica cuándo fuiste y con quién, describe la comida y el servicio, cuenta qué te gustó y qué mejorarías, y recomienda o no el restaurante. Escribe entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Correo para reservar un alojamiento",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "correo-reserva-alojamiento",
+    "guidanceNote": "Premia los datos concretos de la reserva, las preguntas pertinentes y el registro semiformal; valora la claridad y las fórmulas de despedida.",
+    "payload": {
+      "situation": "Quieres pasar unos días de vacaciones en Sevilla (España) y has encontrado un apartamento turístico que te interesa.",
+      "instruction": "Escribe un correo al propietario. Indica las fechas de tu estancia y cuántas personas sois, pregunta por el precio y los servicios incluidos, y pide información sobre cómo llegar. Escribe entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Foro: ¿deberíamos reciclar más?",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B1).",
+    "difficulty": "CORE",
+    "topicTag": "foro-opinion-medioambiente",
+    "guidanceNote": "Evalúa la postura ambiental, los ejemplos cotidianos y las propuestas de acción; premia el léxico ecológico y los conectores de finalidad (para que).",
+    "payload": {
+      "situation": "El foro de una asociación ecologista pregunta a los ciudadanos qué se puede hacer para reciclar más en el barrio.",
+      "instruction": "Escribe un mensaje para el foro. Explica por qué es importante reciclar, describe qué haces tú en casa, propón dos ideas para mejorar el reciclaje en tu comunidad y anima a los demás a participar. Escribe entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Invitación a una cena de despedida",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "correo-invitacion",
+    "guidanceNote": "Premia la información práctica (lugar, día, hora), el tono cercano y la petición de confirmación; valora la organización y la cohesión.",
+    "payload": {
+      "situation": "Un compañero de trabajo se va a vivir a otro país y quieres organizarle una fiesta sorpresa de despedida con vuestros compañeros.",
+      "instruction": "Escribe un correo a tus compañeros. Explica el motivo de la fiesta, indica el lugar, el día y la hora, pide que no digan nada al compañero y solicita que confirmen si van a asistir. Escribe entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Opinión sobre el uso de las redes sociales",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "foro-opinion-redes-sociales",
+    "guidanceNote": "Busca argumentos equilibrados sobre beneficios y riesgos, ejemplos personales y una conclusión matizada; premia el léxico digital y la corrección gramatical.",
+    "payload": {
+      "situation": "Una revista digital para jóvenes ha preguntado a sus lectores si las redes sociales influyen de forma positiva o negativa en la vida de la gente.",
+      "instruction": "Escribe un texto para la revista. Da tu opinión sobre las redes sociales, explica un aspecto positivo y otro negativo con ejemplos, y propón un consejo para usarlas mejor. Escribe entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Correo a un antiguo profesor",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B1).",
+    "difficulty": "CORE",
+    "topicTag": "correo-agradecimiento",
+    "guidanceNote": "Premia el tono respetuoso, el relato de novedades personales y el agradecimiento sincero; valora los tiempos de pasado y el registro de usted.",
+    "payload": {
+      "situation": "Después de varios años, quieres escribir a un profesor que te marcó mucho durante tus estudios en Quito (Ecuador) para contarle cómo te va.",
+      "instruction": "Escribe un correo al profesor. Salúdalo, recuérdale quién eres, cuéntale a qué te dedicas ahora, agradécele lo que aprendiste con él y propón volver a veros. Escribe entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Respuesta a una oferta de trabajo de verano",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "anuncio-trabajo-verano",
+    "guidanceNote": "Evalúa la adecuación a la oferta, la presentación de experiencia y motivación, y una petición de siguiente paso; premia el registro formal y la precisión léxica.",
+    "payload": {
+      "situation": "Has visto una oferta de un hotel de Cartagena (Colombia) que busca personal de recepción para la temporada de verano, con conocimientos de idiomas.",
+      "instruction": "Escribe un correo al hotel. Preséntate, explica por qué te interesa el puesto, describe tu experiencia y tus idiomas, e indica tu disponibilidad y cómo pueden contactarte. Escribe entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Mi rutina de fin de semana",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "monologo-rutina-personal",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; premia la organización de la rutina, los marcadores temporales y una valoración personal.",
+    "payload": {
+      "taskPrompt": "Habla sobre lo que sueles hacer los fines de semana. Explica qué actividades te gustan más, con quién las haces y por qué son importantes para ti. Cuenta también qué te gustaría hacer de forma diferente. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Comparar dos maneras de viajar",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "CORE",
+    "topicTag": "describir-comparar-viajes",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; busca la comparación argumentada, los conectores de contraste y una preferencia razonada.",
+    "payload": {
+      "taskPrompt": "Imagina dos formas de viajar de vacaciones: un viaje organizado en grupo y un viaje por libre planificado por ti mismo. Describe cada opción, compara sus ventajas y desventajas, y explica cuál prefieres y por qué. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Opinión sobre la comida rápida",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "CORE",
+    "topicTag": "monologo-opinion-alimentacion",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; premia una postura clara con argumentos, ejemplos personales y léxico sobre hábitos alimentarios.",
+    "payload": {
+      "taskPrompt": "Da tu opinión sobre la comida rápida. Explica si crees que es un problema para la salud, menciona en qué situaciones la consumes tú y propón alguna idea para comer de forma más sana. Justifica siempre lo que dices. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Proponer una actividad para la clase",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "exponer-propuesta-actividad",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; busca una propuesta estructurada, la justificación de beneficios y expresiones para sugerir y convencer.",
+    "payload": {
+      "taskPrompt": "Tu grupo de la escuela de idiomas de Santiago de Chile quiere organizar una actividad cultural para conocer mejor la ciudad. Propón una actividad concreta, explica en qué consistiría, dónde y cuándo se haría, y convence a tus compañeros de que es una buena idea. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Responder a un mensaje de voz de un amigo",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "CORE",
+    "topicTag": "responder-situacion-audio",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; premia la respuesta adecuada a cada punto del mensaje, la cortesía y las fórmulas para aceptar o proponer alternativas.",
+    "payload": {
+      "taskPrompt": "Un amigo te ha dejado este mensaje de voz: 'Hola, el sábado quiero hacer una cena en mi casa con los del grupo. ¿Puedes venir? ¿Traes algo de comer o de beber? Y dime a qué hora te va bien.' Responde a su mensaje contestando a todas sus preguntas y añade alguna sugerencia. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Un lugar especial para mí",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "monologo-describir-lugar",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; premia la descripción detallada, los adjetivos variados y la explicación de los sentimientos asociados.",
+    "payload": {
+      "taskPrompt": "Describe un lugar que sea especial para ti. Explica cómo es, dónde está y por qué te gusta tanto. Cuenta también algún recuerdo que tengas relacionado con ese lugar. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Estudiar solo o acompañado",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "CORE",
+    "topicTag": "describir-comparar-estudio",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; busca la comparación equilibrada, los conectores de adición y contraste y una conclusión personal.",
+    "payload": {
+      "taskPrompt": "Piensa en dos maneras de estudiar: hacerlo solo en casa o hacerlo en grupo con otras personas. Describe cada una, compara sus ventajas y sus inconvenientes, y explica cuál te funciona mejor a ti y por qué. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Opinión sobre el deporte en la vida diaria",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "CORE",
+    "topicTag": "monologo-opinion-deporte",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; premia la opinión sostenida con razones, la experiencia propia y el léxico sobre salud y bienestar.",
+    "payload": {
+      "taskPrompt": "Habla sobre la importancia de hacer deporte en la vida diaria. Explica qué beneficios crees que tiene, cuenta si tú haces algún deporte y con qué frecuencia, y da un consejo a alguien que quiere empezar. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Exponer un plan para ahorrar dinero",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "exponer-propuesta-ahorro",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; busca una exposición ordenada de pasos, la justificación de cada idea y expresiones de consejo y finalidad.",
+    "payload": {
+      "taskPrompt": "Un grupo de amigos quiere ahorrar dinero para hacer juntos un viaje el año que viene. Expón un plan con al menos tres ideas para conseguirlo, explica cómo se podría llevar a cabo cada una y anima a tus amigos a seguirlo. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Resolver un problema en el hotel",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "responder-situacion-reclamacion",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; premia la exposición clara del problema, el tono cortés y firme y la petición concreta de solución.",
+    "payload": {
+      "taskPrompt": "Estás alojado en un hotel de Ciudad de Panamá y tu habitación tiene varios problemas: el aire acondicionado no funciona y hay mucho ruido por la noche. Vas a hablar con la recepción. Explica quién eres, describe los problemas, expresa tu malestar de forma educada y pide una solución. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Un trabajo que me gustaría tener",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "monologo-planes-futuro",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; premia la descripción del trabajo, la expresión de deseos y planes y el léxico del mundo profesional.",
+    "payload": {
+      "taskPrompt": "Habla sobre un trabajo que te gustaría tener en el futuro. Explica en qué consiste, por qué te atrae y qué necesitarías estudiar o hacer para conseguirlo. Cuenta también si crees que es fácil o difícil lograrlo. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Comparar el cine y las plataformas de series",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "CORE",
+    "topicTag": "describir-comparar-ocio",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; busca una comparación con argumentos, ejemplos concretos y una preferencia bien justificada.",
+    "payload": {
+      "taskPrompt": "Piensa en dos formas de ver películas y series: ir al cine o verlas en casa con una plataforma de internet. Describe cada opción, compara sus ventajas y sus inconvenientes, y explica cuál prefieres y por qué. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Opinión sobre aprender idiomas",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "CORE",
+    "topicTag": "monologo-opinion-idiomas",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; premia una postura clara, los argumentos sobre ventajas y una recomendación basada en la experiencia propia.",
+    "payload": {
+      "taskPrompt": "Da tu opinión sobre la importancia de aprender idiomas hoy en día. Explica qué ventajas crees que tiene, cuenta tu propia experiencia aprendiendo español y da un consejo a alguien que quiere aprender una lengua nueva. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Exponer una idea para mejorar el barrio",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "exponer-propuesta-comunidad",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; busca una propuesta concreta, la justificación de sus beneficios para la comunidad y conectores de finalidad y consecuencia.",
+    "payload": {
+      "taskPrompt": "En tu barrio de La Paz (Bolivia) el ayuntamiento pide ideas a los vecinos para mejorar la zona. Expón una propuesta concreta, explica qué problema resolvería, cómo se podría poner en marcha y por qué beneficiaría a los vecinos. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Responder a la invitación de un compañero",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "CORE",
+    "topicTag": "responder-situacion-invitacion",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; premia la respuesta a cada punto, la excusa cortés y la propuesta de alternativa cuando corresponde.",
+    "payload": {
+      "taskPrompt": "Un compañero de la universidad te ha dejado este mensaje: 'Hola, el viernes celebro mi cumpleaños en un parque de la ciudad por la tarde. Me encantaría que vinieras. ¿Puedes? ¿Conoces a alguien más del grupo que quiera venir?' Responde a su mensaje contestando a todo lo que te pregunta y añade una sugerencia para la celebración. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Una experiencia que me hizo aprender algo",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "monologo-experiencia-pasada",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; premia el relato en pasado bien secuenciado, la explicación de la lección aprendida y la variedad de tiempos verbales.",
+    "payload": {
+      "taskPrompt": "Cuenta una experiencia personal que te hizo aprender algo importante. Explica qué pasó, cuándo y dónde fue, cómo te sentiste y qué aprendiste de esa situación. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Opinión sobre las compras por internet",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "monologo-opinion-consumo",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; busca argumentos matizados sobre ventajas y riesgos, ejemplos propios y una conclusión con recomendación.",
+    "payload": {
+      "taskPrompt": "Da tu opinión sobre las compras por internet. Explica qué ventajas y qué riesgos crees que tienen, cuenta cómo compras tú normalmente y da un consejo para comprar en línea de forma segura. Justifica tus ideas con ejemplos. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Describir y comparar dos fiestas populares",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B1).",
+    "difficulty": "CORE",
+    "topicTag": "describir-comparar-cultura",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento; premia la descripción cultural detallada, la comparación con conectores y una valoración personal.",
+    "payload": {
+      "taskPrompt": "Piensa en dos fiestas o celebraciones populares que conozcas, del mundo hispano o de tu país. Describe cómo se celebra cada una, compáralas señalando en qué se parecen y en qué se diferencian, y explica cuál te gusta más y por qué. Dispones de 120 segundos para preparar tu intervención y 120 segundos para hablar.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  }
+]

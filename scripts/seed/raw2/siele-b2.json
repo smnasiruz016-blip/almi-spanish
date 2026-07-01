@@ -1,0 +1,530 @@
+[
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Reclamación por un curso cancelado",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "reclamacion-formal",
+    "guidanceNote": "Prima la adecuación al registro formal de reclamación y la corrección gramatical; valora si expone los hechos con orden y solicita una compensación concreta.",
+    "payload": {
+      "situation": "Te inscribiste en un curso intensivo de cocina en una academia de Ciudad de México, pero lo cancelaron dos días antes sin devolverte el dinero.",
+      "instruction": "Escribe un correo formal a la dirección de la academia: explica lo ocurrido, expresa tu malestar y solicita la devolución o una alternativa. Escribe entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Solicitud de una beca de intercambio",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B2).",
+    "difficulty": "CORE",
+    "topicTag": "solicitud-beca",
+    "guidanceNote": "Evalúa la adecuación a la tarea (motivación clara y datos pertinentes) y el alcance léxico formal; penaliza divagaciones ajenas a la solicitud.",
+    "payload": {
+      "situation": "Una fundación de Bogotá ofrece becas para asistir a un festival de literatura latinoamericana y tú quieres participar.",
+      "instruction": "Escribe un correo formal al comité de la fundación: preséntate, explica por qué te interesa la beca y expón tus méritos. Escribe entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Artículo sobre el teletrabajo",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B2).",
+    "difficulty": "CORE",
+    "topicTag": "teletrabajo",
+    "guidanceNote": "Valora la coherencia argumentativa y los conectores; busca una postura matizada con ventajas e inconvenientes, no una lista sin desarrollo.",
+    "payload": {
+      "situation": "Un blog sobre el mundo laboral en España te invita a colaborar con un artículo de opinión sobre el trabajo a distancia.",
+      "instruction": "Escribe un artículo para el blog: valora las ventajas y los inconvenientes del teletrabajo y defiende tu opinión con argumentos. Escribe entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Queja por un vuelo con retraso",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "reclamacion-aerolinea",
+    "guidanceNote": "Prima el registro formal y la secuencia clara de los hechos; valora que la petición de compensación sea concreta y proporcionada.",
+    "payload": {
+      "situation": "Un vuelo entre Lima y Santiago de Chile se retrasó ocho horas y perdiste una reunión importante.",
+      "instruction": "Escribe un correo formal a la atención al cliente de la aerolínea: describe lo sucedido, explica los perjuicios y reclama una compensación. Escribe entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Las redes sociales y la vida privada",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B2).",
+    "difficulty": "CORE",
+    "topicTag": "redes-sociales",
+    "guidanceNote": "Evalúa la coherencia y cohesión del razonamiento y el alcance léxico; busca matices sobre el impacto social, no afirmaciones tajantes sin apoyo.",
+    "payload": {
+      "situation": "Un foro juvenil de Montevideo abre un debate sobre la influencia de las redes sociales en la vida diaria.",
+      "instruction": "Escribe una intervención en el foro: expón tu opinión sobre el papel de las redes sociales y argumenta con ejemplos. Escribe entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Solicitud de prácticas en una empresa",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B2).",
+    "difficulty": "CORE",
+    "topicTag": "solicitud-practicas",
+    "guidanceNote": "Valora la adecuación al registro formal de candidatura y la corrección gramatical; busca que relacione su perfil con lo que ofrece la empresa.",
+    "payload": {
+      "situation": "Una empresa de diseño gráfico de Buenos Aires ofrece prácticas para estudiantes y tú quieres presentarte.",
+      "instruction": "Escribe un correo formal al departamento de recursos humanos: preséntate, explica tu interés y describe qué puedes aportar. Escribe entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Artículo sobre el turismo excesivo",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "turismo-masivo",
+    "guidanceNote": "Prima la argumentación matizada y la cohesión; busca que sopese beneficios económicos frente a impactos y cierre con una posición razonada.",
+    "payload": {
+      "situation": "Una revista digital sobre viajes de Costa Rica te pide un artículo sobre el crecimiento del turismo en zonas naturales.",
+      "instruction": "Escribe un artículo de opinión: analiza las ventajas y los problemas del turismo masivo en espacios naturales y propón una postura. Escribe entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Reclamación por un pedido defectuoso",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "reclamacion-compra",
+    "guidanceNote": "Evalúa el registro formal y la claridad de la exposición; valora que aporte los datos del pedido y una solicitud de solución concreta.",
+    "payload": {
+      "situation": "Compraste unos muebles por internet a una tienda de Sevilla y llegaron dañados y con piezas de menos.",
+      "instruction": "Escribe un correo formal al servicio de atención al cliente: describe el problema, adjunta los datos del pedido y exige una solución. Escribe entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Opinión sobre la comida rápida",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B2).",
+    "difficulty": "CORE",
+    "topicTag": "alimentacion",
+    "guidanceNote": "Valora la coherencia y el alcance léxico sobre hábitos y salud; busca argumentos desarrollados y un cierre coherente, no tópicos sueltos.",
+    "payload": {
+      "situation": "Un blog de salud y bienestar de Guadalajara propone reflexionar sobre el consumo de comida rápida entre los jóvenes.",
+      "instruction": "Escribe una entrada para el blog: da tu opinión sobre los hábitos alimentarios actuales y argumenta con ejemplos y propuestas. Escribe entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Solicitud de cambio de horario laboral",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B2).",
+    "difficulty": "CORE",
+    "topicTag": "solicitud-laboral",
+    "guidanceNote": "Prima la adecuación al registro formal y la corrección; busca que justifique la petición y proponga una alternativa viable con cortesía.",
+    "payload": {
+      "situation": "Trabajas en una oficina de Quito y necesitas modificar tu horario por motivos de estudio.",
+      "instruction": "Escribe un correo formal a tu responsable: explica tu situación, solicita el cambio de horario y propón una organización que no perjudique al equipo. Escribe entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Artículo sobre el transporte público",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "movilidad-urbana",
+    "guidanceNote": "Evalúa la argumentación equilibrada y la cohesión; busca que contraste el transporte público con el privado y sostenga una tesis con datos o ejemplos.",
+    "payload": {
+      "situation": "Un periódico digital de Medellín abre una sección de opinión ciudadana sobre la movilidad en las grandes ciudades.",
+      "instruction": "Escribe un artículo de opinión: valora las ventajas e inconvenientes del transporte público frente al coche particular y defiende tu postura. Escribe entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Queja al ayuntamiento por el ruido",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "reclamacion-institucional",
+    "guidanceNote": "Valora el registro formal institucional y la organización; busca que describa el problema, sus efectos y una petición clara de intervención.",
+    "payload": {
+      "situation": "En tu barrio de Valencia, un local nocturno genera ruido cada noche y afecta al descanso de los vecinos.",
+      "instruction": "Escribe un correo formal al ayuntamiento: explica el problema, describe cómo os afecta y solicita una medida. Escribe entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Opinión sobre estudiar en el extranjero",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B2).",
+    "difficulty": "CORE",
+    "topicTag": "estudios-extranjero",
+    "guidanceNote": "Prima la coherencia y el alcance léxico sobre educación y movilidad; busca argumentos personales y generales bien articulados.",
+    "payload": {
+      "situation": "Un foro de estudiantes de Panamá debate si merece la pena cursar estudios universitarios en otro país.",
+      "instruction": "Escribe una intervención en el foro: expón tu opinión sobre estudiar en el extranjero y argumenta con ventajas e inconvenientes. Escribe entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Artículo sobre el voluntariado",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "voluntariado",
+    "guidanceNote": "Evalúa la argumentación matizada y la cohesión; busca que valore el impacto social y personal del voluntariado con ejemplos concretos.",
+    "payload": {
+      "situation": "Una asociación de San José de Costa Rica publica un blog y te invita a escribir sobre la importancia del voluntariado.",
+      "instruction": "Escribe un artículo para el blog: reflexiona sobre las ventajas del voluntariado para la sociedad y para quien lo practica, y defiende tu opinión. Escribe entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Solicitud de información sobre un alquiler",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "solicitud-informacion",
+    "guidanceNote": "Valora la adecuación al registro semiformal y la corrección; busca preguntas claras y ordenadas, y una despedida cortés adecuada.",
+    "payload": {
+      "situation": "Has visto el anuncio de un apartamento en alquiler en Salamanca y quieres pedir más información antes de decidirte.",
+      "instruction": "Escribe un correo al propietario: preséntate, pregunta por las condiciones que te interesan y solicita concertar una visita. Escribe entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Opinión sobre el uso del móvil en clase",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "tecnologia-educacion",
+    "guidanceNote": "Prima la argumentación equilibrada y los conectores; busca que sopese usos didácticos frente a distracciones y cierre con una postura razonada.",
+    "payload": {
+      "situation": "Un blog educativo de Asunción debate si debería permitirse el uso del teléfono móvil en las aulas.",
+      "instruction": "Escribe una entrada para el blog: valora las ventajas y los inconvenientes de usar el móvil en clase y defiende tu opinión con argumentos. Escribe entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Tu experiencia con los idiomas",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "aprender-idiomas",
+    "guidanceNote": "Evalúa la fluidez y la eficacia comunicativa al narrar una experiencia personal; valora el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Habla sobre tu experiencia aprendiendo idiomas: qué lenguas conoces, cómo las has estudiado, qué dificultades has encontrado y para qué te han servido en tu vida.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "¿Ciudad o campo para vivir?",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B2).",
+    "difficulty": "CORE",
+    "topicTag": "ciudad-campo",
+    "guidanceNote": "Valora la capacidad de comparar y valorar opciones con coherencia y el alcance léxico; evalúa el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Compara vivir en una gran ciudad con vivir en un pueblo. Habla de las ventajas y los inconvenientes de cada opción y explica dónde preferirías vivir tú y por qué.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "¿Se debe prohibir el plástico de un solo uso?",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "medio-ambiente",
+    "guidanceNote": "Evalúa la argumentación sobre un tema polémico, la coherencia y la fluidez; valora el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Da tu opinión sobre esta afirmación: 'Deberían prohibirse todos los plásticos de un solo uso'. Argumenta a favor o en contra y responde a las posibles objeciones.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Propuesta para mejorar tu barrio",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B2).",
+    "difficulty": "CORE",
+    "topicTag": "propuesta-comunidad",
+    "guidanceNote": "Valora la capacidad de exponer y defender una propuesta con estructura clara y la eficacia comunicativa; evalúa el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Imagina que puedes proponer una mejora para tu barrio en Cartagena de Indias. Expón tu propuesta, explica por qué es necesaria y defiende cómo beneficiaría a los vecinos.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Reaccionar ante un malentendido laboral",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "reaccionar-situacion",
+    "guidanceNote": "Evalúa la reacción ante una situación compleja con registro adecuado y fluidez; valora el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Un compañero de trabajo se ha atribuido delante del jefe un proyecto que hiciste tú. Explica cómo reaccionarías, qué le dirías a tu compañero y cómo aclararías la situación con tu jefe.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Tu rutina y tu tiempo libre",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "tiempo-libre",
+    "guidanceNote": "Valora la fluidez al describir hábitos y preferencias y el alcance léxico cotidiano; evalúa el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Describe cómo es un día normal en tu vida y qué haces en tu tiempo libre. Explica qué actividades disfrutas más y cómo te gustaría cambiar tu rutina.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Estudiar en línea o de forma presencial",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B2).",
+    "difficulty": "CORE",
+    "topicTag": "educacion-online",
+    "guidanceNote": "Evalúa la comparación de dos opciones con coherencia y conectores y la eficacia comunicativa; valora el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Compara los estudios en línea con los estudios presenciales. Habla de las ventajas y desventajas de cada modalidad y di cuál te parece más eficaz y por qué.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "¿Es buena idea el trabajo de los adolescentes?",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "trabajo-juvenil",
+    "guidanceNote": "Valora la argumentación sobre un tema polémico, los matices y la fluidez; evalúa el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Da tu opinión sobre si los adolescentes deberían compaginar los estudios con un trabajo a tiempo parcial. Argumenta tu postura y considera los riesgos y beneficios.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Propuesta de actividad para la empresa",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B2).",
+    "difficulty": "CORE",
+    "topicTag": "propuesta-laboral",
+    "guidanceNote": "Evalúa la exposición y defensa de una propuesta con estructura y registro adecuado; valora el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Quieres proponer a tu empresa de Santiago de Chile una actividad para mejorar el ambiente entre los trabajadores. Expón tu idea, justifícala y explica cómo se podría llevar a cabo.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Reaccionar ante un problema de convivencia",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "reaccionar-convivencia",
+    "guidanceNote": "Valora la reacción ante una situación delicada con tacto y fluidez; evalúa el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Compartes piso en Málaga con dos personas y una de ellas nunca colabora con las tareas ni con los gastos comunes. Explica cómo abordarías el problema y qué solución propondrías.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Un viaje que te marcó",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "viajes",
+    "guidanceNote": "Evalúa la fluidez narrativa y el uso de tiempos del pasado; valora el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Habla de un viaje que haya sido importante para ti: adónde fuiste, con quién, qué hiciste y por qué te dejó una huella especial.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Comprar en tiendas locales o en internet",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B2).",
+    "difficulty": "CORE",
+    "topicTag": "consumo",
+    "guidanceNote": "Valora la comparación razonada de dos hábitos de consumo y la coherencia; evalúa el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Compara comprar en las tiendas de tu barrio con comprar por internet. Habla de las ventajas y los inconvenientes de cada opción y explica qué prefieres tú.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "¿Deben regularse los influencers?",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "influencers",
+    "guidanceNote": "Evalúa la argumentación sobre un tema polémico y actual con matices y fluidez; valora el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Da tu opinión sobre si la publicidad que hacen los influencers en redes sociales debería regularse más. Argumenta tu postura y ten en cuenta distintos puntos de vista.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Propuesta para reducir el desperdicio de comida",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B2).",
+    "difficulty": "CORE",
+    "topicTag": "propuesta-social",
+    "guidanceNote": "Valora la exposición de una propuesta con argumentos y la eficacia comunicativa; evalúa el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Tu universidad en La Paz quiere reducir el desperdicio de comida en la cafetería. Propón una idea, explica en qué consiste y defiende por qué sería eficaz.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Reaccionar ante un cambio de planes",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "reaccionar-planes",
+    "guidanceNote": "Evalúa la reacción ante un imprevisto con soluciones claras y fluidez; valora el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Habías organizado un viaje de fin de semana con amigos, pero uno de ellos cancela a última hora y complica todo. Explica cómo reaccionarías y qué alternativas propondrías al grupo.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "¿Cuatro días de trabajo a la semana?",
+    "prompt": "Tarea de expresión oral (SIELE, nivel B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "jornada-laboral",
+    "guidanceNote": "Valora la argumentación sobre un tema debatido con coherencia y matices y la fluidez; evalúa el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Da tu opinión sobre la propuesta de implantar la semana laboral de cuatro días. Argumenta a favor o en contra y valora las consecuencias para trabajadores y empresas.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  }
+]

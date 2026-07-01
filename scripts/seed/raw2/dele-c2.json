@@ -1,0 +1,562 @@
+[
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "El ocaso de la lectura profunda",
+    "prompt": "Tarea de expresión escrita (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "lectura-profunda-atencion",
+    "guidanceNote": "Valore la capacidad de integrar datos y opiniones contrapuestas en una tesis propia matizada; observe adecuación al ensayo académico, cohesión argumentativa, precisión gramatical y riqueza léxica sin caer en tópicos.",
+    "payload": {
+      "situation": "Una revista cultural de alcance panhispánico ha lanzado un debate sobre si la lectura fragmentada en pantallas está erosionando nuestra capacidad de concentración y de pensamiento complejo. Dispone de dos fuentes: un neurocientífico que alerta del deterioro cognitivo y una ensayista que defiende que solo cambian los soportes, no las capacidades.",
+      "instruction": "Redacte un ensayo de opinión para dicha revista en el que integre y contraste ambas posturas, exponga argumentos propios y llegue a una conclusión razonada y personal. Escriba entre 300 y 350 palabras.",
+      "wordMin": 300,
+      "wordMax": 350
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Del acta al comunicado",
+    "prompt": "Tarea de expresión escrita (DELE C2).",
+    "difficulty": "CORE",
+    "topicTag": "cambio-de-registro-institucional",
+    "guidanceNote": "Premie el dominio del cambio de registro (de lo interno y técnico a lo público y divulgativo) y la selección de información pertinente; atienda a coherencia, corrección formal y adecuación al destinatario general.",
+    "payload": {
+      "situation": "Usted forma parte de la junta directiva de una cooperativa cultural. En la última reunión se aprobó recortar las actividades presenciales por motivos económicos, lo que consta en un acta interna llena de tecnicismos contables y matices legales.",
+      "instruction": "Transforme el contenido de esa acta interna en un comunicado abierto dirigido a los socios y al público general, cuidando explicar las decisiones con claridad, empatía y transparencia, sin ocultar la parte incómoda. Escriba entre 300 y 350 palabras.",
+      "wordMin": 300,
+      "wordMax": 350
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "La memoria de los monumentos",
+    "prompt": "Tarea de expresión escrita (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "memoria-historica-espacio-publico",
+    "guidanceNote": "Busque una postura personal defendida con matiz e incluso ironía controlada; valore la solidez argumentativa, la cohesión, la corrección y un léxico preciso en un tema sensible.",
+    "payload": {
+      "situation": "Varias ciudades hispanohablantes debaten qué hacer con estatuas y nombres de calles vinculados a figuras históricas hoy cuestionadas: unos piden retirarlos, otros contextualizarlos y otros conservarlos intactos.",
+      "instruction": "Escriba un artículo de opinión para un diario en el que fije una postura propia y matizada sobre cómo gestionar ese patrimonio incómodo, anticipando y rebatiendo las objeciones de quienes piensan distinto. Escriba entre 300 y 350 palabras.",
+      "wordMin": 300,
+      "wordMax": 350
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Dos economistas, una crisis",
+    "prompt": "Tarea de expresión escrita (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "sintesis-posturas-contrapuestas",
+    "guidanceNote": "Evalúe la habilidad para resumir con fidelidad dos posiciones opuestas y valorarlas críticamente sin distorsionarlas; atienda a la organización, la cohesión, la corrección y la precisión terminológica.",
+    "payload": {
+      "situation": "Un observatorio económico le pide un texto sobre el debate en torno a la renta básica universal. Dispone de dos columnas: una que la presenta como red de seguridad imprescindible ante la automatización y otra que la considera un desincentivo insostenible.",
+      "instruction": "Elabore un texto que resuma con rigor ambas posturas y las valore críticamente, señalando fortalezas y debilidades de cada una antes de exponer su propia valoración razonada. Escriba entre 300 y 350 palabras.",
+      "wordMin": 300,
+      "wordMax": 350
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Elogio y sospecha del algoritmo",
+    "prompt": "Tarea de expresión escrita (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "algoritmos-cultura-recomendacion",
+    "guidanceNote": "Valore la argumentación sofisticada sobre un tema abstracto y la capacidad de sostener ambivalencia sin diluir la tesis; observe cohesión, corrección gramatical de estructuras complejas y riqueza léxica.",
+    "payload": {
+      "situation": "Una plataforma de divulgación tecnológica invita a reflexionar sobre cómo los algoritmos de recomendación moldean lo que leemos, escuchamos y creemos, entre quienes celebran su comodidad y quienes denuncian que empobrecen nuestra dieta cultural.",
+      "instruction": "Redacte un artículo de divulgación en el que analice esa tensión, tome partido de forma matizada y proponga cómo debería relacionarse un ciudadano crítico con estas herramientas. Escriba entre 300 y 350 palabras.",
+      "wordMin": 300,
+      "wordMax": 350
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Carta a quien me sucederá",
+    "prompt": "Tarea de expresión escrita (DELE C2).",
+    "difficulty": "CORE",
+    "topicTag": "carta-compleja-relevo-profesional",
+    "guidanceNote": "Premie el equilibrio entre calidez personal y análisis honesto de un contexto conflictivo; valore la adecuación al género epistolar culto, la cohesión, la corrección y un léxico rico y preciso.",
+    "payload": {
+      "situation": "Tras años dirigiendo un pequeño centro cultural comunitario, usted se marcha. Deja logros notables, pero también tensiones internas, un presupuesto frágil y expectativas encontradas entre el equipo y el vecindario.",
+      "instruction": "Escriba una carta dirigida a la persona que ocupará su puesto en la que le transmita, con franqueza y sin edulcorar, tanto lo valioso como lo problemático del cargo, y le ofrezca un consejo fundamentado. Escriba entre 300 y 350 palabras.",
+      "wordMin": 300,
+      "wordMax": 350
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "El turismo que devora su paisaje",
+    "prompt": "Tarea de expresión escrita (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "turismo-masivo-sostenibilidad",
+    "guidanceNote": "Valore la integración de fuentes en una tesis original y el manejo del contraargumento; atienda a coherencia global, corrección de la subordinación compleja y precisión léxica.",
+    "payload": {
+      "situation": "Un foro sobre desarrollo local recopila voces enfrentadas sobre el turismo masivo: comerciantes que dependen de él, vecinos expulsados por los alquileres y expertos que advierten del deterioro cultural y ambiental de los destinos.",
+      "instruction": "Escriba un ensayo de opinión que integre esas voces contrapuestas, construya una tesis propia sobre cómo debería reorientarse el modelo turístico y responda a las objeciones más previsibles. Escriba entre 300 y 350 palabras.",
+      "wordMin": 300,
+      "wordMax": 350
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "La lengua que se ramifica",
+    "prompt": "Tarea de expresión escrita (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "diversidad-linguistica-panhispanica",
+    "guidanceNote": "Busque finura metalingüística y una postura culta ante la norma y la variación; valore la argumentación, la cohesión, la corrección y un léxico especializado bien dosificado.",
+    "payload": {
+      "situation": "Una academia de la lengua promueve un debate sobre si conviene reforzar una norma panhispánica común o celebrar sin reservas la diversidad de acentos, giros y neologismos regionales del español.",
+      "instruction": "Redacte un artículo de opinión en el que defienda una postura propia y matizada sobre el equilibrio entre unidad normativa y diversidad, sopesando los riesgos de cada extremo. Escriba entre 300 y 350 palabras.",
+      "wordMin": 300,
+      "wordMax": 350
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Del informe forense al relato humano",
+    "prompt": "Tarea de expresión escrita (DELE C2).",
+    "difficulty": "CORE",
+    "topicTag": "cambio-de-registro-divulgacion-cientifica",
+    "guidanceNote": "Premie la traducción de un lenguaje técnico a uno divulgativo sin perder rigor ni caer en el sensacionalismo; valore adecuación al lector no experto, cohesión, corrección y precisión léxica.",
+    "payload": {
+      "situation": "Un equipo de arqueólogos ha publicado un informe técnico, denso y lleno de terminología, sobre el hallazgo de un yacimiento que reescribe parte de la historia precolombina de una región andina.",
+      "instruction": "Convierta ese informe técnico en un texto de divulgación para el suplemento cultural de un periódico, capaz de emocionar y explicar a un lector no especialista sin traicionar el rigor científico. Escriba entre 300 y 350 palabras.",
+      "wordMin": 300,
+      "wordMax": 350
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "¿Educar o entrenar?",
+    "prompt": "Tarea de expresión escrita (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "educacion-empleabilidad-humanismo",
+    "guidanceNote": "Valore la profundidad conceptual al distinguir fines contrapuestos de la educación y la defensa argumentada de una postura; atienda a cohesión, corrección de estructuras complejas y riqueza léxica.",
+    "payload": {
+      "situation": "Un consejo educativo debate si la universidad debe orientarse ante todo a la empleabilidad y las competencias que reclama el mercado o mantener su vocación de formación crítica y humanística.",
+      "instruction": "Escriba un ensayo de opinión que confronte ambas concepciones de la educación superior, defienda una postura propia y matizada y anticipe las objeciones de la posición contraria. Escriba entre 300 y 350 palabras.",
+      "wordMin": 300,
+      "wordMax": 350
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "La carta que nadie quería firmar",
+    "prompt": "Tarea de expresión escrita (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "carta-postura-etica-institucional",
+    "guidanceNote": "Premie la firmeza argumentativa acompañada de tacto diplomático y la gestión de un conflicto ético; valore adecuación al destinatario, cohesión, corrección y precisión léxica.",
+    "payload": {
+      "situation": "Un patrocinador cuya actividad genera serias dudas éticas ofrece una suma decisiva para salvar el festival cultural que usted coordina. Aceptar aliviaría las finanzas; rechazar podría hundir el proyecto.",
+      "instruction": "Redacte una carta razonada dirigida al comité organizador en la que exponga su postura sobre aceptar o no ese patrocinio, sopese las consecuencias y proponga una salida, cuidando el equilibrio entre principios y pragmatismo. Escriba entre 300 y 350 palabras.",
+      "wordMin": 300,
+      "wordMax": 350
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Progreso sin brújula",
+    "prompt": "Tarea de expresión escrita (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "idea-de-progreso-tecnologia",
+    "guidanceNote": "Busque una reflexión filosófica bien articulada, con ironía culta si procede, sobre un concepto abstracto; valore la argumentación, la cohesión, la corrección y un léxico rico.",
+    "payload": {
+      "situation": "Una revista de pensamiento propone cuestionar la idea misma de progreso: mientras unos lo identifican con toda innovación tecnológica, otros denuncian que hemos confundido avanzar con acelerar sin rumbo.",
+      "instruction": "Escriba un ensayo en el que examine críticamente qué entendemos por progreso, confronte visiones opuestas y defienda una concepción propia y razonada del término. Escriba entre 300 y 350 palabras.",
+      "wordMin": 300,
+      "wordMax": 350
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Dos manifiestos sobre el arte",
+    "prompt": "Tarea de expresión escrita (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "resumen-valoracion-arte-publico",
+    "guidanceNote": "Evalúe la síntesis fiel de posturas estéticas contrapuestas y su valoración crítica; atienda a organización, cohesión, corrección y precisión del vocabulario artístico.",
+    "payload": {
+      "situation": "Se le encarga una reseña sobre el debate en torno a la financiación pública del arte. Cuenta con dos manifiestos: uno reclama que el Estado sostenga la creación como bien común y otro sostiene que el arte solo debe responder al mercado y al público.",
+      "instruction": "Elabore un texto que resuma con fidelidad ambos manifiestos y los someta a una valoración crítica, exponiendo aciertos y contradicciones de cada uno antes de ofrecer su juicio razonado. Escriba entre 300 y 350 palabras.",
+      "wordMin": 300,
+      "wordMax": 350
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "La intimidad como mercancía",
+    "prompt": "Tarea de expresión escrita (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "privacidad-datos-vida-digital",
+    "guidanceNote": "Valore la argumentación densa sobre privacidad y poder, con capacidad de matizar más allá del alarmismo; atienda a cohesión, corrección gramatical y riqueza léxica.",
+    "payload": {
+      "situation": "Un foro ciudadano reflexiona sobre hasta qué punto hemos aceptado ceder nuestros datos personales a cambio de comodidad, y si esa cesión constituye una elección libre o una servidumbre disfrazada.",
+      "instruction": "Redacte un ensayo de opinión en el que analice esa cesión de la intimidad, tome una postura matizada sobre su carácter voluntario o coactivo y proponga qué exigencias serían razonables. Escriba entre 300 y 350 palabras.",
+      "wordMin": 300,
+      "wordMax": 350
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Elogio matizado del error",
+    "prompt": "Tarea de expresión escrita (DELE C2).",
+    "difficulty": "CORE",
+    "topicTag": "cultura-del-error-innovacion",
+    "guidanceNote": "Premie la capacidad de matizar un lugar común (celebrar el fracaso) y de sostener una tesis original; valore cohesión, corrección y un léxico preciso, evitando la autoayuda vacía.",
+    "payload": {
+      "situation": "Se ha extendido en ámbitos empresariales y educativos el lema de que hay que celebrar el fracaso como motor de aprendizaje. Algunas voces advierten de que ese entusiasmo por el error puede volverse un cliché irresponsable.",
+      "instruction": "Escriba un artículo de opinión en el que examine críticamente la moda de reivindicar el fracaso, distinga sus usos legítimos de sus abusos y defienda una postura propia y matizada. Escriba entre 300 y 350 palabras.",
+      "wordMin": 300,
+      "wordMax": 350
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "El derecho a desaparecer",
+    "prompt": "Tarea de expresión escrita (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "hiperconexion-derecho-desconexion",
+    "guidanceNote": "Valore la reflexión aguda sobre la hiperconexión y la defensa argumentada de una postura frente a objeciones; atienda a coherencia, corrección de estructuras complejas y riqueza léxica.",
+    "payload": {
+      "situation": "Un debate laboral y social discute si debería reconocerse un verdadero derecho a la desconexión: a no responder mensajes fuera del horario, a ausentarse de las redes, a resultar temporalmente ilocalizable sin penalización.",
+      "instruction": "Redacte un ensayo de opinión en el que defienda una postura propia sobre ese derecho a desconectar, respondiendo a quienes lo consideran un privilegio o un obstáculo para la productividad. Escriba entre 300 y 350 palabras.",
+      "wordMin": 300,
+      "wordMax": 350
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "La utilidad de lo inútil",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "humanidades-valor-social",
+    "guidanceNote": "Valore la disertación estructurada y la capacidad de defender con matiz una afirmación provocadora; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección, riqueza léxica y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Prepare y exponga una disertación en torno a la afirmación: «Todo aquello que no produce beneficio económico inmediato acaba siendo considerado prescindible». Defina el problema, ofrezca argumentos y contraargumentos con ejemplos y cierre con una postura propia y razonada, anticipando posibles objeciones del examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Dos modelos de ciudad",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "propuestas-urbanismo-contrapuestas",
+    "guidanceNote": "Premie la valoración crítica de propuestas opuestas y la síntesis final; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección gramatical, alcance léxico y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Un ayuntamiento estudia dos propuestas para revitalizar el centro histórico: una apuesta por peatonalizar y limitar el tráfico privado; la otra, por mejorar accesos y aparcamientos para atraer comercio. Exponga oralmente las fortalezas y debilidades de cada propuesta, valórelas críticamente y defienda cuál elegiría y por qué, respondiendo luego a las réplicas del examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "La neutralidad imposible",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "periodismo-objetividad-sesgo",
+    "guidanceNote": "Valore la argumentación sofisticada sobre un tema abstracto y la resistencia ante objeciones; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección, riqueza léxica y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Prepare una disertación a partir de la afirmación: «La objetividad periodística es un mito útil, pero un mito al fin». Sostenga una postura matizada, distinga entre objetividad, imparcialidad y honestidad, ilústrelo con ejemplos y defienda su tesis ante las posibles réplicas del examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "¿Lengua franca o Babel fértil?",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "lengua-franca-diversidad-cientifica",
+    "guidanceNote": "Premie la síntesis y valoración crítica de un dilema cultural con registro flexible; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección, alcance léxico y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Se debate si la ciencia debería producirse y difundirse casi exclusivamente en inglés por eficacia, o preservar la producción en múltiples lenguas, incluido el español, por riqueza y equidad. Exponga oralmente una síntesis de ambos puntos de vista, valórelos críticamente y defienda una posición propia ante las objeciones del examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "El olvido como derecho",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "derecho-al-olvido-memoria-digital",
+    "guidanceNote": "Valore la defensa matizada de una postura ante un conflicto de derechos; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección de estructuras complejas, riqueza léxica y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Defienda oralmente una postura matizada ante la afirmación: «Toda persona debería poder borrar su pasado digital cuando quiera». Sopese el derecho al olvido frente al derecho a la información y a la memoria colectiva, ilustre con ejemplos y responda a las objeciones que le plantee el examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Migrar el talento",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "CORE",
+    "topicTag": "fuga-cerebros-movilidad",
+    "guidanceNote": "Premie el análisis equilibrado de un fenómeno complejo y la síntesis final; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección, alcance léxico y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Prepare una disertación sobre la llamada «fuga de cerebros» en los países hispanohablantes: para unos es una pérdida dramática de talento; para otros, una circulación natural que también genera retornos y redes. Exponga los argumentos de ambas visiones, valórelos y defienda su propia conclusión ante las réplicas del examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "El precio de la gratuidad",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "economia-atencion-servicios-gratuitos",
+    "guidanceNote": "Valore la disertación crítica sobre un tema económico-cultural con ironía culta si procede; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección, riqueza léxica y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Desarrolle una disertación en torno a la idea: «Cuando un servicio es gratuito, el producto eres tú». Analice críticamente qué significa esa afirmación en la economía de la atención, matice sus alcances y límites, y defienda una postura propia frente a las objeciones del examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Dos caminos para el clima",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "propuestas-clima-responsabilidad",
+    "guidanceNote": "Premie la evaluación de propuestas contrapuestas y la toma de postura razonada; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección, alcance léxico y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Ante la crisis climática se enfrentan dos enfoques: uno que confía en la innovación tecnológica y los grandes acuerdos internacionales, y otro que reclama sobre todo cambios profundos en los hábitos de consumo individuales y locales. Evalúe oralmente ambas propuestas, señale sus límites y defienda cuál prioriza, respondiendo a las réplicas del examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "La autoridad del experto",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "expertos-democracia-conocimiento",
+    "guidanceNote": "Valore la argumentación densa sobre conocimiento y democracia con registro flexible; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección, riqueza léxica y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Disserte sobre la afirmación: «En asuntos complejos, la opinión del experto debería pesar más que la del ciudadano corriente». Distinga entre autoridad epistémica y legitimidad democrática, matice su postura con ejemplos y defiéndala ante las objeciones que le plantee el examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Patrimonio o negocio",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "CORE",
+    "topicTag": "gestion-patrimonio-cultural",
+    "guidanceNote": "Premie la valoración crítica de propuestas enfrentadas sobre patrimonio y la síntesis final; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección, alcance léxico y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Una comunidad discute qué hacer con un antiguo edificio histórico: una propuesta lo convierte en museo público de acceso gratuito; otra lo cede a una empresa que lo restauraría como hotel de lujo. Exponga oralmente los pros y los contras de cada opción, valórelas y defienda su elección ante las réplicas del examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "El mito de la multitarea",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "CORE",
+    "topicTag": "atencion-productividad-multitarea",
+    "guidanceNote": "Valore la disertación que desmonta un lugar común con matiz; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección, riqueza léxica y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Desarrolle una disertación en torno a la afirmación: «Saber hacer varias cosas a la vez es una virtud de nuestro tiempo». Cuestione o defienda esa idea con argumentos, distinga entre eficiencia real y sensación de productividad, y sostenga su postura ante las objeciones del examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Arte incómodo",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "libertad-artistica-limites",
+    "guidanceNote": "Premie la defensa matizada ante un conflicto entre libertad y sensibilidad, con ironía culta si procede; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección, alcance léxico y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Defienda oralmente una postura matizada ante la afirmación: «El arte debería poder ofender sin límite alguno». Sopese la libertad creativa frente al respeto a las sensibilidades y a los grupos vulnerables, ilustre con ejemplos y responda a las objeciones que le plantee el examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Nostalgia de lo analógico",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "CORE",
+    "topicTag": "nostalgia-tecnologia-analogica",
+    "guidanceNote": "Valore la reflexión crítica sobre la nostalgia con distancia irónica y matiz; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección, riqueza léxica y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Disserte sobre el resurgir del vinilo, la fotografía en papel y la escritura a mano. ¿Es una moda pasajera, una reacción sensata frente a lo digital o pura nostalgia interesada? Analice el fenómeno con matiz, sostenga una interpretación propia y defiéndala ante las réplicas del examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "El voto obligatorio",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "voto-obligatorio-democracia",
+    "guidanceNote": "Premie la evaluación crítica de una propuesta cívica y la defensa razonada; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección de estructuras complejas, alcance léxico y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "En varios países hispanohablantes se debate si el voto debería ser obligatorio o estrictamente voluntario. Exponga oralmente los argumentos a favor y en contra, evalúe cuál fortalece más la calidad democrática y defienda su postura ante las objeciones del examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Máquinas que crean",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "creatividad-inteligencia-artificial",
+    "guidanceNote": "Valore la disertación conceptualmente exigente sobre autoría y creatividad; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección, riqueza léxica y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Desarrolle una disertación en torno a la afirmación: «Una obra generada por una máquina puede ser tan valiosa como una creada por un ser humano». Distinga entre destreza técnica, intención y autoría, matice su postura con ejemplos y defiéndala ante las objeciones del examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Crecer o sostener",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "decrecimiento-desarrollo-economico",
+    "guidanceNote": "Premie la síntesis y valoración de paradigmas económicos opuestos con registro flexible; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección, alcance léxico y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Se enfrentan dos visiones del futuro económico: una que sigue confiando en el crecimiento continuo como vía de bienestar y otra que propone el decrecimiento y la sostenibilidad como única salida sensata. Sintetice ambas posturas, valórelas críticamente y defienda su propia posición ante las réplicas del examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "La cortesía en tiempos de pantalla",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "CORE",
+    "topicTag": "cortesia-comunicacion-digital",
+    "guidanceNote": "Valore la reflexión matizada sobre normas sociales y registro, con ironía culta si procede; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección, riqueza léxica y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Disserte sobre la afirmación: «La comunicación digital ha degradado irreversiblemente la cortesía y el trato entre las personas». Matice esa idea, distinga entre cambio de códigos y verdadera pérdida de urbanidad, ofrezca ejemplos y defienda su postura ante las objeciones del examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  },
+  {
+    "level": "C2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Felicidad por decreto",
+    "prompt": "Tarea de expresión oral (DELE C2).",
+    "difficulty": "STRETCH",
+    "topicTag": "cultura-felicidad-bienestar-obligatorio",
+    "guidanceNote": "Premie la crítica sofisticada de un imperativo cultural con ironía y matiz; evaluar el mensaje y la fluidez, nunca el acento, atendiendo a coherencia, corrección, alcance léxico y eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Desarrolle una disertación en torno a la idea: «Vivimos bajo la obligación cultural de mostrarnos siempre felices y realizados». Analice críticamente esa presión, distinga entre bienestar genuino y su exhibición, y defienda una postura propia y matizada ante las réplicas del examinador.",
+      "prepSeconds": 300,
+      "speakSeconds": 240
+    }
+  }
+]

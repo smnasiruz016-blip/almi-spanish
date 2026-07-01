@@ -1,0 +1,562 @@
+[
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Propuesta al ayuntamiento sobre movilidad",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel C1).",
+    "difficulty": "CORE",
+    "topicTag": "movilidad-urbana",
+    "guidanceNote": "Premie la adecuación al registro formal-institucional y la cohesión entre problema, propuesta y beneficios; el alcance léxico técnico (movilidad sostenible, aparcamiento disuasorio) sube la nota.",
+    "payload": {
+      "situation": "Resides en un barrio de Valparaíso (Chile) donde el transporte público es escaso y el tráfico ha aumentado. La municipalidad ha abierto un plazo para recibir propuestas ciudadanas.",
+      "instruction": "Escribe un mensaje formal a la municipalidad en el que describas el problema de movilidad, propongas dos medidas concretas y justifiques sus beneficios para la comunidad. Debes escribir entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Informe breve sobre teletrabajo",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "teletrabajo",
+    "guidanceNote": "Valore la estructura expositiva (introducción, datos, valoración) y la corrección gramatical en oraciones subordinadas complejas; evite la mera opinión sin evidencia.",
+    "payload": {
+      "situation": "Trabajas en una empresa de Bogotá que estudia mantener el teletrabajo. La dirección te pide un informe interno con tu valoración.",
+      "instruction": "Redacta un informe breve dirigido a la dirección en el que expongas ventajas e inconvenientes del teletrabajo en tu equipo y cierres con una recomendación argumentada. Debes escribir entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Artículo de opinión sobre redes sociales",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel C1).",
+    "difficulty": "CORE",
+    "topicTag": "redes-sociales",
+    "guidanceNote": "Recompense una tesis clara sostenida con argumentos matizados y conectores contraargumentativos; penalice el tono coloquial impropio de un artículo.",
+    "payload": {
+      "situation": "Una revista digital cultural de Montevideo abre una sección de opinión sobre el impacto de las redes sociales en la vida cotidiana.",
+      "instruction": "Escribe un artículo de opinión en el que defiendas una postura sobre la influencia de las redes sociales, reconociendo al menos una objeción y respondiéndola. Debes escribir entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Carta de reclamación a una aerolínea",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel C1).",
+    "difficulty": "CORE",
+    "topicTag": "reclamacion-consumo",
+    "guidanceNote": "Premie el registro formal cortés pero firme, la secuencia hechos-perjuicio-petición y el léxico de derechos del consumidor; la adecuación a la tarea exige una exigencia concreta.",
+    "payload": {
+      "situation": "Un vuelo entre Ciudad de México y Lima se canceló sin aviso y perdiste una conexión y una noche de hotel. La aerolínea no ha respondido a tu primer contacto.",
+      "instruction": "Escribe una carta formal de reclamación a la aerolínea en la que relates lo ocurrido, expongas los perjuicios sufridos y solicites una compensación concreta. Debes escribir entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Texto argumentativo sobre turismo masivo",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "turismo-masivo",
+    "guidanceNote": "Valore la integración de perspectivas económicas y sociales y la progresión temática; el alcance léxico (masificación, gentrificación, sostenibilidad) diferencia el C1.",
+    "payload": {
+      "situation": "Un centro de estudios de Sevilla ha convocado textos sobre los efectos del turismo masivo en las ciudades históricas.",
+      "instruction": "Redacta un texto argumentativo en el que analices los efectos del turismo masivo y defiendas una posición razonada sobre cómo debería gestionarse. Debes escribir entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Propuesta de proyecto cultural",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel C1).",
+    "difficulty": "CORE",
+    "topicTag": "proyecto-cultural",
+    "guidanceNote": "Recompense la claridad de objetivos, actividades y beneficios esperados y la cohesión entre secciones; el registro debe ser formal y persuasivo sin fórmulas huecas.",
+    "payload": {
+      "situation": "Una fundación de San José (Costa Rica) financia iniciativas culturales de barrio y solicita propuestas por escrito.",
+      "instruction": "Escribe un mensaje formal a la fundación en el que presentes un proyecto cultural para tu barrio, detalles sus objetivos y actividades y expliques por qué merece financiación. Debes escribir entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Texto expositivo sobre bilingüismo",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "bilinguismo",
+    "guidanceNote": "Premie la objetividad expositiva, la organización por aspectos y el uso preciso de conectores explicativos; distinga exponer de opinar.",
+    "payload": {
+      "situation": "Una plataforma educativa panhispánica prepara un dosier sobre las ventajas de crecer en un entorno bilingüe.",
+      "instruction": "Redacta un texto expositivo en el que expliques los beneficios cognitivos, sociales y laborales del bilingüismo y matices sus posibles dificultades. Debes escribir entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Solicitud formal de beca de investigación",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel C1).",
+    "difficulty": "CORE",
+    "topicTag": "beca-investigacion",
+    "guidanceNote": "Valore la adecuación al género (motivación, mérito, plan) y la corrección en tiempos verbales de proyección futura; el léxico académico refuerza el alcance.",
+    "payload": {
+      "situation": "Una universidad de Salamanca ofrece becas de investigación y pide una carta de motivación a los candidatos.",
+      "instruction": "Escribe una carta formal a la comisión de becas en la que expongas tu proyecto de investigación, justifiques tu idoneidad y describas cómo aprovecharías la beca. Debes escribir entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Artículo sobre inteligencia artificial y empleo",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "ia-empleo",
+    "guidanceNote": "Recompense el equilibrio entre riesgos y oportunidades, la voz autoral coherente y el cierre que sintetiza; evite el catastrofismo o el tecnooptimismo sin matices.",
+    "payload": {
+      "situation": "Un suplemento tecnológico de Buenos Aires invita a colaboradores a reflexionar sobre el efecto de la inteligencia artificial en el mercado laboral.",
+      "instruction": "Escribe un artículo de opinión en el que valores cómo la inteligencia artificial transforma el empleo y propongas una actitud razonable ante ese cambio. Debes escribir entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Informe sobre un evento vecinal",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel C1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "evento-vecinal",
+    "guidanceNote": "Premie la organización cronológica clara, la valoración final fundamentada y la corrección; aunque sea la tarea más accesible, exija registro formal.",
+    "payload": {
+      "situation": "Formas parte de una asociación vecinal de Quito que organizó una feria de barrio. La junta directiva pide un informe de resultados.",
+      "instruction": "Redacta un informe para la junta directiva en el que describas cómo se desarrolló la feria, valores sus resultados y sugieras mejoras para la próxima edición. Debes escribir entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Texto argumentativo sobre educación a distancia",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel C1).",
+    "difficulty": "CORE",
+    "topicTag": "educacion-distancia",
+    "guidanceNote": "Valore la refutación de la postura contraria y la coherencia global; el uso de subordinadas concesivas y causales evidencia el dominio gramatical C1.",
+    "payload": {
+      "situation": "Un foro educativo panhispánico debate si la educación a distancia puede sustituir a la presencial en la enseñanza superior.",
+      "instruction": "Escribe un texto argumentativo en el que defiendas tu postura sobre el papel de la educación a distancia, contrastándola con la presencial y respondiendo a una objeción previsible. Debes escribir entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Propuesta de mejora al comité de empresa",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel C1).",
+    "difficulty": "CORE",
+    "topicTag": "mejora-laboral",
+    "guidanceNote": "Recompense el diagnóstico, la propuesta viable y la anticipación de objeciones; el registro debe ser profesional y la cohesión entre apartados, evidente.",
+    "payload": {
+      "situation": "En tu empresa de Guadalajara (México) el sistema de turnos genera descontento. El comité de empresa recoge propuestas por escrito.",
+      "instruction": "Redacta un mensaje formal al comité de empresa en el que expongas el problema de los turnos, propongas una alternativa concreta y expliques cómo beneficiaría a la plantilla. Debes escribir entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Texto expositivo sobre alimentación sostenible",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "alimentacion-sostenible",
+    "guidanceNote": "Premie la exposición ordenada por causas y consecuencias y el léxico especializado (huella de carbono, producción local); mantenga la neutralidad expositiva.",
+    "payload": {
+      "situation": "Una ONG con presencia en varios países hispanohablantes elabora un dosier divulgativo sobre alimentación sostenible.",
+      "instruction": "Escribe un texto expositivo en el que expliques en qué consiste la alimentación sostenible, sus repercusiones ambientales y las dificultades para adoptarla. Debes escribir entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Carta al director de un periódico",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel C1).",
+    "difficulty": "CORE",
+    "topicTag": "carta-director",
+    "guidanceNote": "Valore la concisión argumentativa propia del género y la fuerza de la tesis; premie los conectores de énfasis usados con mesura y el registro culto.",
+    "payload": {
+      "situation": "Un periódico de Asunción (Paraguay) publicó un reportaje sobre el cierre de bibliotecas públicas y quieres reaccionar.",
+      "instruction": "Escribe una carta al director en la que expreses tu valoración sobre el cierre de las bibliotecas públicas y argumentes por qué merecen mantenerse. Debes escribir entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Informe de valoración de una formación",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel C1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "valoracion-formacion",
+    "guidanceNote": "Premie la separación clara entre descripción y valoración y la corrección; exija recomendaciones concretas pese a ser la tarea más asequible.",
+    "payload": {
+      "situation": "Asististe a un curso de formación profesional en La Habana financiado por tu empresa, que ahora pide una valoración por escrito.",
+      "instruction": "Redacta un informe para tu empresa en el que describas el contenido del curso, valores su utilidad para tu trabajo y recomiendes o no su repetición para otros compañeros. Debes escribir entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Artículo sobre el consumo responsable",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "consumo-responsable",
+    "guidanceNote": "Recompense la voz personal fundamentada, la integración de ejemplos cotidianos en un marco general y el cierre que interpela sin caer en el eslogan.",
+    "payload": {
+      "situation": "Un blog colaborativo sobre estilo de vida con lectores de toda Hispanoamérica dedica su número a los hábitos de consumo.",
+      "instruction": "Escribe un artículo de opinión en el que reflexiones sobre qué significa consumir de forma responsable hoy y defiendas tu propia postura al respecto. Debes escribir entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Experiencia formativa decisiva",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "CORE",
+    "topicTag": "experiencia-formativa",
+    "guidanceNote": "Evalúe el mensaje y la fluidez, nunca el acento; premie el relato ampliado con reflexión personal, buena cohesión temporal y riqueza léxica.",
+    "payload": {
+      "taskPrompt": "Habla de una experiencia formativa (un curso, un viaje de estudios o un proyecto) que haya sido decisiva para ti. Explica en qué consistió, por qué te marcó y cómo ha influido en tus decisiones posteriores.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Posturas sobre el coche en la ciudad",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "coche-ciudad",
+    "guidanceNote": "Valore la capacidad de exponer posturas contrapuestas con equilibrio antes de posicionarse; la eficacia comunicativa importa más que la ausencia de errores menores.",
+    "payload": {
+      "taskPrompt": "Algunas ciudades hispanohablantes restringen el uso del coche en el centro, mientras otras lo facilitan. Valora los argumentos a favor y en contra de restringir el tráfico urbano y expón después tu propia posición razonada.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Propuesta para dinamizar un pueblo",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "CORE",
+    "topicTag": "despoblacion-rural",
+    "guidanceNote": "Premie una propuesta detallada con objetivos, medios y beneficios y la progresión ordenada del discurso; evalúe fluidez y eficacia, no el acento.",
+    "payload": {
+      "taskPrompt": "Un pueblo del interior está perdiendo población y quiere atraer a nuevos habitantes. Expón una propuesta detallada para dinamizarlo: qué medidas tomarías, a quién se dirigirían y qué resultados esperarías.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Responder a una oferta de traslado laboral",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "traslado-laboral",
+    "guidanceNote": "Valore la respuesta matizada que sopesa condiciones y contrapropone; premie la naturalidad y los recursos de cortesía negociadora sobre la corrección absoluta.",
+    "payload": {
+      "taskPrompt": "Tu empresa te ofrece un ascenso que implica trasladarte a otra ciudad durante dos años. Responde a esta situación con matices: expresa tu interés, plantea tus dudas o condiciones y explica qué necesitarías para aceptar.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Monólogo sobre el valor del tiempo libre",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "CORE",
+    "topicTag": "tiempo-libre",
+    "guidanceNote": "Premie la integración de ideas en un discurso argumentativo cohesionado y el léxico preciso; evalúe el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Reflexiona en un monólogo sobre el valor del tiempo libre en la sociedad actual. Argumenta si crees que lo aprovechamos bien, qué obstáculos lo dificultan y qué papel debería tener en una vida equilibrada.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Posturas sobre los deberes escolares",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "deberes-escolares",
+    "guidanceNote": "Valore el contraste equilibrado de argumentos pedagógicos y familiares antes de la toma de postura; la eficacia comunicativa prima sobre errores puntuales.",
+    "payload": {
+      "taskPrompt": "El debate sobre los deberes escolares divide a familias y docentes. Valora los argumentos de quienes los defienden y de quienes los cuestionan, y expón después tu propia opinión razonada.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Un lugar que te transmite identidad",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "lugar-identidad",
+    "guidanceNote": "Premie la descripción ampliada con carga afectiva y reflexión; aunque sea accesible, exija cohesión y algo de matiz; evalúe fluidez, no el acento.",
+    "payload": {
+      "taskPrompt": "Describe un lugar (una ciudad, un barrio o un paisaje del mundo hispano) con el que sientas una conexión especial. Explica cómo es, qué representa para ti y por qué forma parte de tu identidad.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Propuesta de campaña de reciclaje",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "CORE",
+    "topicTag": "campana-reciclaje",
+    "guidanceNote": "Valore la exposición detallada de objetivos, público y acciones y la organización clara; premie la fluidez y la eficacia por encima de la perfección formal.",
+    "payload": {
+      "taskPrompt": "Tu comunidad quiere mejorar el reciclaje entre los vecinos. Expón una propuesta detallada de campaña: qué mensaje transmitirías, a quién te dirigirías, qué acciones concretas incluirías y cómo medirías su éxito.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Monólogo sobre la lectura hoy",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "lectura-actual",
+    "guidanceNote": "Premie el discurso argumentativo que integra causas, matices y ejemplos y evita el tópico; evalúe el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Se dice a menudo que hoy se lee menos que antes. En un monólogo, argumenta si compartes o no esa idea, analiza qué factores influyen en los hábitos de lectura y valora qué se pierde o se gana con los nuevos formatos.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Responder a un malentendido con un amigo",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "CORE",
+    "topicTag": "malentendido-amistad",
+    "guidanceNote": "Valore la respuesta matizada que reconoce, explica y propone reparar; premie los recursos de atenuación y la naturalidad sobre la corrección estricta.",
+    "payload": {
+      "taskPrompt": "Un buen amigo se ha molestado porque olvidaste un compromiso importante para él. Responde a esta situación con matices: reconoce lo ocurrido, explica tu perspectiva sin excusarte en exceso y propón cómo recomponer la relación.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Posturas sobre el trabajo voluntario",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "trabajo-voluntario",
+    "guidanceNote": "Premie el contraste razonado entre beneficios sociales e individuales y posibles reservas; la eficacia comunicativa pesa más que los deslices menores.",
+    "payload": {
+      "taskPrompt": "Algunos consideran el voluntariado una forma imprescindible de compromiso social; otros creen que puede sustituir responsabilidades que corresponden a las instituciones. Valora ambas posturas y expón después tu opinión razonada.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Una decisión difícil que tomaste",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "CORE",
+    "topicTag": "decision-dificil",
+    "guidanceNote": "Valore el relato ampliado con análisis de motivos y consecuencias y la cohesión narrativa; evalúe fluidez y mensaje, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Cuenta una decisión difícil que hayas tenido que tomar. Explica el contexto, qué opciones barajabas, cómo llegaste a decidir y qué aprendiste de esa experiencia.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Propuesta para un intercambio cultural",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "CORE",
+    "topicTag": "intercambio-cultural",
+    "guidanceNote": "Premie la propuesta detallada y viable con fases y beneficios y el discurso bien estructurado; premie la fluidez y la eficacia por encima de la forma.",
+    "payload": {
+      "taskPrompt": "Tu institución quiere organizar un intercambio cultural con un país hispanohablante. Expón una propuesta detallada: qué actividades incluirías, quiénes participarían, cómo se organizaría y qué beneficios aportaría a los participantes.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Monólogo sobre las prisas de la vida actual",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "ritmo-de-vida",
+    "guidanceNote": "Valore la argumentación matizada que integra causas sociales y experiencia propia y evita el lugar común; evalúe el mensaje y la fluidez, no el acento.",
+    "payload": {
+      "taskPrompt": "En un monólogo, reflexiona sobre el ritmo acelerado de la vida actual. Argumenta a qué se debe, qué consecuencias tiene en las personas y si es posible y deseable vivir de forma más pausada.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Responder a una crítica en el trabajo",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "critica-laboral",
+    "guidanceNote": "Premie la respuesta matizada que acepta lo justo, defiende con argumentos y propone soluciones; premie la naturalidad y la cortesía sobre la corrección absoluta.",
+    "payload": {
+      "taskPrompt": "En una reunión, un responsable critica el resultado de un proyecto en el que has trabajado mucho. Responde a esta situación con matices: reconoce lo que sea razonable, defiende tu trabajo con argumentos y propón cómo mejorar.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Posturas sobre las lenguas minoritarias",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "lenguas-minoritarias",
+    "guidanceNote": "Valore el tratamiento equilibrado de argumentos culturales y prácticos y la toma de postura fundamentada; la eficacia comunicativa prima sobre errores puntuales.",
+    "payload": {
+      "taskPrompt": "En varios territorios hispanohablantes conviven lenguas minoritarias con el español. Valora los argumentos de quienes defienden protegerlas activamente y de quienes priorizan una lengua común, y expón después tu opinión razonada.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Un proyecto personal que quieres emprender",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "proyecto-personal",
+    "guidanceNote": "Premie la exposición ampliada con motivación y pasos previstos y una cohesión clara; aunque accesible, exija algún matiz; evalúe fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Habla de un proyecto personal que te gustaría emprender en los próximos años. Explica en qué consiste, qué te motiva a hacerlo, qué pasos darías y qué dificultades prevés.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Monólogo sobre la vivienda para jóvenes",
+    "prompt": "Tarea de expresión oral (SIELE, nivel C1).",
+    "difficulty": "CORE",
+    "topicTag": "vivienda-jovenes",
+    "guidanceNote": "Valore el discurso argumentativo que conecta causas económicas y sociales con propuestas y el léxico preciso; evalúe el mensaje y la fluidez, no el acento.",
+    "payload": {
+      "taskPrompt": "El acceso a la vivienda es un reto para muchos jóvenes en el mundo hispano. En un monólogo, analiza las causas de esta dificultad, sus consecuencias y qué medidas podrían mejorar la situación.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  }
+]

@@ -1,0 +1,546 @@
+[
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Carta al ayuntamiento sobre movilidad",
+    "prompt": "Tarea de expresión escrita (DELE C1).",
+    "difficulty": "CORE",
+    "topicTag": "movilidad-urbana",
+    "guidanceNote": "Valora la adecuación al registro formal de una carta institucional, la coherencia entre queja y propuesta, la corrección gramatical y la riqueza léxica al argumentar.",
+    "payload": {
+      "situation": "El ayuntamiento de una ciudad mediana en Colombia ha publicado un plan para restringir el tráfico privado en el centro histórico sin ampliar el transporte público.",
+      "instruction": "Escriba una carta formal a la alcaldía en la que exponga los inconvenientes del plan, reconozca sus aspectos positivos y proponga medidas alternativas concretas. Debe escribir un texto de entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Informe sobre el teletrabajo",
+    "prompt": "Tarea de expresión escrita (DELE C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "teletrabajo",
+    "guidanceNote": "Comprueba la integración de los datos del gráfico en un informe objetivo, la cohesión mediante conectores de contraste y consecuencia, y el alcance gramatical propio del registro culto.",
+    "payload": {
+      "situation": "Una empresa argentina le ha encargado un informe interno a partir de una encuesta cuyos datos indican que el 62 % de la plantilla prefiere un modelo híbrido, el 25 % el teletrabajo total y el 13 % la presencialidad.",
+      "instruction": "Redacte un informe que describa los resultados de la encuesta, interprete las tendencias y recomiende un modelo de trabajo para la dirección. Debe escribir un texto de entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Ensayo sobre la lengua y la tecnología",
+    "prompt": "Tarea de expresión escrita (DELE C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "lengua-tecnologia",
+    "guidanceNote": "Evalúa la capacidad de integrar dos fuentes contrapuestas en una tesis propia, la coherencia argumentativa y la precisión léxica sin caer en repeticiones.",
+    "payload": {
+      "situation": "Dispone de dos textos: uno sostiene que la mensajería instantánea empobrece el español escrito y otro afirma que la tecnología enriquece y renueva la lengua.",
+      "instruction": "Escriba un ensayo argumentativo que integre información de ambas fuentes y defienda una postura razonada sobre el impacto de la tecnología en el español. Debe escribir un texto de entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Reclamación a una aerolínea",
+    "prompt": "Tarea de expresión escrita (DELE C1).",
+    "difficulty": "CORE",
+    "topicTag": "reclamacion-consumo",
+    "guidanceNote": "Valora la adecuación al género de la reclamación formal, el orden coherente de los hechos, la corrección al expresar exigencias y el léxico preciso de derechos del consumidor.",
+    "payload": {
+      "situation": "Durante un viaje entre Ciudad de México y Madrid, una aerolínea le canceló el vuelo, le reubicó dos días después y extravió su equipaje sin ofrecer compensación.",
+      "instruction": "Escriba un texto de reclamación formal dirigido al departamento de atención al cliente en el que relate lo sucedido, justifique su malestar y solicite compensaciones concretas. Debe escribir un texto de entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Artículo de opinión sobre el turismo",
+    "prompt": "Tarea de expresión escrita (DELE C1).",
+    "difficulty": "CORE",
+    "topicTag": "turismo-masivo",
+    "guidanceNote": "Comprueba el tono personal pero argumentado del artículo de opinión, la coherencia entre ejemplos y tesis, y la riqueza léxica al matizar posturas.",
+    "payload": {
+      "situation": "Una revista cultural digital de alcance panhispánico ha abierto una sección sobre el impacto del turismo masivo en los centros históricos de las ciudades.",
+      "instruction": "Escriba un artículo de opinión en el que valore las consecuencias del turismo masivo, aporte ejemplos y proponga un enfoque más sostenible. Debe escribir un texto de entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Propuesta de mejora en la universidad",
+    "prompt": "Tarea de expresión escrita (DELE C1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "vida-universitaria",
+    "guidanceNote": "Evalúa la adecuación al registro semiformal de una propuesta institucional, la organización lógica de las ideas y la corrección al formular sugerencias con subjuntivo.",
+    "payload": {
+      "situation": "Como delegado o delegada de curso en una universidad chilena, ha recogido las quejas del alumnado sobre los horarios de la biblioteca y la falta de espacios de estudio.",
+      "instruction": "Redacte una propuesta formal dirigida al decanato en la que exponga los problemas detectados y sugiera medidas viables para resolverlos. Debe escribir un texto de entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Ensayo sobre la inteligencia artificial",
+    "prompt": "Tarea de expresión escrita (DELE C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "inteligencia-artificial",
+    "guidanceNote": "Valora la integración de fuentes con datos y opiniones enfrentadas, la coherencia del razonamiento y el alcance gramatical al expresar hipótesis y concesiones.",
+    "payload": {
+      "situation": "Cuenta con un informe que advierte de la pérdida de empleos por la automatización y con un artículo que destaca la creación de nuevas profesiones vinculadas a la inteligencia artificial.",
+      "instruction": "Escriba un ensayo argumentativo que integre ambas fuentes y defienda su punto de vista sobre el efecto de la inteligencia artificial en el mercado laboral hispanohablante. Debe escribir un texto de entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Carta a un periódico sobre la lectura",
+    "prompt": "Tarea de expresión escrita (DELE C1).",
+    "difficulty": "CORE",
+    "topicTag": "fomento-lectura",
+    "guidanceNote": "Comprueba la adecuación al género de la carta al director, la cohesión del argumento y la precisión léxica al defender una postura cultural.",
+    "payload": {
+      "situation": "Un periódico peruano ha publicado que el índice de lectura entre los jóvenes ha caído y ha invitado a los lectores a opinar sobre posibles soluciones.",
+      "instruction": "Escriba una carta al director en la que reaccione a la noticia, analice las causas del descenso de la lectura y proponga iniciativas para fomentarla. Debe escribir un texto de entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Informe sobre hábitos alimentarios",
+    "prompt": "Tarea de expresión escrita (DELE C1).",
+    "difficulty": "CORE",
+    "topicTag": "alimentacion-saludable",
+    "guidanceNote": "Evalúa la transformación de datos en prosa expositiva, la cohesión mediante marcadores de secuencia y la corrección del registro objetivo del informe.",
+    "payload": {
+      "situation": "Una fundación de salud en Uruguay le pide un informe basado en un estudio que muestra que el consumo de alimentos ultraprocesados ha aumentado un 30 % en la última década, sobre todo entre menores de treinta años.",
+      "instruction": "Redacte un informe que presente los datos del estudio, analice las posibles causas del fenómeno y recomiende actuaciones de sensibilización. Debe escribir un texto de entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Artículo sobre el voluntariado",
+    "prompt": "Tarea de expresión escrita (DELE C1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "voluntariado",
+    "guidanceNote": "Valora la adecuación al artículo de opinión, la coherencia entre experiencia y argumento y la riqueza léxica al describir valores sociales.",
+    "payload": {
+      "situation": "Un blog comunitario de una ciudad ecuatoriana dedica su número mensual a debatir el papel del voluntariado en la sociedad actual.",
+      "instruction": "Escriba un artículo de opinión en el que reflexione sobre la importancia del voluntariado, matice sus límites y anime a la participación ciudadana. Debe escribir un texto de entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Queja formal por obras vecinales",
+    "prompt": "Tarea de expresión escrita (DELE C1).",
+    "difficulty": "CORE",
+    "topicTag": "convivencia-vecinal",
+    "guidanceNote": "Comprueba el registro formal de la queja, la exposición ordenada de los perjuicios y la corrección al reclamar soluciones sin perder la cortesía.",
+    "payload": {
+      "situation": "En su edificio de una ciudad española, unas obras autorizadas por la comunidad de propietarios se prolongan más de lo previsto, con ruidos fuera de horario y accesos bloqueados.",
+      "instruction": "Escriba un texto de queja formal dirigido a la administración de la finca en el que describa los problemas, exprese su malestar y exija medidas concretas y plazos. Debe escribir un texto de entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Ensayo sobre las redes sociales",
+    "prompt": "Tarea de expresión escrita (DELE C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "redes-sociales",
+    "guidanceNote": "Evalúa la integración crítica de fuentes, la coherencia de una tesis matizada y el alcance gramatical al expresar contraste y valoración.",
+    "payload": {
+      "situation": "Dispone de un estudio que vincula el uso intensivo de redes sociales con la ansiedad juvenil y de un artículo que subraya su valor para el activismo y la creación de comunidad.",
+      "instruction": "Escriba un ensayo argumentativo que integre ambas fuentes y defienda una postura equilibrada sobre el papel de las redes sociales en la juventud hispanohablante. Debe escribir un texto de entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Carta de motivación para una beca",
+    "prompt": "Tarea de expresión escrita (DELE C1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "movilidad-academica",
+    "guidanceNote": "Valora la adecuación al registro formal persuasivo, la coherencia entre trayectoria y objetivos y la corrección al expresar deseos e intenciones.",
+    "payload": {
+      "situation": "Una fundación cultural iberoamericana ofrece una beca de investigación en una universidad de otro país hispanohablante y solicita una carta de motivación.",
+      "instruction": "Escriba una carta de motivación en la que presente su perfil, justifique su interés por el programa y explique cómo contribuiría a él. Debe escribir un texto de entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Informe sobre energías renovables",
+    "prompt": "Tarea de expresión escrita (DELE C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "energias-renovables",
+    "guidanceNote": "Comprueba la interpretación objetiva de datos comparativos, la cohesión expositiva y la precisión terminológica propia del registro técnico-culto.",
+    "payload": {
+      "situation": "Un organismo regional le encarga un informe a partir de datos que muestran que la energía solar en varios países latinoamericanos ha crecido un 45 % en cinco años, mientras que la inversión pública ha permanecido estancada.",
+      "instruction": "Redacte un informe que exponga la situación, contraste el crecimiento del sector con la inversión y recomiende líneas de actuación para las administraciones. Debe escribir un texto de entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Artículo sobre el patrimonio cultural",
+    "prompt": "Tarea de expresión escrita (DELE C1).",
+    "difficulty": "CORE",
+    "topicTag": "patrimonio-cultural",
+    "guidanceNote": "Evalúa la voz argumentada del artículo, la coherencia entre casos y tesis y la riqueza léxica al tratar la identidad y la memoria colectiva.",
+    "payload": {
+      "situation": "Un suplemento cultural panhispánico propone reflexionar sobre la tensión entre conservar el patrimonio histórico y modernizar las ciudades.",
+      "instruction": "Escriba un artículo de opinión en el que valore esa tensión, aporte ejemplos de distintos países y defienda una posición razonada. Debe escribir un texto de entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Propuesta para una empresa sostenible",
+    "prompt": "Tarea de expresión escrita (DELE C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "sostenibilidad-empresarial",
+    "guidanceNote": "Valora la adecuación al registro profesional, la coherencia entre diagnóstico y propuestas y la corrección al formular recomendaciones con matices de obligación y conveniencia.",
+    "payload": {
+      "situation": "Trabaja en una empresa de comercio en Panamá cuya dirección quiere reducir su huella ambiental sin perder competitividad y le pide una propuesta interna.",
+      "instruction": "Redacte una propuesta formal que analice el punto de partida de la empresa, plantee medidas sostenibles concretas y justifique sus beneficios a medio plazo. Debe escribir un texto de entre 220 y 260 palabras.",
+      "wordMin": 220,
+      "wordMax": 260
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Monólogo sobre el transporte público",
+    "prompt": "Tarea de expresión oral (DELE C1).",
+    "difficulty": "CORE",
+    "topicTag": "transporte-publico",
+    "guidanceNote": "Valora la integración de los datos en un discurso estructurado, la fluidez y la eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Prepare un monólogo a partir de unos datos que indican que en varias capitales latinoamericanas el uso del transporte público ha caído un 20 % tras la pandemia mientras crece el uso del automóvil. Exponga las causas del fenómeno, sus consecuencias y posibles soluciones, integrando la información en su exposición.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Acuerdo sobre un evento cultural",
+    "prompt": "Tarea de expresión oral (DELE C1).",
+    "difficulty": "CORE",
+    "topicTag": "gestion-cultural",
+    "guidanceNote": "Comprueba la capacidad de negociar y llegar a un acuerdo con el examinador, la cohesión del diálogo y la eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Debe organizar con el examinador la fiesta de fin de curso de un centro de idiomas en Bolivia. Dispone de varias opciones de lugar, presupuesto y actividades. Comente las ventajas e inconvenientes de cada una y lleguen juntos a un acuerdo razonado.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Debate sobre la jornada laboral",
+    "prompt": "Tarea de expresión oral (DELE C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "jornada-laboral",
+    "guidanceNote": "Valora la defensa argumentada de una postura, la capacidad de rebatir con cortesía y la fluidez; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Participe en un debate formal con el examinador sobre la reducción de la jornada laboral a cuatro días en el mundo hispanohablante. Defienda una postura clara, aporte argumentos y responda a las objeciones que se le planteen.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Valorar propuestas de reciclaje",
+    "prompt": "Tarea de expresión oral (DELE C1).",
+    "difficulty": "CORE",
+    "topicTag": "reciclaje",
+    "guidanceNote": "Evalúa la comparación crítica de propuestas contrapuestas, la coherencia del razonamiento y la eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Un municipio costarricense estudia dos propuestas para mejorar el reciclaje: una basada en multas a quien no separe la basura y otra en incentivos económicos para quien lo haga. Valore las ventajas e inconvenientes de cada propuesta y explique cuál le parece más eficaz y por qué.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Monólogo sobre la educación en línea",
+    "prompt": "Tarea de expresión oral (DELE C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "educacion-en-linea",
+    "guidanceNote": "Valora la integración de fuentes en un discurso propio, la organización de las ideas y la fluidez; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Prepare un monólogo a partir de dos afirmaciones enfrentadas: una sostiene que la educación en línea democratiza el acceso al conocimiento y otra que profundiza la brecha digital. Integre ambas ideas, valore su alcance y defienda su propia posición.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Acuerdo sobre un viaje de estudios",
+    "prompt": "Tarea de expresión oral (DELE C1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "viaje-estudios",
+    "guidanceNote": "Comprueba la interacción para alcanzar un acuerdo, la adecuación al registro coloquial culto y la fluidez; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Debe planificar con el examinador un viaje de estudios para un grupo de estudiantes por varios países andinos. Comenten juntos el itinerario, el presupuesto y las actividades, y lleguen a un acuerdo teniendo en cuenta las preferencias del grupo.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Debate sobre el turismo sostenible",
+    "prompt": "Tarea de expresión oral (DELE C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "turismo-sostenible",
+    "guidanceNote": "Valora la argumentación estructurada, la réplica razonada y la eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Participe en un debate formal con el examinador sobre si conviene limitar el número de visitantes en destinos turísticos frágiles de Hispanoamérica. Defienda una postura, sostenga sus argumentos y responda a los contraargumentos que reciba.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Monólogo sobre el envejecimiento",
+    "prompt": "Tarea de expresión oral (DELE C1).",
+    "difficulty": "CORE",
+    "topicTag": "envejecimiento-poblacional",
+    "guidanceNote": "Evalúa la interpretación de datos demográficos, la coherencia del discurso y la fluidez; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Prepare un monólogo a partir de datos que muestran que la población mayor de sesenta y cinco años en España y en varios países del Cono Sur se duplicará en las próximas décadas. Exponga las causas, las consecuencias sociales y las medidas que considere necesarias.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Valorar propuestas de vivienda",
+    "prompt": "Tarea de expresión oral (DELE C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "acceso-vivienda",
+    "guidanceNote": "Valora el contraste crítico de propuestas, la solidez de los argumentos y la eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Una ciudad hispanohablante debate dos propuestas para facilitar el acceso a la vivienda joven: una consiste en limitar los precios del alquiler y otra en construir vivienda pública en las afueras. Valore ambas propuestas, contraste sus efectos y justifique cuál defendería.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Acuerdo sobre un proyecto solidario",
+    "prompt": "Tarea de expresión oral (DELE C1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "proyecto-solidario",
+    "guidanceNote": "Comprueba la negociación cooperativa, la cohesión del intercambio y la fluidez; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Debe decidir con el examinador a qué causa destinará una asociación estudiantil de Paraguay los fondos recaudados en un festival benéfico. Comenten las distintas opciones, valoren su impacto y lleguen juntos a un acuerdo.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Debate sobre el uso del móvil en clase",
+    "prompt": "Tarea de expresión oral (DELE C1).",
+    "difficulty": "CORE",
+    "topicTag": "tecnologia-educacion",
+    "guidanceNote": "Valora la defensa de una postura, la capacidad de matizar y rebatir y la fluidez; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Participe en un debate formal con el examinador sobre si debería prohibirse el uso del teléfono móvil en las aulas de secundaria. Defienda una posición clara, argumente con ejemplos y responda a las objeciones planteadas.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Monólogo sobre la despoblación rural",
+    "prompt": "Tarea de expresión oral (DELE C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "despoblacion-rural",
+    "guidanceNote": "Evalúa la integración de datos en un discurso argumentado, la coherencia y la eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Prepare un monólogo a partir de información que señala que numerosos pueblos del interior de España y de zonas rurales de México pierden población cada año. Exponga las causas del éxodo, sus consecuencias y las iniciativas que podrían revertirlo.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Valorar propuestas de ocio juvenil",
+    "prompt": "Tarea de expresión oral (DELE C1).",
+    "difficulty": "CORE",
+    "topicTag": "ocio-juvenil",
+    "guidanceNote": "Valora la comparación de alternativas, la justificación razonada y la fluidez; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Un centro cultural de una ciudad dominicana estudia dos propuestas para atraer a los jóvenes: una centrada en actividades deportivas al aire libre y otra en talleres artísticos y tecnológicos. Valore ambas, contraste sus ventajas y explique cuál recomendaría.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Acuerdo sobre una campaña de salud",
+    "prompt": "Tarea de expresión oral (DELE C1).",
+    "difficulty": "CORE",
+    "topicTag": "campana-salud",
+    "guidanceNote": "Comprueba la interacción para consensuar, la adecuación del registro y la eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Debe diseñar con el examinador una campaña para promover hábitos saludables entre los empleados de una empresa guatemalteca. Comenten los objetivos, los canales y las actividades, valoren las opciones y lleguen a un acuerdo sobre el plan definitivo.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Debate sobre la publicidad y el consumo",
+    "prompt": "Tarea de expresión oral (DELE C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "publicidad-consumo",
+    "guidanceNote": "Valora la argumentación crítica, la réplica razonada y la fluidez; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Participe en un debate formal con el examinador sobre si debería regularse la publicidad dirigida a la infancia en los países hispanohablantes. Defienda una postura, sostenga sus argumentos con ejemplos y responda a los contraargumentos.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Monólogo sobre las lenguas indígenas",
+    "prompt": "Tarea de expresión oral (DELE C1).",
+    "difficulty": "STRETCH",
+    "topicTag": "lenguas-indigenas",
+    "guidanceNote": "Evalúa la elaboración de un discurso culto sobre un tema sensible, la coherencia y la eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Prepare un monólogo a partir de datos que indican que muchas lenguas indígenas de América Latina están en riesgo de desaparición pese a los programas de recuperación. Exponga las causas del declive, su importancia cultural y las medidas que considere prioritarias.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  },
+  {
+    "level": "C1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Valorar propuestas de movilidad escolar",
+    "prompt": "Tarea de expresión oral (DELE C1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "movilidad-escolar",
+    "guidanceNote": "Valora la comparación de opciones, la justificación clara y la fluidez; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Un colegio de una ciudad venezolana estudia dos propuestas para reducir el tráfico a la entrada y la salida: una consiste en organizar rutas de transporte escolar compartido y otra en crear caminos seguros para ir a pie. Valore ambas, contraste sus efectos y diga cuál preferiría.",
+      "prepSeconds": 240,
+      "speakSeconds": 180
+    }
+  }
+]

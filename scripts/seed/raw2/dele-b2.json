@@ -1,0 +1,562 @@
+[
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Reclamación por un curso en Bogotá",
+    "prompt": "Tarea de expresión escrita (DELE B2).",
+    "difficulty": "CORE",
+    "topicTag": "carta-reclamacion-curso",
+    "guidanceNote": "Premia el registro formal sostenido y una queja bien argumentada con datos concretos; valora la cohesión entre exposición del problema y petición final, y la corrección en las fórmulas de cortesía.",
+    "payload": {
+      "situation": "Te matriculaste en un curso intensivo de fotografía en una academia de Bogotá que prometía grupos reducidos y equipo profesional, pero el aula estaba masificada y varias cámaras no funcionaban.",
+      "instruction": "Escribe una carta formal de reclamación a la dirección de la academia: preséntate, describe los problemas que encontraste, explica cómo te han afectado y solicita una solución concreta. Debes escribir un texto de entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "El teletrabajo, ¿ventaja o aislamiento?",
+    "prompt": "Tarea de expresión escrita (DELE B2).",
+    "difficulty": "CORE",
+    "topicTag": "ensayo-teletrabajo",
+    "guidanceNote": "Valora la estructura argumentativa (tesis, argumentos, conclusión) y el uso de conectores contrastivos; el léxico debe evitar la repetición y matizar posturas sin caer en generalizaciones vacías.",
+    "payload": {
+      "situation": "Una revista digital española ha publicado un titular: 'El teletrabajo aumenta la productividad pero debilita los lazos entre compañeros'. Te invitan a enviar tu opinión.",
+      "instruction": "Escribe un texto argumentativo en el que expongas tu postura sobre el titular, presentes al menos dos argumentos y una posible objeción, y cierres con una conclusión razonada. Debes escribir un texto de entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Carta al director sobre el ruido nocturno",
+    "prompt": "Tarea de expresión escrita (DELE B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "carta-al-director-ruido",
+    "guidanceNote": "Busca un tono cívico y persuasivo propio de una carta al director; premia la claridad de la denuncia, la propuesta de medidas y la corrección gramatical en subjuntivo y condicional.",
+    "payload": {
+      "situation": "En tu barrio de Montevideo el ocio nocturno ha convertido las noches de fin de semana en un problema de descanso para los vecinos. Un periódico local publica cartas de lectores.",
+      "instruction": "Escribe una carta al director en la que describas la situación, expliques cómo afecta a la comunidad y propongas medidas que las autoridades podrían adoptar. Debes escribir un texto de entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Solicitud de una beca cultural",
+    "prompt": "Tarea de expresión escrita (DELE B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "carta-solicitud-beca",
+    "guidanceNote": "Premia la adecuación a una carta de solicitud: presentación, motivación y méritos ordenados; valora fórmulas formales correctas y un léxico preciso para describir la trayectoria personal.",
+    "payload": {
+      "situation": "Una fundación de Ciudad de México ofrece becas para asistir a un taller de escritura creativa. Debes presentar tu candidatura por carta.",
+      "instruction": "Escribe una carta formal solicitando la beca: preséntate, explica por qué te interesa el taller, describe tu experiencia relacionada y justifica por qué mereces la ayuda. Debes escribir un texto de entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Artículo: la moda de las ciudades sin coches",
+    "prompt": "Tarea de expresión escrita (DELE B2).",
+    "difficulty": "CORE",
+    "topicTag": "articulo-ciudades-sin-coches",
+    "guidanceNote": "Valora el tono divulgativo de un artículo de revista, con título sugerente y ejemplos; premia la riqueza léxica sobre movilidad y la cohesión entre ventajas e inconvenientes.",
+    "payload": {
+      "situation": "Una revista de urbanismo dirigida a jóvenes lectores hispanoamericanos te pide un artículo breve sobre la tendencia de restringir los coches en los centros urbanos.",
+      "instruction": "Escribe un artículo para la revista en el que presentes el tema, comentes ventajas e inconvenientes de las ciudades sin coches y expreses tu valoración personal. Debes escribir un texto de entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Correo de propuesta para un viaje de equipo",
+    "prompt": "Tarea de expresión escrita (DELE B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "correo-propuesta-viaje",
+    "guidanceNote": "Premia la adecuación a un correo formal de propuesta: saludo, planteamiento, detalles organizados y cierre; valora la claridad de las ventajas expuestas y la corrección en el registro semiformal.",
+    "payload": {
+      "situation": "Trabajas en una pequeña empresa de Santiago de Chile y quieres proponer a tu responsable un viaje de convivencia para el equipo.",
+      "instruction": "Escribe un correo formal a tu responsable en el que propongas el viaje, expliques sus beneficios para el equipo, sugieras un destino y unas fechas, y pidas su valoración. Debes escribir un texto de entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Ensayo a partir de un gráfico de lectura",
+    "prompt": "Tarea de expresión escrita (DELE B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "ensayo-grafico-lectura",
+    "guidanceNote": "Valora que el candidato interprete el dato del estímulo antes de opinar; premia la argumentación causal, los conectores de consecuencia y un léxico variado sobre hábitos culturales.",
+    "payload": {
+      "situation": "Un estudio señala que en varios países hispanohablantes solo el 40% de los jóvenes lee un libro al año por placer. Una plataforma educativa recoge opiniones de sus usuarios.",
+      "instruction": "Escribe un texto argumentativo en el que comentes el dato, expliques a qué crees que se debe esa situación y propongas ideas para fomentar la lectura entre los jóvenes. Debes escribir un texto de entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Reclamación por un pedido dañado",
+    "prompt": "Tarea de expresión escrita (DELE B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "carta-reclamacion-pedido",
+    "guidanceNote": "Premia la exposición ordenada de los hechos y una petición clara de compensación; valora las fórmulas de cortesía y la precisión al describir el producto y el problema.",
+    "payload": {
+      "situation": "Compraste por internet un mueble a una tienda de Lima y llegó con varias piezas rotas y sin instrucciones de montaje.",
+      "instruction": "Escribe una carta formal de reclamación a la tienda: identifica tu pedido, describe el estado en que llegó, explica las molestias causadas y solicita una solución concreta. Debes escribir un texto de entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Opinión sobre una cita de progreso",
+    "prompt": "Tarea de expresión escrita (DELE B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "ensayo-cita-progreso",
+    "guidanceNote": "Valora la capacidad de dialogar con la cita, matizar y ejemplificar; premia el subjuntivo en la expresión de opinión y un léxico abstracto bien empleado.",
+    "payload": {
+      "situation": "Un blog cultural propone reflexionar sobre esta cita: 'El progreso no consiste en tener más, sino en necesitar menos'. Invita a los lectores a responder por escrito.",
+      "instruction": "Escribe un texto de opinión en el que expliques cómo interpretas la cita, digas si estás de acuerdo, aportes argumentos con ejemplos y cierres con una reflexión. Debes escribir un texto de entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Carta de solicitud de prácticas",
+    "prompt": "Tarea de expresión escrita (DELE B2).",
+    "difficulty": "CORE",
+    "topicTag": "carta-solicitud-practicas",
+    "guidanceNote": "Premia la adecuación a una carta de presentación profesional: motivación, competencias y disponibilidad; valora la corrección en tiempos verbales y un léxico laboral preciso.",
+    "payload": {
+      "situation": "Una empresa de comunicación de Buenos Aires ofrece plazas de prácticas para estudiantes y solicita una carta de motivación.",
+      "instruction": "Escribe una carta formal solicitando las prácticas: preséntate, explica por qué te interesa la empresa, describe qué puedes aportar y muestra tu disponibilidad. Debes escribir un texto de entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Artículo sobre el turismo masivo",
+    "prompt": "Tarea de expresión escrita (DELE B2).",
+    "difficulty": "CORE",
+    "topicTag": "articulo-turismo-masivo",
+    "guidanceNote": "Valora el equilibrio entre impacto económico y social; premia la organización en ventajas e inconvenientes y un léxico rico sobre economía local y sostenibilidad.",
+    "payload": {
+      "situation": "Una revista de viajes te pide un artículo sobre los efectos del turismo masivo en ciudades históricas como Cartagena de Indias o Granada.",
+      "instruction": "Escribe un artículo para la revista en el que presentes el fenómeno, expongas sus efectos positivos y negativos para los habitantes y termines con tu valoración. Debes escribir un texto de entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Correo de propuesta de mejora vecinal",
+    "prompt": "Tarea de expresión escrita (DELE B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "correo-propuesta-vecinal",
+    "guidanceNote": "Premia la claridad de la propuesta y la anticipación de objeciones; valora el registro semiformal cortés y la cohesión entre problema, propuesta y beneficios.",
+    "payload": {
+      "situation": "En tu comunidad de vecinos de Valencia el patio interior está descuidado y quieres proponer a la administradora convertirlo en una zona común útil.",
+      "instruction": "Escribe un correo formal a la administradora en el que expongas el estado actual del patio, propongas tu idea, expliques sus ventajas para los vecinos y pidas que se estudie en la próxima reunión. Debes escribir un texto de entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "¿Deberían prohibirse los móviles en clase?",
+    "prompt": "Tarea de expresión escrita (DELE B2).",
+    "difficulty": "CORE",
+    "topicTag": "ensayo-moviles-clase",
+    "guidanceNote": "Valora la defensa razonada de una postura y la refutación de la contraria; premia los conectores argumentativos y un léxico educativo variado sin repeticiones.",
+    "payload": {
+      "situation": "Un periódico escolar de Quito abre un debate con el titular '¿Deberían prohibirse los móviles en las aulas?' y pide la colaboración de sus lectores.",
+      "instruction": "Escribe un texto argumentativo en el que fijes tu postura sobre la prohibición, la defiendas con argumentos, rebatas una objeción y concluyas. Debes escribir un texto de entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Reclamación a una compañía aérea",
+    "prompt": "Tarea de expresión escrita (DELE B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "carta-reclamacion-vuelo",
+    "guidanceNote": "Premia el tono firme pero cortés y la exposición cronológica de los hechos; valora la precisión al reclamar derechos y compensaciones y la corrección en oraciones complejas.",
+    "payload": {
+      "situation": "Tu vuelo de San José a Panamá se canceló sin aviso y la aerolínea no te ofreció alojamiento ni información durante horas de espera en el aeropuerto.",
+      "instruction": "Escribe una carta formal de reclamación a la compañía aérea: expón lo sucedido en orden, describe los perjuicios y solicita una compensación concreta. Debes escribir un texto de entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Artículo sobre la comida rápida entre jóvenes",
+    "prompt": "Tarea de expresión escrita (DELE B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "articulo-comida-rapida",
+    "guidanceNote": "Valora el tono cercano de revista juvenil y la aportación de ejemplos cotidianos; premia el léxico sobre alimentación y salud y una conclusión personal clara.",
+    "payload": {
+      "situation": "Una revista para adolescentes de habla hispana prepara un número sobre hábitos alimentarios y te pide un artículo sobre el consumo de comida rápida entre los jóvenes.",
+      "instruction": "Escribe un artículo para la revista en el que describas el fenómeno, expliques sus causas y consecuencias, y ofrezcas alguna recomendación. Debes escribir un texto de entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Opinión sobre las redes y la privacidad",
+    "prompt": "Tarea de expresión escrita (DELE B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "ensayo-redes-privacidad",
+    "guidanceNote": "Premia el análisis matizado del dilema entre exposición y privacidad; valora el subjuntivo en hipótesis, los conectores concesivos y un léxico digital preciso.",
+    "payload": {
+      "situation": "Una plataforma de debate lanza esta afirmación: 'En las redes sociales hemos aceptado ceder nuestra privacidad a cambio de comodidad'. Piden respuestas argumentadas.",
+      "instruction": "Escribe un texto argumentativo en el que reacciones a la afirmación, expliques tu postura con argumentos y ejemplos, contemples una objeción y cierres con una conclusión. Debes escribir un texto de entre 150 y 180 palabras.",
+      "wordMin": 150,
+      "wordMax": 180
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Monólogo: el voluntariado juvenil",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "CORE",
+    "topicTag": "monologo-voluntariado",
+    "guidanceNote": "Valora la fluidez y eficacia comunicativa, la argumentación coherente y la riqueza léxica sobre solidaridad; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Prepara un monólogo a partir del titular 'Cada vez más jóvenes dedican su tiempo libre al voluntariado'. Explica por qué crees que ocurre, qué aporta a quienes participan y a la sociedad, y da tu opinión personal.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Negociar el destino de un viaje de estudios",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "CORE",
+    "topicTag": "negociacion-viaje-estudios",
+    "guidanceNote": "Premia la interacción negociadora, la justificación de preferencias y la reacción a propuestas; evaluar el mensaje y la fluidez, nunca el acento; atención a la eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Debes ponerte de acuerdo con un compañero sobre el destino del viaje de fin de curso: la playa en Cancún o una ruta cultural por Perú. Expón tu preferencia, defiéndela con argumentos, escucha la otra opción y trata de llegar a un acuerdo.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Valorar una noticia sobre la energía solar",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "valorar-noticia-energia-solar",
+    "guidanceNote": "Valora la comprensión del dato y una valoración razonada; premia la fluidez y el léxico sobre medio ambiente; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Comenta esta noticia: 'Un pueblo de Andalucía se abastece ya casi por completo con energía solar'. Explica qué te parece la iniciativa, qué ventajas y dificultades ves, y si crees que podría aplicarse en otros lugares.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Dilema: ayudar a un amigo en un examen",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "dilema-honestidad-examen",
+    "guidanceNote": "Premia la exposición del conflicto ético y la toma de postura razonada en conversación; evaluar el mensaje y la fluidez, nunca el acento; valora la eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Conversa sobre este dilema: un amigo muy cercano te pide que le pases las respuestas en un examen importante. Explica cómo actuarías, qué razones tendrías y qué consecuencias podría tener cada decisión.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Ventajas e inconvenientes de vivir en el extranjero",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "CORE",
+    "topicTag": "ventajas-vivir-extranjero",
+    "guidanceNote": "Valora el equilibrio entre pros y contras y una conclusión personal; premia el léxico sobre experiencias vitales; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Expón las ventajas e inconvenientes de irse a vivir a otro país durante una temporada. Comenta los aspectos personales, laborales y culturales, y termina explicando si a ti te gustaría hacerlo.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Monólogo: la publicidad dirigida a niños",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "monologo-publicidad-infantil",
+    "guidanceNote": "Premia la argumentación crítica y los matices; valora la fluidez y la riqueza léxica sobre consumo e infancia; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Prepara un monólogo sobre el tema 'La publicidad dirigida a los niños: ¿debería regularse más?'. Explica los riesgos que ves, los intereses en juego y defiende tu posición con argumentos.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Debatir una propuesta de horario laboral",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "CORE",
+    "topicTag": "debate-jornada-laboral",
+    "guidanceNote": "Valora la defensa de una propuesta y la respuesta a contraargumentos en interacción; evaluar el mensaje y la fluidez, nunca el acento; premia la eficacia comunicativa.",
+    "payload": {
+      "taskPrompt": "Debate con un compañero esta propuesta: implantar la semana laboral de cuatro días en tu empresa. Uno defiende la idea y otro plantea sus dudas; expón tus argumentos, responde a los del otro y buscad una postura común.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Valorar un dato sobre el uso del transporte público",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "valorar-dato-transporte",
+    "guidanceNote": "Premia la interpretación del dato y una opinión clara y organizada; valora el léxico sobre movilidad urbana; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Comenta este dato: 'En muchas capitales latinoamericanas, más de la mitad de los ciudadanos usa el transporte público a diario'. Explica qué te sugiere la cifra, qué ventajas e inconvenientes tiene y cómo mejorarías el servicio.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Monólogo: aprender idiomas de adulto",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "monologo-aprender-idiomas",
+    "guidanceNote": "Valora la fluidez y una estructura clara de ideas; premia el léxico sobre aprendizaje y motivación; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Prepara un monólogo sobre el tema 'Nunca es tarde para aprender un idioma'. Explica qué ventajas tiene estudiar lenguas siendo adulto, qué dificultades aparecen y qué consejos darías a alguien que empieza.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Resolver un desacuerdo sobre un regalo común",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "CORE",
+    "topicTag": "dilema-regalo-comun",
+    "guidanceNote": "Premia la negociación cortés y la capacidad de ceder o convencer; evaluar el mensaje y la fluidez, nunca el acento; valora la eficacia comunicativa en la interacción.",
+    "payload": {
+      "taskPrompt": "Tú y un compañero debéis elegir un regalo común para un amigo que se jubila: uno prefiere un viaje corto y el otro un objeto para su afición. Conversad, exponed vuestras razones y tratad de decidir juntos qué regalarle.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Monólogo: el deporte como hábito de vida",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "monologo-deporte-habito",
+    "guidanceNote": "Valora una exposición clara y la aportación de ejemplos personales; premia el léxico sobre salud y bienestar; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Prepara un monólogo a partir del tema 'Hacer deporte debería ser parte de la rutina diaria'. Explica qué beneficios aporta, por qué mucha gente no lo practica y qué haría falta para que fuera un hábito.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Valorar una noticia sobre huertos urbanos",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "CORE",
+    "topicTag": "valorar-noticia-huertos",
+    "guidanceNote": "Premia la valoración razonada y la conexión con la vida en la ciudad; valora el léxico sobre sostenibilidad; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Comenta esta noticia: 'Los huertos urbanos se multiplican en las azoteas de las grandes ciudades'. Explica qué te parece la tendencia, qué beneficios sociales y ambientales tiene y si participarías en un proyecto así.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Debatir la gratuidad de la universidad",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "debate-universidad-gratuita",
+    "guidanceNote": "Valora la argumentación sostenida y la refutación en interacción; evaluar el mensaje y la fluidez, nunca el acento; premia el léxico sobre educación y economía.",
+    "payload": {
+      "taskPrompt": "Debate con un compañero la propuesta 'La educación universitaria debería ser gratuita para todos'. Uno la defiende y otro señala sus problemas; expón tus argumentos, responde a los del otro y buscad puntos de acuerdo.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Ventajas e inconvenientes de las compras en línea",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ventajas-compras-online",
+    "guidanceNote": "Premia la organización en ventajas e inconvenientes y una conclusión personal; valora el léxico sobre consumo; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Expón las ventajas e inconvenientes de hacer las compras por internet en lugar de en tiendas físicas. Comenta aspectos como la comodidad, el precio, la confianza y el comercio local, y di qué prefieres tú.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Monólogo: el valor del tiempo libre",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "CORE",
+    "topicTag": "monologo-tiempo-libre",
+    "guidanceNote": "Valora la reflexión matizada y la fluidez sostenida; premia el léxico sobre ocio y bienestar; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Prepara un monólogo sobre el tema 'Dedicamos poco tiempo a descansar de verdad'. Explica por qué crees que ocurre, qué consecuencias tiene el ritmo de vida actual y cómo se podría aprovechar mejor el tiempo libre.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Resolver un dilema sobre mudarse por trabajo",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "dilema-mudanza-trabajo",
+    "guidanceNote": "Premia la exposición del conflicto entre carrera y vida personal y una decisión razonada en conversación; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Conversa sobre este dilema: te ofrecen un ascenso muy bueno, pero implica mudarte a otra ciudad y alejarte de tu familia. Explica cómo lo valorarías, qué factores pesarían más y qué decisión crees que tomarías.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Debatir el uso de la inteligencia artificial en el aula",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "STRETCH",
+    "topicTag": "debate-ia-educacion",
+    "guidanceNote": "Valora la argumentación crítica y la interacción equilibrada; evaluar el mensaje y la fluidez, nunca el acento; premia el léxico sobre tecnología y aprendizaje.",
+    "payload": {
+      "taskPrompt": "Debate con un compañero la propuesta de permitir el uso de herramientas de inteligencia artificial para hacer los trabajos escolares. Uno está a favor y otro en contra; expón tus argumentos, rebate los del otro y tratad de acercar posturas.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  },
+  {
+    "level": "B2",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Valorar un dato sobre el desperdicio de alimentos",
+    "prompt": "Tarea de expresión oral (DELE B2).",
+    "difficulty": "CORE",
+    "topicTag": "valorar-dato-desperdicio",
+    "guidanceNote": "Premia la interpretación del dato y propuestas concretas de mejora; valora el léxico sobre consumo responsable; evaluar el mensaje y la fluidez, nunca el acento.",
+    "payload": {
+      "taskPrompt": "Comenta este dato: 'Cada año se desperdicia una parte enorme de los alimentos que se producen'. Explica qué te sugiere la cifra, a qué crees que se debe el problema y qué medidas propondrías en los hogares y en los comercios.",
+      "prepSeconds": 180,
+      "speakSeconds": 150
+    }
+  }
+]

@@ -1,0 +1,578 @@
+[
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Presentarte por correo",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "presentarse",
+    "guidanceNote": "Premia adecuación a la tarea (se presenta: nombre, edad, ciudad) y corrección gramatical básica del presente. Coherencia con frases cortas enlazadas; no exijas riqueza léxica alta.",
+    "payload": {
+      "situation": "Tienes un nuevo amigo por correo electrónico que vive en Bogotá (Colombia). Quieres presentarte.",
+      "instruction": "Escribe un correo a tu amigo. Di cómo te llamas, cuántos años tienes y de dónde eres. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Apuntarse a un taller",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel A1).",
+    "difficulty": "CORE",
+    "topicTag": "apuntarse-actividad",
+    "guidanceNote": "Valora adecuación a la tarea (pide plaza y da un dato personal) y cohesión con conectores simples (y, también). Corrección del presente y fórmulas de saludo/despedida.",
+    "payload": {
+      "situation": "En un centro cultural de Ciudad de México hay un taller de cocina los sábados. Quieres apuntarte.",
+      "instruction": "Escribe un mensaje al centro. Di que quieres apuntarte al taller, di tu nombre y pregunta a qué hora es. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Pedir información del gimnasio",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel A1).",
+    "difficulty": "CORE",
+    "topicTag": "pedir-informacion",
+    "guidanceNote": "Premia adecuación (dos preguntas claras: horario y precio) y corrección de la interrogación. Coherencia con orden lógico; léxico básico de la vida diaria.",
+    "payload": {
+      "situation": "Quieres información sobre un gimnasio en Santiago de Chile. Escribes al gimnasio por internet.",
+      "instruction": "Escribe un mensaje al gimnasio. Saluda, pregunta por el horario y pregunta por el precio al mes. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Nota para la familia",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "nota-sencilla",
+    "guidanceNote": "Valora adecuación al formato de nota (informa y da una instrucción simple). Corrección de presente e imperativo básico; frases cortas y claras.",
+    "payload": {
+      "situation": "Vives con tu familia en Lima (Perú). Sales de casa y dejas una nota en la mesa.",
+      "instruction": "Escribe una nota. Di adónde vas, a qué hora vuelves y pide que compren pan. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Un día normal para mí",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel A1).",
+    "difficulty": "CORE",
+    "topicTag": "rutina-diaria",
+    "guidanceNote": "Premia cohesión temporal (por la mañana, después, por la noche) y uso correcto del presente. Adecuación: describe al menos tres momentos del día.",
+    "payload": {
+      "situation": "Un amigo de Buenos Aires (Argentina) quiere saber cómo es tu día normal.",
+      "instruction": "Escribe un mensaje. Cuenta qué haces por la mañana, por la tarde y por la noche un día normal. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Contestar a una invitación",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel A1).",
+    "difficulty": "CORE",
+    "topicTag": "responder-invitacion",
+    "guidanceNote": "Valora adecuación (acepta y confirma un detalle) y coherencia de la respuesta con el mensaje recibido. Corrección de fórmulas de agradecimiento sencillas.",
+    "payload": {
+      "situation": "Tu amiga Carmen, de Valencia (España), te invita a su cumpleaños el sábado.",
+      "instruction": "Escribe un mensaje a Carmen. Da las gracias, di que vas a la fiesta y pregunta a qué hora empieza. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Quedar para el cine",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel A1).",
+    "difficulty": "CORE",
+    "topicTag": "quedar-plan",
+    "guidanceNote": "Premia adecuación (propone plan, día y hora) y cohesión. Corrección de estructuras para proponer (¿quieres...?, ¿vamos...?) y del presente.",
+    "payload": {
+      "situation": "Quieres ir al cine con un amigo de Medellín (Colombia) este fin de semana.",
+      "instruction": "Escribe un mensaje a tu amigo. Propón ir al cine, di el día y la hora y pregunta si le gusta la idea. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Datos para la biblioteca",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "datos-personales",
+    "guidanceNote": "Valora adecuación (aporta los datos personales pedidos con claridad) y corrección ortográfica básica. Coherencia simple; no exijas conectores complejos.",
+    "payload": {
+      "situation": "Quieres hacerte el carné de una biblioteca en Sevilla (España). Escribes un correo con tus datos.",
+      "instruction": "Escribe un correo. Di tu nombre y apellido, tu dirección y tu número de teléfono, y pide el carné. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Presentar a mi familia",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel A1).",
+    "difficulty": "CORE",
+    "topicTag": "familia",
+    "guidanceNote": "Premia riqueza léxica básica de la familia (padre, madre, hermano) y corrección del presente y de los posesivos. Adecuación: presenta al menos a dos personas.",
+    "payload": {
+      "situation": "Un compañero de clase de Caracas (Venezuela) quiere conocer a tu familia.",
+      "instruction": "Escribe un mensaje. Habla de dos personas de tu familia: di quiénes son, cómo se llaman y qué hacen. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Aviso: llego tarde",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "mensaje-disculpa",
+    "guidanceNote": "Valora adecuación (avisa, se disculpa y da la nueva hora) y corrección de fórmulas de disculpa sencillas. Coherencia con causa simple.",
+    "payload": {
+      "situation": "Has quedado con un amigo en un café de Guadalajara (México), pero vas a llegar tarde.",
+      "instruction": "Escribe un mensaje a tu amigo. Di que llegas tarde, pide perdón y di a qué hora llegas. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Mi ciudad favorita",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "describir-ciudad",
+    "guidanceNote": "Premia alcance léxico (lugares de la ciudad) y cohesión con hay/está. Corrección del presente y de adjetivos. Adecuación: describe y da una opinión simple.",
+    "payload": {
+      "situation": "Escribes en un foro de estudiantes sobre la ciudad donde vives, Rosario (Argentina).",
+      "instruction": "Escribe un texto sobre tu ciudad. Di cómo es, qué lugares hay y por qué te gusta. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Pedir comida por mensaje",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel A1).",
+    "difficulty": "CORE",
+    "topicTag": "pedir-comida",
+    "guidanceNote": "Valora adecuación (hace un pedido claro y da la dirección) y corrección de cantidades y del presente. Léxico básico de comida y bebida.",
+    "payload": {
+      "situation": "Quieres pedir comida a domicilio a un restaurante de Quito (Ecuador) por mensaje.",
+      "instruction": "Escribe un mensaje al restaurante. Pide dos platos y una bebida, y di tu dirección. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Correo a un hotel",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "reservar-hotel",
+    "guidanceNote": "Premia adecuación (reserva con fechas y número de personas) y corrección de fechas y números. Cohesión con fórmulas de correo formal sencillas.",
+    "payload": {
+      "situation": "Quieres reservar una habitación en un hotel de Cartagena (Colombia) para tus vacaciones.",
+      "instruction": "Escribe un correo al hotel. Di para qué días quieres la habitación, cuántas personas sois y pide el precio. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Cambiar la hora de la cita",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "cambiar-plan",
+    "guidanceNote": "Valora adecuación (pide cambiar día u hora y propone otra opción) y coherencia con el plan original. Corrección de estructuras para proponer y disculparse.",
+    "payload": {
+      "situation": "Habías quedado con una compañera para estudiar en la Universidad de Salamanca (España), pero no puedes ir ese día.",
+      "instruction": "Escribe un mensaje a tu compañera. Di que no puedes ese día, pide perdón y propón otro día y otra hora. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Mensaje desde las vacaciones",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel A1).",
+    "difficulty": "CORE",
+    "topicTag": "vacaciones",
+    "guidanceNote": "Premia alcance léxico de viaje y tiempo libre, y cohesión. Corrección del presente. Adecuación: cuenta dónde está y qué hace.",
+    "payload": {
+      "situation": "Estás de vacaciones en la playa de Viña del Mar (Chile) y escribes a un amigo.",
+      "instruction": "Escribe un mensaje a tu amigo. Di dónde estás, con quién estás y qué haces cada día. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "SIELE",
+    "title": "Presentarme en el trabajo",
+    "prompt": "Tarea de expresión escrita (SIELE, nivel A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "presentarse-trabajo",
+    "guidanceNote": "Valora adecuación (se presenta en contexto laboral: nombre, puesto, un dato) y registro un poco más cuidado. Corrección del presente y del léxico de trabajo.",
+    "payload": {
+      "situation": "Es tu primer día en una empresa de Monterrey (México). Escribes un correo corto a tu nuevo equipo.",
+      "instruction": "Escribe un correo al equipo. Saluda, di tu nombre, di en qué trabajas y di que estás contento de empezar. Escribe entre 25 y 40 palabras.",
+      "wordMin": 25,
+      "wordMax": 40
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Hablar de ti",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "preguntas-personales",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia adecuación (responde nombre, edad, origen) y corrección básica del presente; frases cortas bien enlazadas.",
+    "payload": {
+      "taskPrompt": "Preséntate. Di cómo te llamas, cuántos años tienes, de dónde eres y dónde vives ahora. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Describir una foto de parque",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "CORE",
+    "topicTag": "describir-imagen",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia léxico básico (personas, lugares) y uso de hay/está. Adecuación: describe lo que ve, no interpreta.",
+    "payload": {
+      "taskPrompt": "Imagina una foto de un parque en Ciudad de México: hay personas, árboles y niños jugando. Describe qué ves y qué hacen las personas. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Mi plato preferido",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "gustos-comida",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia el uso de gustar y léxico de comida. Adecuación: dice qué le gusta y por qué de forma simple.",
+    "payload": {
+      "taskPrompt": "Habla de la comida que te gusta. Di qué comida te gusta más, cuándo la comes y con quién. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Mi rutina de la mañana",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "CORE",
+    "topicTag": "rutina-diaria",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia cohesión temporal (primero, después, luego) y presente. Adecuación: describe varias acciones de la mañana.",
+    "payload": {
+      "taskPrompt": "Cuenta qué haces cada mañana antes de salir de casa. Di a qué hora te levantas y qué haces después. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Mi familia",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "CORE",
+    "topicTag": "familia",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia léxico de la familia y posesivos. Adecuación: presenta a dos o tres personas con un dato de cada una.",
+    "payload": {
+      "taskPrompt": "Habla de tu familia. Di cuántas personas sois, quiénes son y qué hace cada una. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Responder a un amigo",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "CORE",
+    "topicTag": "responder-mensaje",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia adecuación (responde a lo que se pregunta) y coherencia con la situación. Corrección de respuestas sencillas.",
+    "payload": {
+      "taskPrompt": "Un amigo de Bogotá te deja este mensaje: \"¿Qué vas a hacer este fin de semana?\". Contéstale: di qué planes tienes y pregúntale por los suyos. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Opinar sobre el deporte",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "opinion-tema",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia expresión de opinión simple (creo que, me gusta) y una razón. Adecuación al tema; no exijas argumentación compleja.",
+    "payload": {
+      "taskPrompt": "Habla sobre el deporte. Di si te gusta hacer deporte, qué deporte prefieres y por qué. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Pedir en la cafetería",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "CORE",
+    "topicTag": "situacion-cotidiana",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia fórmulas de cortesía (por favor, gracias) y adecuación a la situación de pedir. Corrección del presente y de cantidades.",
+    "payload": {
+      "taskPrompt": "Estás en una cafetería en Lima. Imagina que hablas con el camarero: saluda, pide una bebida y algo de comer, y pregunta cuánto es. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Mi tiempo libre",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "tiempo-libre",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia léxico de aficiones y el presente. Adecuación: menciona dos o tres actividades y cuándo las hace.",
+    "payload": {
+      "taskPrompt": "Habla de tu tiempo libre. Di qué te gusta hacer los fines de semana y con quién. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Describir mi casa",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "CORE",
+    "topicTag": "describir-casa",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia léxico de la casa y uso de hay/tener. Adecuación: describe habitaciones y una preferencia.",
+    "payload": {
+      "taskPrompt": "Describe tu casa o tu habitación. Di cómo es, qué habitaciones o muebles hay y qué parte te gusta más. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Preguntar por una calle",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "situacion-calle",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia fórmulas para pedir información y adecuación a la situación. Corrección de preguntas y de cortesía.",
+    "payload": {
+      "taskPrompt": "Estás en la calle en Buenos Aires y buscas una estación de metro. Imagina que hablas con una persona: salúdala, pregunta dónde está la estación y da las gracias. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Describir una foto de mercado",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "describir-imagen",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia léxico de comida y colores y uso de hay. Adecuación: describe lo que se ve en la escena con frases cortas.",
+    "payload": {
+      "taskPrompt": "Imagina una foto de un mercado en Oaxaca (México): hay puestos con frutas, verduras y gente comprando. Describe qué ves, qué productos hay y qué hacen las personas. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Mis planes de mañana",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "CORE",
+    "topicTag": "planes-futuro",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia el uso de ir a + infinitivo y cohesión temporal. Adecuación: cuenta al menos dos planes.",
+    "payload": {
+      "taskPrompt": "Habla de tus planes para mañana. Di qué vas a hacer, a qué hora y con quién. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Invitar a un amigo",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "exponer-proponer",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia estructuras para proponer e invitar y adecuación (plan, día, hora). Corrección de las formas de invitación.",
+    "payload": {
+      "taskPrompt": "Quieres invitar a un amigo a hacer algo el domingo en Santiago de Chile. Propón un plan: di qué actividad, dónde y a qué hora, y pídele que venga. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "El tiempo hoy",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "tiempo-clima",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia léxico del clima y las estaciones y el presente. Adecuación: describe el tiempo y una preferencia.",
+    "payload": {
+      "taskPrompt": "Habla del tiempo. Di qué tiempo hace hoy donde vives, qué estación del año te gusta más y por qué. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Opinar sobre estudiar idiomas",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "STRETCH",
+    "topicTag": "opinion-tema",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia opinión simple con una razón y léxico de estudio. Adecuación al tema; frases cortas y claras bastan en A1.",
+    "payload": {
+      "taskPrompt": "Habla sobre aprender idiomas. Di por qué estudias español, si te parece fácil o difícil y para qué te sirve. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Comprar ropa en la tienda",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "CORE",
+    "topicTag": "situacion-compras",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia léxico de ropa y colores y fórmulas de compra. Adecuación a la situación de comprar; corrección del presente.",
+    "payload": {
+      "taskPrompt": "Estás en una tienda de ropa en Madrid. Imagina que hablas con el vendedor: di qué prenda buscas, di la talla o el color y pregunta el precio. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Responder una invitacion oral",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "CORE",
+    "topicTag": "responder-mensaje",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia coherencia con el mensaje recibido (aceptar y preguntar un detalle) y fórmulas de agradecimiento. Corrección básica.",
+    "payload": {
+      "taskPrompt": "Una amiga de Cali (Colombia) te dice: \"El sábado hago una cena en mi casa, ¿vienes?\". Respóndele: di que vas, da las gracias y pregunta qué puedes llevar. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  },
+  {
+    "level": "A1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "SIELE",
+    "title": "Mi trabajo o mis estudios",
+    "prompt": "Tarea de expresión oral (SIELE, nivel A1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "trabajo-estudios",
+    "guidanceNote": "Evalúa el mensaje y la fluidez, nunca el acento. Premia léxico de trabajo y estudios y el presente. Adecuación: dice qué hace, dónde y un horario.",
+    "payload": {
+      "taskPrompt": "Habla de tu trabajo o de tus estudios. Di qué haces, dónde y a qué hora empiezas y terminas. Habla durante un minuto.",
+      "prepSeconds": 60,
+      "speakSeconds": 60
+    }
+  }
+]

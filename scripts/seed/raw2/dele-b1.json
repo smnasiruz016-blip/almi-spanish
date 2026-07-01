@@ -1,0 +1,562 @@
+[
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Queja sobre el ruido del vecindario",
+    "prompt": "Tarea de expresión escrita (DELE B1).",
+    "difficulty": "CORE",
+    "topicTag": "carta-queja-ruido",
+    "guidanceNote": "Valorar adecuación al registro semiformal de queja, coherencia entre el problema y la petición, corrección gramatical y riqueza léxica al describir molestias; nunca ofrecer un modelo de respuesta.",
+    "payload": {
+      "situation": "Vives en un edificio de apartamentos en Montevideo y desde hace semanas los vecinos del piso de arriba hacen mucho ruido por las noches. Decides escribir a la administradora del edificio.",
+      "instruction": "Escribe un correo a la administradora. Preséntate y explica dónde vives, describe el problema del ruido y cómo te afecta, y pide una solución de forma educada. Debes escribir un texto de entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Solicitud de información sobre un curso",
+    "prompt": "Tarea de expresión escrita (DELE B1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "correo-solicitud-curso",
+    "guidanceNote": "Valorar adecuación a la tarea de solicitar datos concretos, cohesión mediante conectores sencillos, corrección en las preguntas y variedad léxica; no proporcionar una respuesta modelo.",
+    "payload": {
+      "situation": "Has visto un anuncio de una escuela de cocina en Lima que ofrece cursos de fin de semana. Quieres apuntarte pero necesitas más información.",
+      "instruction": "Escribe un correo a la escuela. Saluda, explica qué curso te interesa y por qué, y pide información sobre el horario, el precio y el material necesario. Despídete de forma adecuada. Debes escribir un texto de entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Invitación a una fiesta de despedida",
+    "prompt": "Tarea de expresión escrita (DELE B1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "correo-invitacion-despedida",
+    "guidanceNote": "Valorar adecuación al registro cercano de invitación, coherencia entre la información práctica y el tono, corrección gramatical y léxico apropiado para eventos; evitar cualquier modelo de respuesta.",
+    "payload": {
+      "situation": "Un compañero de trabajo se muda a otra ciudad y quieres organizar una pequeña fiesta de despedida. Escribes a tus amigos del trabajo.",
+      "instruction": "Escribe un correo a tus compañeros. Explica el motivo de la fiesta, indica el día, la hora y el lugar, y pide que confirmen su asistencia y que aporten algo de comida o bebida. Debes escribir un texto de entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Agradecimiento por una estancia",
+    "prompt": "Tarea de expresión escrita (DELE B1).",
+    "difficulty": "CORE",
+    "topicTag": "carta-agradecimiento-estancia",
+    "guidanceNote": "Valorar adecuación al propósito de agradecer, coherencia al recordar experiencias concretas, corrección en tiempos de pasado y riqueza léxica de sentimientos; no incluir respuesta modelo.",
+    "payload": {
+      "situation": "Pasaste dos semanas en casa de una familia en Sevilla durante un intercambio. Al volver, quieres darles las gracias por su hospitalidad.",
+      "instruction": "Escribe una carta a la familia. Agradece su acogida, recuerda algún momento que te gustó especialmente y explica qué aprendiste durante la estancia. Invítalos a visitarte algún día. Debes escribir un texto de entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Opinión sobre el transporte público",
+    "prompt": "Tarea de expresión escrita (DELE B1).",
+    "difficulty": "CORE",
+    "topicTag": "redaccion-opinion-transporte",
+    "guidanceNote": "Valorar adecuación a la tarea de opinar con argumentos, cohesión entre ideas mediante conectores, corrección gramatical al expresar opinión y variedad de vocabulario; nunca dar un modelo de respuesta.",
+    "payload": {
+      "situation": "La revista de tu ciudad, en Bogotá, ha pedido a sus lectores que escriban sobre el transporte público y cómo mejorarlo.",
+      "instruction": "Escribe un texto de opinión para la revista. Explica cómo usas el transporte público, di qué ventajas y problemas tiene, y propón dos ideas para mejorarlo. Debes escribir un texto de entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Correo sobre las próximas vacaciones",
+    "prompt": "Tarea de expresión escrita (DELE B1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "correo-planes-vacaciones",
+    "guidanceNote": "Valorar adecuación al propósito de contar planes, coherencia temporal, corrección en el uso del futuro y del presente, y léxico de viajes; evitar respuestas modelo.",
+    "payload": {
+      "situation": "Un amigo tuyo que vive en Costa Rica te ha preguntado por correo qué vas a hacer en tus próximas vacaciones.",
+      "instruction": "Escribe un correo a tu amigo. Cuéntale adónde piensas ir, con quién y por qué has elegido ese lugar, y describe qué actividades quieres hacer allí. Pregúntale también por sus planes. Debes escribir un texto de entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Respuesta a un anuncio de trabajo",
+    "prompt": "Tarea de expresión escrita (DELE B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "correo-respuesta-anuncio-trabajo",
+    "guidanceNote": "Valorar adecuación al registro formal de candidatura, coherencia al presentar experiencia, corrección gramatical y precisión léxica del ámbito laboral; no ofrecer modelo de respuesta.",
+    "payload": {
+      "situation": "Una cafetería en Ciudad de México ha publicado un anuncio buscando camareros para el verano. Quieres presentarte al puesto.",
+      "instruction": "Escribe un correo respondiendo al anuncio. Preséntate, explica por qué te interesa el trabajo, describe tu experiencia y tu disponibilidad, y pide una entrevista. Usa un registro formal. Debes escribir un texto de entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Queja por un pedido equivocado",
+    "prompt": "Tarea de expresión escrita (DELE B1).",
+    "difficulty": "CORE",
+    "topicTag": "correo-queja-pedido",
+    "guidanceNote": "Valorar adecuación al propósito de reclamar con cortesía, coherencia entre el problema y la solución pedida, corrección gramatical y léxico de compras en línea; nunca incluir respuesta modelo.",
+    "payload": {
+      "situation": "Compraste unos zapatos por internet en una tienda española, pero al abrir el paquete descubres que te han enviado una talla y un color equivocados.",
+      "instruction": "Escribe un correo al servicio de atención al cliente. Explica qué pediste y qué has recibido, describe el problema y pide una solución (cambio o devolución del dinero). Mantén un tono educado. Debes escribir un texto de entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Opinión sobre las redes sociales",
+    "prompt": "Tarea de expresión escrita (DELE B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "redaccion-opinion-redes",
+    "guidanceNote": "Valorar adecuación a la tarea de argumentar ventajas y desventajas, cohesión mediante conectores contrastivos, corrección gramatical y riqueza léxica sobre tecnología; evitar cualquier modelo de respuesta.",
+    "payload": {
+      "situation": "En el foro de tu centro de estudios en Santiago de Chile se ha abierto un debate sobre el uso de las redes sociales entre los jóvenes.",
+      "instruction": "Escribe un comentario para el foro. Explica cómo usas tú las redes sociales, comenta dos ventajas y dos inconvenientes, y da tu opinión sobre si ayudan o perjudican a las personas. Debes escribir un texto de entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Correo contando una mala experiencia",
+    "prompt": "Tarea de expresión escrita (DELE B1).",
+    "difficulty": "CORE",
+    "topicTag": "correo-experiencia-viaje",
+    "guidanceNote": "Valorar adecuación al propósito de narrar, coherencia temporal del relato, corrección en los tiempos de pasado y léxico variado de emociones; no proporcionar respuesta modelo.",
+    "payload": {
+      "situation": "Durante un viaje en autobús por Argentina tuviste un problema (un retraso muy largo) y quieres contárselo a una amiga por correo.",
+      "instruction": "Escribe un correo a tu amiga. Cuéntale adónde ibas, explica qué pasó durante el viaje y cómo te sentiste, y di cómo terminó la situación. Debes escribir un texto de entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Solicitud de cambio de horario",
+    "prompt": "Tarea de expresión escrita (DELE B1).",
+    "difficulty": "CORE",
+    "topicTag": "correo-solicitud-horario",
+    "guidanceNote": "Valorar adecuación al registro semiformal de solicitud, coherencia entre el motivo y la petición, corrección gramatical y léxico apropiado; nunca ofrecer un modelo de respuesta.",
+    "payload": {
+      "situation": "Estudias español en una academia de Salamanca y necesitas cambiar tus clases de la mañana a la tarde por motivos de trabajo.",
+      "instruction": "Escribe un correo a la secretaría de la academia. Explica tu situación y el motivo del cambio, pide pasar a un grupo de tarde y pregunta si hay plazas disponibles. Debes escribir un texto de entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Opinión sobre trabajar desde casa",
+    "prompt": "Tarea de expresión escrita (DELE B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "redaccion-opinion-teletrabajo",
+    "guidanceNote": "Valorar adecuación a la tarea de opinar con argumentos personales, cohesión entre ideas, corrección gramatical y riqueza léxica del ámbito laboral; evitar respuestas modelo.",
+    "payload": {
+      "situation": "Un blog sobre el mundo del trabajo ha invitado a sus lectores a opinar sobre las ventajas y desventajas de trabajar desde casa.",
+      "instruction": "Escribe un texto para el blog. Explica qué piensas sobre el teletrabajo, comenta sus ventajas y sus inconvenientes con ejemplos, y di si a ti te gustaría trabajar así. Debes escribir un texto de entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Correo para proponer un plan de fin de semana",
+    "prompt": "Tarea de expresión escrita (DELE B1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "correo-propuesta-plan",
+    "guidanceNote": "Valorar adecuación al propósito de proponer y quedar, coherencia de la información práctica, corrección gramatical y léxico de ocio; no incluir modelo de respuesta.",
+    "payload": {
+      "situation": "Una amiga tuya de Quito viene a pasar el fin de semana a tu ciudad y quieres proponerle un plan.",
+      "instruction": "Escribe un correo a tu amiga. Propón dos o tres actividades para el fin de semana, explica por qué crees que le van a gustar y sugiere dónde y a qué hora quedar. Pídele que te dé su opinión. Debes escribir un texto de entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Respuesta a un anuncio de intercambio de casa",
+    "prompt": "Tarea de expresión escrita (DELE B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "correo-respuesta-intercambio-casa",
+    "guidanceNote": "Valorar adecuación a la tarea de responder a un anuncio con datos concretos, coherencia al describir tu vivienda, corrección gramatical y precisión léxica; nunca dar respuesta modelo.",
+    "payload": {
+      "situation": "Has visto en una web un anuncio de una familia de Panamá que quiere intercambiar su casa durante las vacaciones. Te interesa la oferta.",
+      "instruction": "Escribe un correo a la familia. Preséntate, describe tu casa y tu ciudad, explica las fechas que te interesan y pregunta por los detalles del intercambio. Debes escribir un texto de entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Opinión sobre la comida rápida",
+    "prompt": "Tarea de expresión escrita (DELE B1).",
+    "difficulty": "CORE",
+    "topicTag": "redaccion-opinion-comida-rapida",
+    "guidanceNote": "Valorar adecuación a la tarea de opinar sobre un tema cotidiano, cohesión mediante conectores, corrección gramatical y riqueza léxica de hábitos y alimentación; evitar cualquier modelo de respuesta.",
+    "payload": {
+      "situation": "La revista de salud de tu barrio, en San Juan, ha pedido opiniones sobre los hábitos de comida rápida entre la gente joven.",
+      "instruction": "Escribe un texto para la revista. Explica con qué frecuencia comes comida rápida y por qué, comenta sus ventajas e inconvenientes y da tu opinión sobre cómo comer de forma más sana. Debes escribir un texto de entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ESCRITA",
+    "taskType": "WRITING_TASK",
+    "examFamily": "DELE",
+    "title": "Carta pidiendo disculpas a un amigo",
+    "prompt": "Tarea de expresión escrita (DELE B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "carta-disculpa-amigo",
+    "guidanceNote": "Valorar adecuación al propósito de disculparse, coherencia entre la explicación y la propuesta de arreglo, corrección gramatical y léxico de sentimientos; no incluir respuesta modelo.",
+    "payload": {
+      "situation": "Olvidaste el cumpleaños de un buen amigo que vive en La Paz y no fuiste a su fiesta. Quieres disculparte por escrito.",
+      "instruction": "Escribe una carta a tu amigo. Discúlpate, explica por qué no fuiste, cuéntale cómo te sientes por lo ocurrido y propón una forma de compensarlo. Debes escribir un texto de entre 100 y 130 palabras.",
+      "wordMin": 100,
+      "wordMax": 130
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Monólogo sobre el tiempo libre",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "monologo-tiempo-libre",
+    "guidanceNote": "Valorar adecuación a la tarea, coherencia y cohesión del discurso, corrección y alcance gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, y no ofrecer un modelo de respuesta.",
+    "payload": {
+      "taskPrompt": "Habla sobre qué haces en tu tiempo libre. Explica qué actividades te gustan más, con quién las haces y por qué son importantes para ti. Di también si te gustaría tener más tiempo libre y en qué lo emplearías.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Describir una foto de un mercado",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "CORE",
+    "topicTag": "describir-foto-mercado",
+    "guidanceNote": "Valorar adecuación a la tarea de describir e imaginar, coherencia y cohesión, corrección gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, sin dar respuesta modelo.",
+    "payload": {
+      "taskPrompt": "Imagina una fotografía de un mercado callejero en una ciudad hispana, con muchos puestos de fruta y gente comprando. Descríbela: di cómo son las personas, qué hacen, qué ropa llevan y cómo crees que se sienten. Después explica si te gusta comprar en mercados como este y por qué.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Situación: cambiar una entrada de cine",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "CORE",
+    "topicTag": "situacion-cambiar-entrada",
+    "guidanceNote": "Valorar adecuación al registro de la situación simulada, coherencia en la resolución del problema, corrección gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, sin modelo de respuesta.",
+    "payload": {
+      "taskPrompt": "Compraste dos entradas para el cine, pero al final no puedes ir ese día. Habla con el empleado de la taquilla (el examinador) para explicarle tu problema, pedir un cambio de día o la devolución del dinero y llegar a un acuerdo. Sé educado y da tus razones.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Comparar dos formas de viajar",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "comparar-formas-viajar",
+    "guidanceNote": "Valorar adecuación a la tarea de comparar y valorar, coherencia y cohesión entre argumentos, corrección gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, sin respuesta modelo.",
+    "payload": {
+      "taskPrompt": "Compara viajar en avión con viajar en autobús para recorrer un país. Habla de las ventajas y desventajas de cada opción (precio, tiempo, comodidad, paisaje) y explica cuál prefieres tú y por qué.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Monólogo sobre aprender idiomas",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "CORE",
+    "topicTag": "monologo-aprender-idiomas",
+    "guidanceNote": "Valorar adecuación a la tarea de exponer una opinión, coherencia y cohesión, corrección gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, sin ofrecer modelo de respuesta.",
+    "payload": {
+      "taskPrompt": "Habla sobre la importancia de aprender idiomas. Explica por qué crees que es útil, qué idiomas te gustaría aprender y por qué, y cuenta qué métodos te parecen mejores para estudiar una lengua.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Describir una foto de una cena familiar",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "CORE",
+    "topicTag": "describir-foto-cena-familiar",
+    "guidanceNote": "Valorar adecuación a la tarea de describir e interpretar, coherencia y cohesión, corrección gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, sin respuesta modelo.",
+    "payload": {
+      "taskPrompt": "Imagina una fotografía de una familia grande cenando junta en una terraza al aire libre. Descríbela: quiénes crees que son, qué están comiendo, de qué hablan y cómo es el ambiente. Después cuenta cómo son las comidas familiares en tu casa.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Situación: organizar un viaje con un amigo",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "situacion-negociar-viaje",
+    "guidanceNote": "Valorar adecuación a la tarea de negociar y llegar a acuerdos, coherencia y cohesión, corrección gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, sin modelo de respuesta.",
+    "payload": {
+      "taskPrompt": "Quieres hacer un viaje de una semana con un amigo (el examinador), pero tenéis ideas diferentes sobre el destino y el presupuesto. Habla con él para proponer un lugar, escuchar su opinión y negociar hasta llegar a un plan que os guste a los dos.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Monólogo sobre el deporte",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "monologo-deporte",
+    "guidanceNote": "Valorar adecuación a la tarea de hablar de hábitos y opiniones, coherencia y cohesión, corrección gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, sin respuesta modelo.",
+    "payload": {
+      "taskPrompt": "Habla sobre el deporte en tu vida. Explica si practicas algún deporte o no y por qué, di qué beneficios crees que tiene hacer ejercicio y comenta qué deporte te gustaría probar en el futuro.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Comparar vivir en la ciudad o en el campo",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "comparar-ciudad-campo",
+    "guidanceNote": "Valorar adecuación a la tarea de comparar y justificar una preferencia, coherencia y cohesión, corrección gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, sin ofrecer modelo.",
+    "payload": {
+      "taskPrompt": "Compara la vida en una gran ciudad con la vida en el campo. Habla de las ventajas y desventajas de cada una (trabajo, tranquilidad, servicios, relaciones) y explica dónde preferirías vivir tú y por qué.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Describir una foto de una fiesta popular",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "CORE",
+    "topicTag": "describir-foto-fiesta-popular",
+    "guidanceNote": "Valorar adecuación a la tarea de describir e imaginar, coherencia y cohesión, corrección gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, sin respuesta modelo.",
+    "payload": {
+      "taskPrompt": "Imagina una fotografía de una fiesta popular en la calle, con música, baile y gente con ropa de colores. Descríbela: qué celebran, qué hacen las personas y cómo se sienten. Después cuenta qué fiestas se celebran en tu país y cuál es tu favorita.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Situación: devolver un producto en una tienda",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "CORE",
+    "topicTag": "situacion-devolver-producto",
+    "guidanceNote": "Valorar adecuación al registro de la situación simulada, coherencia en la resolución del problema, corrección gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, sin modelo de respuesta.",
+    "payload": {
+      "taskPrompt": "Compraste un teléfono en una tienda y no funciona bien. Habla con el dependiente (el examinador) para explicarle el problema, mostrar tu recibo y pedir una reparación, un cambio o la devolución del dinero. Sé educado pero firme.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Monólogo sobre la tecnología en la vida diaria",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "monologo-tecnologia-diaria",
+    "guidanceNote": "Valorar adecuación a la tarea de exponer opinión con argumentos, coherencia y cohesión, corrección gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, sin respuesta modelo.",
+    "payload": {
+      "taskPrompt": "Habla sobre el papel de la tecnología en tu vida diaria. Explica qué aparatos usas más y para qué, comenta cómo han cambiado tu forma de vivir y da tu opinión sobre si dependemos demasiado de la tecnología.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Comparar estudiar solo o en grupo",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "comparar-estudiar-solo-grupo",
+    "guidanceNote": "Valorar adecuación a la tarea de comparar y valorar opciones, coherencia y cohesión, corrección gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, sin ofrecer modelo.",
+    "payload": {
+      "taskPrompt": "Compara estudiar solo con estudiar en grupo. Habla de las ventajas y los inconvenientes de cada forma (concentración, motivación, ayuda, ritmo) y explica cuál te funciona mejor a ti y por qué.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Monólogo sobre una persona importante para ti",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "FOUNDATION",
+    "topicTag": "monologo-persona-importante",
+    "guidanceNote": "Valorar adecuación a la tarea de describir y narrar, coherencia y cohesión, corrección gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, sin respuesta modelo.",
+    "payload": {
+      "taskPrompt": "Habla de una persona que es importante para ti. Explica quién es y cómo la conociste, describe su carácter y cuenta por qué es especial para ti y qué has aprendido de ella.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Situación: planear una sorpresa de cumpleaños",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "CORE",
+    "topicTag": "situacion-planear-sorpresa",
+    "guidanceNote": "Valorar adecuación a la tarea de acordar un plan, coherencia y cohesión, corrección gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, sin modelo de respuesta.",
+    "payload": {
+      "taskPrompt": "Quieres organizar una fiesta sorpresa para un amigo común junto con otra persona (el examinador). Habla con ella para decidir el lugar, la fecha, a quién invitar y quién se encarga de cada cosa. Propón tus ideas y escucha las suyas hasta acordar un plan.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Describir una foto de una oficina",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "CORE",
+    "topicTag": "describir-foto-oficina",
+    "guidanceNote": "Valorar adecuación a la tarea de describir e interpretar, coherencia y cohesión, corrección gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, sin respuesta modelo.",
+    "payload": {
+      "taskPrompt": "Imagina una fotografía de una oficina moderna donde varias personas trabajan con ordenadores y una de ellas habla por teléfono. Descríbela: cómo es el lugar, qué hace cada persona y qué ambiente crees que hay. Después habla de cómo te gustaría que fuera tu lugar de trabajo ideal.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Monólogo sobre el cuidado del medio ambiente",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "STRETCH",
+    "topicTag": "monologo-medio-ambiente",
+    "guidanceNote": "Valorar adecuación a la tarea de opinar y proponer, coherencia y cohesión, corrección gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, sin ofrecer modelo.",
+    "payload": {
+      "taskPrompt": "Habla sobre el cuidado del medio ambiente. Explica qué problemas te preocupan más, cuenta qué haces tú en tu día a día para ayudar y propón dos cosas que las personas podrían hacer para cuidar el planeta.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  },
+  {
+    "level": "B1",
+    "skill": "EXPRESION_ORAL",
+    "taskType": "SPEAKING_TASK",
+    "examFamily": "DELE",
+    "title": "Comparar leer libros o ver series",
+    "prompt": "Tarea de expresión oral (DELE B1).",
+    "difficulty": "CORE",
+    "topicTag": "comparar-libros-series",
+    "guidanceNote": "Valorar adecuación a la tarea de comparar y justificar preferencias, coherencia y cohesión, corrección gramatical, riqueza léxica y fluidez y eficacia comunicativa; evaluar el mensaje y la fluidez, nunca el acento, sin respuesta modelo.",
+    "payload": {
+      "taskPrompt": "Compara leer libros con ver series de televisión como forma de entretenimiento. Habla de las ventajas y desventajas de cada una (imaginación, tiempo, relajación, aprendizaje) y explica qué prefieres tú y por qué.",
+      "prepSeconds": 120,
+      "speakSeconds": 120
+    }
+  }
+]

@@ -10,8 +10,9 @@ import { ITEMS as C1 } from "./seed/c1";
 import { ITEMS as C2 } from "./seed/c2";
 import { ITEMS as CCSE } from "./seed/ccse";
 import { ITEMS as BATCH1 } from "./seed/batch1";
+import { ITEMS as BATCH2 } from "./seed/batch2";
 
-const ITEMS = [...A1, ...A2, ...B1, ...B2, ...C1, ...C2, ...CCSE, ...BATCH1];
+const ITEMS = [...A1, ...A2, ...B1, ...B2, ...C1, ...C2, ...CCSE, ...BATCH1, ...BATCH2];
 
 const mcqQuestion = z.object({
   id: z.string(),
