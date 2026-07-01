@@ -51,6 +51,24 @@ export default async function PracticePage({
         </div>
       </section>
 
+      {exam?.family === "CCSE" && (
+        <section className="mt-8">
+          <div className="rounded-2xl border border-almi-coral/40 bg-almi-coral/5 p-5">
+            <h2 className="font-display text-lg font-semibold text-almi-ink">Simulacro CCSE — 25 preguntas</h2>
+            <p className="mt-1 text-sm text-almi-text-muted">
+              A full 25-question civic mock drawn across the five tareas of the 2026 curriculum (~60/40 blend),
+              45 minutes, pass 15/25 → APTO / NO APTO. Original questions — not the official exam.
+            </p>
+            <Link
+              href="/practice/ccse-mock"
+              className="mt-3 inline-flex min-h-[44px] items-center justify-center rounded-full bg-almi-coral px-6 py-2.5 text-sm font-semibold text-almi-ink hover:bg-almi-coral-deep"
+            >
+              Empezar simulacro →
+            </Link>
+          </div>
+        </section>
+      )}
+
       {exam && (
         <section className="mt-8">
           <h2 className="font-display text-lg font-semibold text-almi-ink">2. Level</h2>

@@ -7,6 +7,7 @@
 import { prisma } from "@/lib/prisma";
 import type { CefrLevel, ExamFamily, SpanishItem, SpanishSkill } from "@prisma/client";
 import type { Exam } from "./exams";
+import { CCSE_QUESTIONS, CCSE_MOCK_COMPOSITION } from "./engines/ccse";
 
 // exams.ts family ("DELE"|"SIELE"|"CCSE") already equals the prisma ExamFamily enum.
 export function toExamFamilyEnum(family: Exam["family"]): ExamFamily {
@@ -30,6 +31,56 @@ export async function pickItems(args: {
     orderBy: { createdAt: "asc" },
     take: args.limit ?? 8,
   });
+}
+
+// Draw a 25-question CCSE mock weighted PER TAREA (the official ~60/40 blend),
+// instead of a flat "first N" pull. Each CCSE item is a single civic question with
+// payload.tarea (1–5); we sample the CCSE_MOCK_COMPOSITION count from each tarea,
+// then top up any shortfall (if a tarea is thin) from the remaining pool, and
+// shuffle. Returns real DB items — answer keys are stripped by the caller.
+export async function pickCcseMock(count: number = CCSE_QUESTIONS): Promise<SpanishItem[]> {
+  const pool = await prisma.spanishItem.findMany({
+    where: { examFamily: "CCSE", active: true, skill: "COMPRENSION_LECTORA" },
+  });
+
+  const byTarea = new Map<number, SpanishItem[]>();
+  for (const it of pool) {
+    const t = Number((it.payload as { tarea?: unknown } | null)?.tarea);
+    if (!Number.isFinite(t)) continue;
+    (byTarea.get(t) ?? byTarea.set(t, []).get(t)!).push(it);
+  }
+
+  const shuffle = <T>(arr: T[]): T[] => {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  };
+
+  const chosen: SpanishItem[] = [];
+  const usedIds = new Set<string>();
+  for (const [tareaStr, want] of Object.entries(CCSE_MOCK_COMPOSITION)) {
+    const tarea = Number(tareaStr);
+    const bucket = shuffle(byTarea.get(tarea) ?? []);
+    for (const it of bucket.slice(0, want)) {
+      chosen.push(it);
+      usedIds.add(it.id);
+    }
+  }
+
+  // Top up to `count` from whatever remains (covers a thin tarea).
+  if (chosen.length < count) {
+    const rest = shuffle(pool.filter((it) => !usedIds.has(it.id)));
+    for (const it of rest) {
+      if (chosen.length >= count) break;
+      chosen.push(it);
+      usedIds.add(it.id);
+    }
+  }
+
+  return shuffle(chosen).slice(0, count);
 }
 
 // Remove server-side answer keys from a payload before sending to the client.

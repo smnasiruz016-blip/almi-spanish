@@ -18,6 +18,14 @@ export const CCSE_VERIFIED = true;
 export const CCSE_QUESTIONS = 25;
 export const CCSE_PASS = 15; // 15/25 = 60%
 export const CCSE_POOL_SIZE = 300; // official public question pool
+export const CCSE_MINUTES = 45; // official exam duration
+
+// Per-tarea composition of a 25-question mock, mirroring the official ~60/40 blend
+// (Tareas 1–3 "gobierno, legislación, participación + territorio" = 15/25 = 60%;
+// Tareas 4–5 "cultura, historia, sociedad" = 10/25 = 40%). Within each side the
+// counts track the pool weights (T1 90 / T2 30 / T3 60 items → 7/3/5; T4 60 / T5 60
+// → 5/5). Sums to CCSE_QUESTIONS.
+export const CCSE_MOCK_COMPOSITION: Record<number, number> = { 1: 7, 2: 3, 3: 5, 4: 5, 5: 5 };
 
 export type CcseResult = {
   exam: "CCSE";
