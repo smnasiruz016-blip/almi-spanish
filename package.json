@@ -15,6 +15,7 @@
     "seed:c1": "tsx --env-file-if-exists=.env scripts/seed/c1.ts",
     "seed:c2": "tsx --env-file-if-exists=.env scripts/seed/c2.ts",
     "seed:ccse": "tsx --env-file-if-exists=.env scripts/seed/ccse.ts",
+    "seed:batch1": "tsx --env-file-if-exists=.env scripts/seed/batch1.ts",
     "seed:append": "tsx --env-file-if-exists=.env scripts/seed/append.ts",
     "validate:seed": "tsx scripts/validate-seed.ts"
   },
