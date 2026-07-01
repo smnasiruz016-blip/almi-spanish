@@ -1,0 +1,929 @@
+[
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Hispania romana",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-hispania-romana",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — hecho histórico verificable (época romana)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En la Antigüedad, gran parte de la península ibérica formó parte del Imperio romano." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué nombre daban los romanos al territorio de la península ibérica?",
+          "options": [
+            { "id": "a", "text": "Hispania" },
+            { "id": "b", "text": "Lusitania Magna" },
+            { "id": "c", "text": "Iberia Nova" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Acueducto de Segovia",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-acueducto-segovia",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — patrimonio romano (Acueducto de Segovia)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Los romanos dejaron numerosas obras de ingeniería en España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "El famoso acueducto romano que se conserva en España se encuentra en la ciudad de:",
+          "options": [
+            { "id": "a", "text": "Segovia" },
+            { "id": "b", "text": "Bilbao" },
+            { "id": "c", "text": "Santander" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Al-Ándalus",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-al-andalus",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — Al-Ándalus y la presencia musulmana",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Durante siglos, parte de la península ibérica estuvo bajo dominio musulmán." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Con qué nombre se conoce el territorio de la península ibérica que estuvo bajo dominio musulmán en la Edad Media?",
+          "options": [
+            { "id": "a", "text": "Al-Ándalus" },
+            { "id": "b", "text": "Al-Magreb" },
+            { "id": "c", "text": "Al-Sáhara" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La Alhambra de Granada",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-alhambra-granada",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — arte andalusí (La Alhambra)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El arte andalusí dejó monumentos muy importantes en el sur de España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "La Alhambra, uno de los monumentos más importantes del arte andalusí, se encuentra en:",
+          "options": [
+            { "id": "a", "text": "Granada" },
+            { "id": "b", "text": "Valencia" },
+            { "id": "c", "text": "Oviedo" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La Reconquista",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-reconquista",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — la Reconquista",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Los reinos cristianos avanzaron poco a poco hacia el sur de la península." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cómo se llama el largo proceso por el que los reinos cristianos recuperaron el territorio dominado por los musulmanes?",
+          "options": [
+            { "id": "a", "text": "La Reconquista" },
+            { "id": "b", "text": "La Ilustración" },
+            { "id": "c", "text": "La Transición" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Los Reyes Católicos",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-reyes-catolicos",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — los Reyes Católicos",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El matrimonio de dos reyes unió las coronas de Castilla y Aragón." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Quiénes fueron los Reyes Católicos?",
+          "options": [
+            { "id": "a", "text": "Isabel de Castilla y Fernando de Aragón" },
+            { "id": "b", "text": "Juana y Felipe" },
+            { "id": "c", "text": "Carlos y Sofía" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Toma de Granada 1492",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-toma-granada-1492",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — toma de Granada (1492)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En 1492 terminó la presencia del último reino musulmán en la península." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué año conquistaron los Reyes Católicos el reino de Granada?",
+          "options": [
+            { "id": "a", "text": "1492" },
+            { "id": "b", "text": "1512" },
+            { "id": "c", "text": "1392" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "truefalse",
+    "examFamily": "CCSE",
+    "title": "CCSE — Colón llega a América en 1492",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-colon-america-1492",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — llegada de Colón a América (1492)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El mismo año de la toma de Granada tuvo lugar un viaje histórico a través del océano." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "Cristóbal Colón llegó a América en 1492.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Financiación del viaje de Colón",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-colon-financiacion",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — el viaje de Colón y la Corona de Castilla",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El primer viaje de Colón contó con el apoyo de la monarquía española." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué reina apoyó el primer viaje de Cristóbal Colón a América?",
+          "options": [
+            { "id": "a", "text": "Isabel la Católica" },
+            { "id": "b", "text": "Juana la Loca" },
+            { "id": "c", "text": "María Cristina" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Carlos I de España",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-carlos-i",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — Carlos I de España y V de Alemania",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En el siglo XVI, un rey español gobernó un extenso imperio en Europa y América." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "El rey Carlos I de España fue también emperador con el nombre de:",
+          "options": [
+            { "id": "a", "text": "Carlos V de Alemania" },
+            { "id": "b", "text": "Carlos III de Nápoles" },
+            { "id": "c", "text": "Carlos II de Inglaterra" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El imperio de Felipe II",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-felipe-ii",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — Felipe II y El Escorial",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Felipe II mandó construir un gran monasterio cerca de Madrid." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué monumento mandó construir el rey Felipe II?",
+          "options": [
+            { "id": "a", "text": "El Monasterio de El Escorial" },
+            { "id": "b", "text": "La Sagrada Familia" },
+            { "id": "c", "text": "El Museo del Prado" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La Ilustración en España",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-ilustracion",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — la Ilustración (siglo XVIII)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En el siglo XVIII se desarrolló en Europa un movimiento que confiaba en la razón y el saber." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué siglo se desarrolló principalmente la Ilustración en España?",
+          "options": [
+            { "id": "a", "text": "En el siglo XVIII" },
+            { "id": "b", "text": "En el siglo XV" },
+            { "id": "c", "text": "En el siglo XX" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Carlos III, rey ilustrado",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-carlos-iii",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — Carlos III y el reformismo ilustrado",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Un rey del siglo XVIII impulsó muchas reformas y mejoras en Madrid." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué rey del siglo XVIII es conocido como un monarca ilustrado que reformó la ciudad de Madrid?",
+          "options": [
+            { "id": "a", "text": "Carlos III" },
+            { "id": "b", "text": "Fernando VII" },
+            { "id": "c", "text": "Alfonso XIII" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Guerra de la Independencia 1808",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-guerra-independencia-1808",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — Guerra de la Independencia (1808)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En 1808 comenzó una guerra contra la ocupación de las tropas francesas." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "La Guerra de la Independencia española, iniciada en 1808, se libró contra las tropas de:",
+          "options": [
+            { "id": "a", "text": "Napoleón (Francia)" },
+            { "id": "b", "text": "Inglaterra" },
+            { "id": "c", "text": "Portugal" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El Dos de Mayo",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-dos-de-mayo",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — levantamiento del 2 de mayo de 1808",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El pueblo de Madrid se levantó contra las tropas francesas en 1808." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "El levantamiento del pueblo de Madrid contra las tropas francesas en 1808 se conmemora el:",
+          "options": [
+            { "id": "a", "text": "2 de mayo" },
+            { "id": "b", "text": "12 de octubre" },
+            { "id": "c", "text": "6 de diciembre" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Constitución de Cádiz de 1812",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-constitucion-cadiz-1812",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — Constitución de 1812",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En 1812 se aprobó la primera Constitución española en una ciudad andaluza." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué ciudad se aprobó la primera Constitución española, en 1812?",
+          "options": [
+            { "id": "a", "text": "Cádiz" },
+            { "id": "b", "text": "Barcelona" },
+            { "id": "c", "text": "Zaragoza" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La Pepa",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-la-pepa",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — apodo popular de la Constitución de 1812",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución de 1812 recibió un apodo popular porque se aprobó un día señalado." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Con qué apodo popular se conoce la Constitución española de 1812?",
+          "options": [
+            { "id": "a", "text": "La Pepa" },
+            { "id": "b", "text": "La Niña" },
+            { "id": "c", "text": "La Gloriosa" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La Segunda República de 1931",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-segunda-republica-1931",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — proclamación de la Segunda República (1931)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En abril de 1931 se proclamó un nuevo régimen político en España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué año se proclamó la Segunda República española?",
+          "options": [
+            { "id": "a", "text": "1931" },
+            { "id": "b", "text": "1921" },
+            { "id": "c", "text": "1945" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "truefalse",
+    "examFamily": "CCSE",
+    "title": "CCSE — Sufragio femenino en la Segunda República",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-voto-femenino-republica",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — voto femenino en la Segunda República",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Durante la Segunda República se reconocieron nuevos derechos políticos." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "Durante la Segunda República se reconoció por primera vez el derecho al voto de las mujeres en España.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La Guerra Civil española",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-guerra-civil",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — Guerra Civil (1936-1939)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Entre 1936 y 1939 España vivió un grave conflicto interno." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué años tuvo lugar la Guerra Civil española?",
+          "options": [
+            { "id": "a", "text": "Entre 1936 y 1939" },
+            { "id": "b", "text": "Entre 1914 y 1918" },
+            { "id": "c", "text": "Entre 1950 y 1955" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La dictadura de Franco",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-dictadura-franco",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — dictadura franquista",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Tras la Guerra Civil, España vivió una larga dictadura." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Quién gobernó España de forma dictatorial tras la Guerra Civil?",
+          "options": [
+            { "id": "a", "text": "Francisco Franco" },
+            { "id": "b", "text": "Manuel Azaña" },
+            { "id": "c", "text": "Adolfo Suárez" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La muerte de Franco en 1975",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-muerte-franco-1975",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — fin de la dictadura (1975)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La dictadura terminó tras la muerte del dictador." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué año murió Francisco Franco, poniendo fin a la dictadura?",
+          "options": [
+            { "id": "a", "text": "1975" },
+            { "id": "b", "text": "1965" },
+            { "id": "c", "text": "1982" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La Transición española",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-transicion",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — la Transición a la democracia",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Tras la dictadura, España pasó a un sistema democrático." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cómo se llama el periodo en el que España pasó de la dictadura a la democracia?",
+          "options": [
+            { "id": "a", "text": "La Transición" },
+            { "id": "b", "text": "La Reconquista" },
+            { "id": "c", "text": "La Restauración" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Adolfo Suárez, primer presidente",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-adolfo-suarez",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — Adolfo Suárez y la Transición",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Durante la Transición hubo un presidente del Gobierno muy destacado." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Quién fue el primer presidente del Gobierno elegido en las primeras elecciones democráticas de la Transición?",
+          "options": [
+            { "id": "a", "text": "Adolfo Suárez" },
+            { "id": "b", "text": "Felipe González" },
+            { "id": "c", "text": "José María Aznar" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La Constitución de 1978",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-constitucion-1978",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — Constitución española de 1978",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La actual Constitución española fue aprobada por el pueblo en referéndum." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué año se aprobó la Constitución española que está actualmente vigente?",
+          "options": [
+            { "id": "a", "text": "1978" },
+            { "id": "b", "text": "1812" },
+            { "id": "c", "text": "1931" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El 23-F de 1981",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-23f-1981",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — intento de golpe de Estado del 23 de febrero de 1981",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En 1981 hubo un intento de golpe de Estado contra la joven democracia española." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿A qué acontecimiento se refiere el conocido \"23-F\" de 1981?",
+          "options": [
+            { "id": "a", "text": "A un intento de golpe de Estado" },
+            { "id": "b", "text": "A la entrada en el euro" },
+            { "id": "c", "text": "A la muerte de Franco" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Ingreso en la CEE en 1986",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-ingreso-cee-1986",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — adhesión a la Comunidad Económica Europea (1986)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En 1986 España se integró en la organización europea que después sería la Unión Europea." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué año entró España en la Comunidad Económica Europea (hoy Unión Europea)?",
+          "options": [
+            { "id": "a", "text": "1986" },
+            { "id": "b", "text": "1975" },
+            { "id": "c", "text": "2002" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — España en la OTAN",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-otan",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — ingreso en la OTAN (1982) y referéndum de 1986",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En 1986 se celebró en España un referéndum sobre la permanencia en una alianza militar." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿A qué organización internacional se refería el referéndum celebrado en España en 1986?",
+          "options": [
+            { "id": "a", "text": "A la OTAN" },
+            { "id": "b", "text": "A la ONU" },
+            { "id": "c", "text": "A la UNESCO" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La llegada del euro en 2002",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-euro-2002",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — entrada en circulación del euro (2002)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "A comienzos del siglo XXI España cambió su moneda oficial." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué año entró en circulación el euro como moneda en España, sustituyendo a la peseta?",
+          "options": [
+            { "id": "a", "text": "2002" },
+            { "id": "b", "text": "1992" },
+            { "id": "c", "text": "2010" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "truefalse",
+    "examFamily": "CCSE",
+    "title": "CCSE — La Mezquita de Córdoba",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-mezquita-cordoba",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Historia de España — patrimonio andalusí (Mezquita de Córdoba)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En Córdoba se conserva un gran monumento de origen musulmán." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "La Mezquita de Córdoba es un monumento construido durante la época de dominio musulmán en España.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  }
+]

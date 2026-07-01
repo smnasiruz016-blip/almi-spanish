@@ -1,0 +1,928 @@
+[
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Número de comunidades autónomas",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-numero-comunidades-autonomas",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, Título VIII (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "España se organiza territorialmente en comunidades autónomas y ciudades autónomas." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuántas comunidades autónomas tiene España?",
+          "options": [
+            { "id": "a", "text": "15 comunidades autónomas" },
+            { "id": "b", "text": "17 comunidades autónomas" },
+            { "id": "c", "text": "19 comunidades autónomas" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Ciudades autónomas de España",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-ciudades-autonomas",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, Título VIII (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Además de las comunidades autónomas, España cuenta con dos ciudades autónomas en el norte de África." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuáles son las dos ciudades autónomas de España?",
+          "options": [
+            { "id": "a", "text": "Ceuta y Melilla" },
+            { "id": "b", "text": "Gibraltar y Tánger" },
+            { "id": "c", "text": "Cádiz y Algeciras" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Capital de Andalucía",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-capital-andalucia",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Estatuto de Autonomía de Andalucía (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Cada comunidad autónoma tiene una capital donde se sitúan sus instituciones de gobierno." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es la capital de la comunidad autónoma de Andalucía?",
+          "options": [
+            { "id": "a", "text": "Málaga" },
+            { "id": "b", "text": "Sevilla" },
+            { "id": "c", "text": "Granada" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Capital de la Comunidad de Madrid",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-capital-comunidad-madrid",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Estatuto de Autonomía de la Comunidad de Madrid (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Comunidad de Madrid es una comunidad autónoma uniprovincial situada en el centro de España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es la capital de la Comunidad de Madrid?",
+          "options": [
+            { "id": "a", "text": "Alcalá de Henares" },
+            { "id": "b", "text": "Getafe" },
+            { "id": "c", "text": "Madrid" }
+          ],
+          "answer": "c"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Capital de Cataluña",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-capital-cataluna",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Estatuto de Autonomía de Cataluña (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Cataluña es una comunidad autónoma situada en el noreste de España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es la capital de la comunidad autónoma de Cataluña?",
+          "options": [
+            { "id": "a", "text": "Barcelona" },
+            { "id": "b", "text": "Tarragona" },
+            { "id": "c", "text": "Girona" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Capital de Galicia",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-capital-galicia",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Estatuto de Autonomía de Galicia (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Galicia es una comunidad autónoma situada en el noroeste de la península ibérica." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es la capital de la comunidad autónoma de Galicia?",
+          "options": [
+            { "id": "a", "text": "A Coruña" },
+            { "id": "b", "text": "Vigo" },
+            { "id": "c", "text": "Santiago de Compostela" }
+          ],
+          "answer": "c"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Capital del País Vasco",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-capital-pais-vasco",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Estatuto de Autonomía del País Vasco (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El País Vasco es una comunidad autónoma situada en el norte de España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué ciudad tiene su sede el Parlamento Vasco, capital de la comunidad?",
+          "options": [
+            { "id": "a", "text": "Bilbao" },
+            { "id": "b", "text": "Vitoria-Gasteiz" },
+            { "id": "c", "text": "San Sebastián" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Capital de la Comunidad Valenciana",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-capital-comunidad-valenciana",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Estatuto de Autonomía de la Comunidad Valenciana (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Comunidad Valenciana se encuentra en el este de España, junto al mar Mediterráneo." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es la capital de la Comunidad Valenciana?",
+          "options": [
+            { "id": "a", "text": "Alicante" },
+            { "id": "b", "text": "Castellón de la Plana" },
+            { "id": "c", "text": "Valencia" }
+          ],
+          "answer": "c"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Capital de Aragón",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-capital-aragon",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Estatuto de Autonomía de Aragón (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Aragón es una comunidad autónoma situada en el noreste de España, formada por tres provincias." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es la capital de la comunidad autónoma de Aragón?",
+          "options": [
+            { "id": "a", "text": "Huesca" },
+            { "id": "b", "text": "Zaragoza" },
+            { "id": "c", "text": "Teruel" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Capital del Principado de Asturias",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-capital-asturias",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Estatuto de Autonomía del Principado de Asturias (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Principado de Asturias es una comunidad autónoma uniprovincial del norte de España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es la capital del Principado de Asturias?",
+          "options": [
+            { "id": "a", "text": "Gijón" },
+            { "id": "b", "text": "Avilés" },
+            { "id": "c", "text": "Oviedo" }
+          ],
+          "answer": "c"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Capital de Castilla y León",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-capital-castilla-y-leon",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Estatuto de Autonomía de Castilla y León (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Castilla y León es la comunidad autónoma más extensa de España, con nueve provincias." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué ciudad tienen su sede las Cortes de Castilla y León, capital de la comunidad?",
+          "options": [
+            { "id": "a", "text": "Valladolid" },
+            { "id": "b", "text": "Salamanca" },
+            { "id": "c", "text": "Burgos" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Capital de Castilla-La Mancha",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-capital-castilla-la-mancha",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Estatuto de Autonomía de Castilla-La Mancha (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Castilla-La Mancha es una comunidad autónoma del centro de España, formada por cinco provincias." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es la capital de la comunidad autónoma de Castilla-La Mancha?",
+          "options": [
+            { "id": "a", "text": "Albacete" },
+            { "id": "b", "text": "Toledo" },
+            { "id": "c", "text": "Ciudad Real" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Capital de Canarias",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-capital-canarias",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Estatuto de Autonomía de Canarias (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Canarias es un archipiélago del océano Atlántico y su capitalidad es compartida por dos ciudades." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué dos ciudades comparten la capitalidad de la comunidad autónoma de Canarias?",
+          "options": [
+            { "id": "a", "text": "Santa Cruz de Tenerife y Las Palmas de Gran Canaria" },
+            { "id": "b", "text": "Arrecife y Puerto del Rosario" },
+            { "id": "c", "text": "La Laguna y Telde" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Capital de Extremadura",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-capital-extremadura",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Estatuto de Autonomía de Extremadura (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Extremadura es una comunidad autónoma del oeste de España, formada por las provincias de Cáceres y Badajoz." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es la capital de la comunidad autónoma de Extremadura?",
+          "options": [
+            { "id": "a", "text": "Badajoz" },
+            { "id": "b", "text": "Mérida" },
+            { "id": "c", "text": "Cáceres" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Capital de la Comunidad Foral de Navarra",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-capital-navarra",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Ley Orgánica de Reintegración y Amejoramiento del Régimen Foral de Navarra (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Comunidad Foral de Navarra es una comunidad autónoma uniprovincial del norte de España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es la capital de la Comunidad Foral de Navarra?",
+          "options": [
+            { "id": "a", "text": "Tudela" },
+            { "id": "b", "text": "Pamplona" },
+            { "id": "c", "text": "Estella" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Número de provincias de España",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-numero-provincias",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Las comunidades autónomas se dividen en provincias." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En cuántas provincias se divide el territorio español?",
+          "options": [
+            { "id": "a", "text": "45 provincias" },
+            { "id": "b", "text": "50 provincias" },
+            { "id": "c", "text": "52 provincias" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Máxima autoridad del ayuntamiento",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-alcalde-ayuntamiento",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Ley 7/1985 Reguladora de las Bases del Régimen Local (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El ayuntamiento es la institución que gobierna un municipio." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cómo se llama la persona que preside el ayuntamiento de un municipio?",
+          "options": [
+            { "id": "a", "text": "El alcalde" },
+            { "id": "b", "text": "El presidente autonómico" },
+            { "id": "c", "text": "El delegado del Gobierno" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El pleno municipal",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-pleno-municipal",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Ley 7/1985 Reguladora de las Bases del Régimen Local (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El ayuntamiento cuenta con un órgano colegiado formado por los concejales." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Por quién está formado el pleno del ayuntamiento?",
+          "options": [
+            { "id": "a", "text": "Por los diputados provinciales" },
+            { "id": "b", "text": "Por el alcalde y los concejales" },
+            { "id": "c", "text": "Por los senadores de la provincia" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Función de la diputación provincial",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-diputacion-provincial",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Ley 7/1985 Reguladora de las Bases del Régimen Local (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En el ámbito provincial existe una institución que coordina y apoya a los municipios." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué institución se encarga del gobierno y la administración de la provincia?",
+          "options": [
+            { "id": "a", "text": "La diputación provincial" },
+            { "id": "b", "text": "El pleno municipal" },
+            { "id": "c", "text": "El parlamento autonómico" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El empadronamiento como trámite municipal",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-empadronamiento-municipio",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Ley 7/1985 Reguladora de las Bases del Régimen Local (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El padrón municipal registra a las personas que viven en un municipio." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué administración se realiza el trámite de empadronamiento?",
+          "options": [
+            { "id": "a", "text": "En el ayuntamiento del municipio donde se reside" },
+            { "id": "b", "text": "En el gobierno autonómico" },
+            { "id": "c", "text": "En el Ministerio del Interior" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El estatuto de autonomía",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-estatuto-autonomia",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, artículo 147 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Cada comunidad autónoma se rige por una norma institucional básica." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cómo se llama la norma institucional básica de cada comunidad autónoma?",
+          "options": [
+            { "id": "a", "text": "El estatuto de autonomía" },
+            { "id": "b", "text": "El código civil" },
+            { "id": "c", "text": "El reglamento municipal" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Competencia exclusiva del Estado",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-competencias-estado",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, artículo 149 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución reserva al Estado ciertas competencias exclusivas frente a las comunidades autónomas." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál de las siguientes es una competencia exclusiva del Estado?",
+          "options": [
+            { "id": "a", "text": "La recogida de basuras de un municipio" },
+            { "id": "b", "text": "Las relaciones internacionales y la defensa" },
+            { "id": "c", "text": "El transporte urbano de una ciudad" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Cooficialidad del catalán",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-lengua-cooficial-catalan",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Estatuto de Autonomía de Cataluña (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Junto al castellano, algunas comunidades autónomas tienen otra lengua oficial propia." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué comunidad autónoma es el catalán lengua cooficial junto al castellano?",
+          "options": [
+            { "id": "a", "text": "En Cataluña" },
+            { "id": "b", "text": "En Andalucía" },
+            { "id": "c", "text": "En Extremadura" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Cooficialidad del euskera",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-lengua-cooficial-euskera",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Estatuto de Autonomía del País Vasco (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El euskera es una lengua cooficial en determinados territorios del norte de España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué comunidad autónoma es el euskera lengua cooficial junto al castellano?",
+          "options": [
+            { "id": "a", "text": "En Galicia" },
+            { "id": "b", "text": "En el País Vasco" },
+            { "id": "c", "text": "En Cantabria" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Lengua cooficial de Galicia",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-lengua-cooficial-gallego",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Estatuto de Autonomía de Galicia (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En Galicia, junto al castellano, existe otra lengua oficial propia de la comunidad." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es la lengua cooficial en la comunidad autónoma de Galicia?",
+          "options": [
+            { "id": "a", "text": "El gallego" },
+            { "id": "b", "text": "El valenciano" },
+            { "id": "c", "text": "El euskera" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Cooficialidad del valenciano",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-lengua-cooficial-valenciano",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Estatuto de Autonomía de la Comunidad Valenciana (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El valenciano es lengua cooficial junto al castellano en una comunidad del este de España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué comunidad autónoma es el valenciano lengua cooficial junto al castellano?",
+          "options": [
+            { "id": "a", "text": "En la Región de Murcia" },
+            { "id": "b", "text": "En la Comunidad Valenciana" },
+            { "id": "c", "text": "En las Islas Baleares" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El Estado de las Autonomías (Verdadero/Falso)",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-estado-autonomias-vf",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, Título VIII (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución de 1978 organiza España en comunidades autónomas con instituciones de autogobierno." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "El modelo de organización territorial de España establecido por la Constitución de 1978 se conoce como Estado de las Autonomías.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Municipios y ayuntamiento (Verdadero/Falso)",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-municipio-ayuntamiento-vf",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Ley 7/1985 Reguladora de las Bases del Régimen Local (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El municipio es la entidad territorial básica de la organización del Estado." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "El ayuntamiento es la institución encargada del gobierno y la administración del municipio.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Ceuta y Melilla no son provincias (Verdadero/Falso)",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-ceuta-melilla-vf",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "Estatutos de Autonomía de Ceuta y de Melilla (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Ceuta y Melilla se sitúan en el norte de África y tienen un régimen jurídico propio." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "Ceuta y Melilla son ciudades autónomas de España.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Comunidades uniprovinciales (Verdadero/Falso)",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-comunidad-uniprovincial-vf",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Algunas comunidades autónomas están formadas por una sola provincia." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "La Comunidad de Madrid es una comunidad autónoma uniprovincial.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  }
+]

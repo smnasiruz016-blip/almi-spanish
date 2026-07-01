@@ -1,0 +1,928 @@
+[
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Año de aprobación de la Constitución",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-constitucion-ano",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española de 1978 (BOE núm. 311, 29 de diciembre de 1978)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución es la norma jurídica suprema del ordenamiento español." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué año se aprobó la Constitución Española vigente?",
+          "options": [
+            { "id": "a", "text": "1975" },
+            { "id": "b", "text": "1978" },
+            { "id": "c", "text": "1982" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Referéndum de ratificación constitucional",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-constitucion-referendum",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Referéndum de 6 de diciembre de 1978 sobre el Proyecto de Constitución",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Antes de entrar en vigor, la Constitución fue sometida a la decisión del pueblo español." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cómo aprobó el pueblo español la Constitución de 1978?",
+          "options": [
+            { "id": "a", "text": "Mediante un referéndum" },
+            { "id": "b", "text": "Por decreto del Gobierno" },
+            { "id": "c", "text": "Por decisión del Rey" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Día de la Constitución",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-dia-constitucion",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Día de la Constitución Española, fiesta nacional",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Cada año se celebra en España el Día de la Constitución." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué fecha se celebra el Día de la Constitución?",
+          "options": [
+            { "id": "a", "text": "El 12 de octubre" },
+            { "id": "b", "text": "El 6 de diciembre" },
+            { "id": "c", "text": "El 1 de mayo" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Forma política del Estado español",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-forma-estado",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 1.3 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución define la forma política del Estado español." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es la forma política del Estado español según la Constitución?",
+          "options": [
+            { "id": "a", "text": "La monarquía parlamentaria" },
+            { "id": "b", "text": "La república federal" },
+            { "id": "c", "text": "La monarquía absoluta" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Titulares de la soberanía nacional",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-soberania-nacional",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 1.2 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución establece de quién emanan los poderes del Estado." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En quién reside la soberanía nacional según la Constitución?",
+          "options": [
+            { "id": "a", "text": "En el pueblo español" },
+            { "id": "b", "text": "En el Rey" },
+            { "id": "c", "text": "En el Tribunal Constitucional" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Definición del Estado en el artículo 1",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-estado-social-democratico",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 1.1 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El primer artículo de la Constitución define el tipo de Estado que es España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Según el artículo 1, España se constituye en un Estado...",
+          "options": [
+            { "id": "a", "text": "social y democrático de Derecho" },
+            { "id": "b", "text": "confesional y autoritario" },
+            { "id": "c", "text": "unitario y centralista" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Colores de la bandera de España",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-bandera-colores",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 4.1 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución describe la bandera de España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿De qué colores son las franjas de la bandera de España?",
+          "options": [
+            { "id": "a", "text": "Roja, amarilla y roja" },
+            { "id": "b", "text": "Roja, blanca y roja" },
+            { "id": "c", "text": "Amarilla, roja y verde" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Anchura de la franja amarilla de la bandera",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-bandera-franja-amarilla",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 4.1 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución detalla la proporción de las franjas de la bandera." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cómo es la franja amarilla central respecto a cada franja roja?",
+          "options": [
+            { "id": "a", "text": "De la misma anchura que cada franja roja" },
+            { "id": "b", "text": "Del doble de anchura que cada franja roja" },
+            { "id": "c", "text": "De la mitad de anchura que cada franja roja" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Capital del Estado",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-capital-estado",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 5 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución fija cuál es la capital del Estado." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es la capital del Estado según la Constitución?",
+          "options": [
+            { "id": "a", "text": "Barcelona" },
+            { "id": "b", "text": "Madrid" },
+            { "id": "c", "text": "Sevilla" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Lengua oficial del Estado",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-lengua-oficial",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 3.1 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución determina la lengua oficial del Estado." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es la lengua española oficial del Estado?",
+          "options": [
+            { "id": "a", "text": "El castellano" },
+            { "id": "b", "text": "El catalán" },
+            { "id": "c", "text": "El inglés" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Valores superiores del ordenamiento",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-valores-superiores",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 1.1 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 1 proclama los valores superiores del ordenamiento jurídico." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál de estos es uno de los valores superiores del ordenamiento jurídico?",
+          "options": [
+            { "id": "a", "text": "La justicia" },
+            { "id": "b", "text": "La obediencia" },
+            { "id": "c", "text": "La riqueza" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Forma de Gobierno y división de poderes",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-division-poderes",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, Títulos III, IV y VI (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Estado español organiza sus poderes según la Constitución." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué poder del Estado ejerce las Cortes Generales?",
+          "options": [
+            { "id": "a", "text": "El poder legislativo" },
+            { "id": "b", "text": "El poder judicial" },
+            { "id": "c", "text": "El poder ejecutivo" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Parte dogmática de la Constitución",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-derechos-deberes",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, Título I (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución recoge los derechos y deberes de las personas." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué regula principalmente el Título I de la Constitución?",
+          "options": [
+            { "id": "a", "text": "Los derechos y deberes fundamentales" },
+            { "id": "b", "text": "La organización territorial" },
+            { "id": "c", "text": "La reforma de la Constitución" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Edad mínima para votar",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-edad-votar",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 12; Ley Orgánica 5/1985 del Régimen Electoral General",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En España existe una edad mínima para ejercer el derecho de voto." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿A partir de qué edad se puede votar en España?",
+          "options": [
+            { "id": "a", "text": "A los 16 años" },
+            { "id": "b", "text": "A los 18 años" },
+            { "id": "c", "text": "A los 21 años" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Características del sufragio",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-sufragio-universal",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 68.1 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución define cómo se ejerce el derecho de voto." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cómo se caracteriza el sufragio en las elecciones españolas?",
+          "options": [
+            { "id": "a", "text": "Universal, libre, igual, directo y secreto" },
+            { "id": "b", "text": "Restringido a los propietarios" },
+            { "id": "c", "text": "Obligatorio y público" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Elección del Congreso y el Senado",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-elecciones-generales",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 66 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En las elecciones generales se eligen los miembros de las Cortes Generales." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué dos cámaras se eligen en las elecciones generales?",
+          "options": [
+            { "id": "a", "text": "El Congreso de los Diputados y el Senado" },
+            { "id": "b", "text": "El Gobierno y el Tribunal Supremo" },
+            { "id": "c", "text": "Las Cortes y el Consejo de Ministros" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Elecciones municipales",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-elecciones-municipales",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 140 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En las elecciones municipales los ciudadanos eligen a sus representantes locales." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿A quiénes se elige en las elecciones municipales?",
+          "options": [
+            { "id": "a", "text": "A los concejales del Ayuntamiento" },
+            { "id": "b", "text": "A los diputados del Congreso" },
+            { "id": "c", "text": "A los eurodiputados" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Elecciones autonómicas",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-elecciones-autonomicas",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 152 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Cada comunidad autónoma tiene su propia asamblea legislativa." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué se elige en las elecciones autonómicas?",
+          "options": [
+            { "id": "a", "text": "Los miembros del parlamento de una comunidad autónoma" },
+            { "id": "b", "text": "El presidente del Gobierno de España" },
+            { "id": "c", "text": "Los magistrados del Tribunal Constitucional" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Elecciones al Parlamento Europeo",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-elecciones-europeas",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Ley Orgánica 5/1985 del Régimen Electoral General, Título VI",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "España participa en las elecciones al Parlamento Europeo." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿A quiénes se elige en las elecciones europeas?",
+          "options": [
+            { "id": "a", "text": "A los diputados del Parlamento Europeo" },
+            { "id": "b", "text": "A los concejales de los municipios" },
+            { "id": "c", "text": "A los senadores españoles" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Función de los partidos políticos",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-partidos-politicos",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 6 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución reconoce el papel de los partidos políticos." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué expresan los partidos políticos según la Constitución?",
+          "options": [
+            { "id": "a", "text": "El pluralismo político" },
+            { "id": "b", "text": "La autoridad militar" },
+            { "id": "c", "text": "La religión oficial" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Papel de los sindicatos",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-sindicatos",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 7 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución reconoce a los sindicatos de trabajadores." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué intereses defienden principalmente los sindicatos?",
+          "options": [
+            { "id": "a", "text": "Los intereses económicos y sociales de los trabajadores" },
+            { "id": "b", "text": "Los intereses de las empresas extranjeras" },
+            { "id": "c", "text": "Los intereses del poder judicial" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El censo electoral",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-censo-electoral",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Ley Orgánica 5/1985 del Régimen Electoral General; Oficina del Censo Electoral (INE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Para poder votar es necesario estar inscrito en un registro oficial." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué es el censo electoral?",
+          "options": [
+            { "id": "a", "text": "El registro de las personas con derecho a voto" },
+            { "id": "b", "text": "La lista de partidos políticos" },
+            { "id": "c", "text": "El recuento de votos de una elección" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Número de diputados del Congreso",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-numero-diputados",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Ley Orgánica 5/1985 del Régimen Electoral General, art. 162",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Congreso de los Diputados tiene un número fijo de miembros." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuántos diputados componen el Congreso de los Diputados?",
+          "options": [
+            { "id": "a", "text": "250" },
+            { "id": "b", "text": "350" },
+            { "id": "c", "text": "500" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El voto secreto",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-voto-secreto",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 68.1 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El voto en España se emite con garantías que protegen al elector." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué significa que el voto es secreto?",
+          "options": [
+            { "id": "a", "text": "Que nadie puede saber a quién vota cada persona" },
+            { "id": "b", "text": "Que el voto se hace en voz alta" },
+            { "id": "c", "text": "Que solo votan los cargos públicos" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El derecho de asociación",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-derecho-asociacion",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 22 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución garantiza que las personas puedan agruparse libremente." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué derecho reconoce el artículo 22 de la Constitución?",
+          "options": [
+            { "id": "a", "text": "El derecho de asociación" },
+            { "id": "b", "text": "El derecho a la propiedad privada" },
+            { "id": "c", "text": "El derecho a la educación" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El referéndum como consulta",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-referendum-consultivo",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 92 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución permite consultar directamente a los ciudadanos sobre ciertas cuestiones." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué es un referéndum?",
+          "options": [
+            { "id": "a", "text": "Una consulta al pueblo para que decida sobre un asunto" },
+            { "id": "b", "text": "Una reunión del Consejo de Ministros" },
+            { "id": "c", "text": "Un juicio del Tribunal Supremo" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "TRUE_FALSE",
+    "examFamily": "CCSE",
+    "title": "CCSE — España es una república (V/F)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-vf-republica",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 1.3 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución establece la forma política del Estado español." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "La forma política del Estado español es la república.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "false"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "TRUE_FALSE",
+    "examFamily": "CCSE",
+    "title": "CCSE — Voto a los 18 años (V/F)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-vf-edad-voto",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 12 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución fija la mayoría de edad de los españoles." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "En España se puede votar a partir de los 18 años.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "TRUE_FALSE",
+    "examFamily": "CCSE",
+    "title": "CCSE — Aprobación en referéndum (V/F)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-vf-referendum-1978",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Referéndum de 6 de diciembre de 1978 sobre el Proyecto de Constitución",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución fue sometida a la aprobación de los ciudadanos." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "El pueblo español aprobó la Constitución de 1978 en un referéndum.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "TRUE_FALSE",
+    "examFamily": "CCSE",
+    "title": "CCSE — Soberanía del pueblo (V/F)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-vf-soberania",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 1.2 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución señala en quién reside la soberanía nacional." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "La soberanía nacional reside en el pueblo español.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  }
+]

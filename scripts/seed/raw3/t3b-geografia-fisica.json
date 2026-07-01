@@ -1,0 +1,928 @@
+[
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Río Ebro y su desembocadura",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-rio-ebro",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Ebro es uno de los ríos más importantes de España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué mar desemboca el río Ebro?",
+          "options": [
+            { "id": "a", "text": "En el mar Mediterráneo" },
+            { "id": "b", "text": "En el océano Atlántico" },
+            { "id": "c", "text": "En el mar Cantábrico" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Río Tajo, el más largo de la Península",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-rio-tajo",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Tajo recorre la Península Ibérica de este a oeste." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es el río más largo de la Península Ibérica?",
+          "options": [
+            { "id": "a", "text": "El Tajo" },
+            { "id": "b", "text": "El Guadalquivir" },
+            { "id": "c", "text": "El Miño" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Río Guadalquivir y Andalucía",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-rio-guadalquivir",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Guadalquivir es el gran río del sur de España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Por qué comunidad autónoma discurre principalmente el río Guadalquivir?",
+          "options": [
+            { "id": "a", "text": "Andalucía" },
+            { "id": "b", "text": "Galicia" },
+            { "id": "c", "text": "Cataluña" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Río Duero y frontera con Portugal",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-rio-duero",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Duero atraviesa la Meseta Norte antes de llegar al mar." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué océano desemboca el río Duero, en la ciudad portuguesa de Oporto?",
+          "options": [
+            { "id": "a", "text": "En el océano Atlántico" },
+            { "id": "b", "text": "En el mar Mediterráneo" },
+            { "id": "c", "text": "En el mar Cantábrico" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Río Miño en Galicia",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-rio-mino",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Miño es el río más importante de Galicia." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué comunidad autónoma se encuentra el nacimiento del río Miño?",
+          "options": [
+            { "id": "a", "text": "Galicia" },
+            { "id": "b", "text": "Aragón" },
+            { "id": "c", "text": "Murcia" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Río Guadiana como frontera",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-rio-guadiana",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En parte de su recorrido, el Guadiana marca un límite internacional." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "El río Guadiana forma en un tramo la frontera entre España y...",
+          "options": [
+            { "id": "a", "text": "Portugal" },
+            { "id": "b", "text": "Francia" },
+            { "id": "c", "text": "Andorra" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El Teide, el pico más alto de España",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-pico-teide",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El pico más alto de todo el territorio español está en Canarias." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué isla se encuentra el Teide, la montaña más alta de España?",
+          "options": [
+            { "id": "a", "text": "Tenerife" },
+            { "id": "b", "text": "Mallorca" },
+            { "id": "c", "text": "Lanzarote" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Mulhacén en Sierra Nevada",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-mulhacen",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Mulhacén es el pico más alto de la Península Ibérica." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué sistema montañoso se encuentra el pico Mulhacén?",
+          "options": [
+            { "id": "a", "text": "Sierra Nevada" },
+            { "id": "b", "text": "Los Pirineos" },
+            { "id": "c", "text": "Los Picos de Europa" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Los Pirineos como frontera natural",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-pirineos-frontera",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Los Pirineos separan la Península Ibérica del resto del continente." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Los Pirineos forman la frontera natural entre España y...",
+          "options": [
+            { "id": "a", "text": "Francia" },
+            { "id": "b", "text": "Portugal" },
+            { "id": "c", "text": "Italia" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Los Picos de Europa",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-picos-de-europa",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Los Picos de Europa son un macizo montañoso del norte de España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿A qué gran cordillera pertenecen los Picos de Europa?",
+          "options": [
+            { "id": "a", "text": "A la Cordillera Cantábrica" },
+            { "id": "b", "text": "Al Sistema Central" },
+            { "id": "c", "text": "A los Pirineos" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El Sistema Central",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-sistema-central",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Sistema Central divide en dos la Meseta Central." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál de estas sierras forma parte del Sistema Central?",
+          "options": [
+            { "id": "a", "text": "La Sierra de Guadarrama" },
+            { "id": "b", "text": "La Sierra Nevada" },
+            { "id": "c", "text": "Los Montes de Toledo" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Islas del archipiélago balear",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-islas-baleares",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Las Islas Baleares están en el mar Mediterráneo." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál de estas islas pertenece al archipiélago de las Islas Baleares?",
+          "options": [
+            { "id": "a", "text": "Menorca" },
+            { "id": "b", "text": "El Hierro" },
+            { "id": "c", "text": "La Gomera" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Capital de las Islas Baleares",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-capital-baleares",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El archipiélago balear es una comunidad autónoma." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es la capital de la comunidad autónoma de las Islas Baleares?",
+          "options": [
+            { "id": "a", "text": "Palma" },
+            { "id": "b", "text": "Ibiza" },
+            { "id": "c", "text": "Mahón" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Océano de las Islas Canarias",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-oceano-canarias",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Las Islas Canarias se sitúan frente a la costa de África." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué océano se encuentran las Islas Canarias?",
+          "options": [
+            { "id": "a", "text": "En el océano Atlántico" },
+            { "id": "b", "text": "En el mar Mediterráneo" },
+            { "id": "c", "text": "En el mar Cantábrico" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Islas del archipiélago canario",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-islas-canarias",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El archipiélago canario está formado por varias islas." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál de estas islas pertenece al archipiélago de las Islas Canarias?",
+          "options": [
+            { "id": "a", "text": "Fuerteventura" },
+            { "id": "b", "text": "Formentera" },
+            { "id": "c", "text": "Mallorca" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Las dos capitales de Canarias",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-capitales-canarias",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Canarias es una comunidad autónoma con dos capitales." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuáles son las dos capitales de la comunidad autónoma de Canarias?",
+          "options": [
+            { "id": "a", "text": "Santa Cruz de Tenerife y Las Palmas de Gran Canaria" },
+            { "id": "b", "text": "Arrecife y Puerto del Rosario" },
+            { "id": "c", "text": "La Laguna y Telde" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Mar del norte peninsular",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-mar-cantabrico",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El norte de la Península Ibérica está bañado por un mar." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué mar baña la costa norte de España, en Asturias y Cantabria?",
+          "options": [
+            { "id": "a", "text": "El mar Cantábrico" },
+            { "id": "b", "text": "El mar Mediterráneo" },
+            { "id": "c", "text": "El mar Báltico" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El estrecho de Gibraltar",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-estrecho-gibraltar",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El estrecho de Gibraltar separa dos continentes." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "El estrecho de Gibraltar separa Europa del continente...",
+          "options": [
+            { "id": "a", "text": "africano" },
+            { "id": "b", "text": "asiático" },
+            { "id": "c", "text": "americano" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Fronteras terrestres de España",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-fronteras-terrestres",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "España limita por tierra con varios países en la Península." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Con cuál de estos países comparte España frontera terrestre en la Península?",
+          "options": [
+            { "id": "a", "text": "Portugal" },
+            { "id": "b", "text": "Italia" },
+            { "id": "c", "text": "Alemania" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Andorra, pequeño país vecino",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-andorra-vecino",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Un pequeño país se sitúa entre España y Francia en los Pirineos." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué pequeño país, situado en los Pirineos, tiene frontera con España?",
+          "options": [
+            { "id": "a", "text": "Andorra" },
+            { "id": "b", "text": "Mónaco" },
+            { "id": "c", "text": "Luxemburgo" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Ceuta y Melilla en el norte de África",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-ceuta-melilla",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Ceuta y Melilla son dos ciudades españolas situadas en el norte de África." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Las ciudades autónomas de Ceuta y Melilla tienen frontera terrestre con...",
+          "options": [
+            { "id": "a", "text": "Marruecos" },
+            { "id": "b", "text": "Argelia" },
+            { "id": "c", "text": "Portugal" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La Meseta Central",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-meseta-central",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Meseta Central ocupa gran parte del interior de la Península." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué es la Meseta Central?",
+          "options": [
+            { "id": "a", "text": "Una gran llanura elevada situada en el centro de la Península" },
+            { "id": "b", "text": "Un archipiélago del mar Mediterráneo" },
+            { "id": "c", "text": "Un río del sur de España" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Cabo de Finisterre en Galicia",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-cabo-finisterre",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El cabo de Finisterre es un conocido accidente de la costa española." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué comunidad autónoma se encuentra el cabo de Finisterre?",
+          "options": [
+            { "id": "a", "text": "Galicia" },
+            { "id": "b", "text": "Andalucía" },
+            { "id": "c", "text": "Cataluña" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Huso horario de Canarias",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-huso-horario-canarias",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En España no toda la población tiene la misma hora." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "En comparación con la Península, en las Islas Canarias el reloj marca...",
+          "options": [
+            { "id": "a", "text": "una hora menos" },
+            { "id": "b", "text": "una hora más" },
+            { "id": "c", "text": "la misma hora" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Clima del norte de España",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-clima-oceanico",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "aemet.es (Agencia Estatal de Meteorología)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El clima cambia mucho entre el norte y el sur de España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "La costa norte de España, con lluvias frecuentes y temperaturas suaves, tiene un clima...",
+          "options": [
+            { "id": "a", "text": "oceánico o atlántico" },
+            { "id": "b", "text": "desértico" },
+            { "id": "c", "text": "polar" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Situación de España en Europa",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-peninsula-iberica",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "España se encuentra en el suroeste del continente europeo." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué península se sitúa la mayor parte del territorio de España?",
+          "options": [
+            { "id": "a", "text": "En la Península Ibérica" },
+            { "id": "b", "text": "En la Península Itálica" },
+            { "id": "c", "text": "En la Península Balcánica" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Verdadero o falso: el Ebro y el Mediterráneo",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-vf-ebro-mediterraneo",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El río Ebro tiene su desembocadura en la costa este de España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "El río Ebro desemboca en el mar Mediterráneo.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Verdadero o falso: Sierra Nevada en Aragón",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-vf-sierra-nevada",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Sierra Nevada es un conocido sistema montañoso del sur de España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "Sierra Nevada se encuentra en la comunidad autónoma de Andalucía.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Verdadero o falso: Gibraltar y el Reino Unido",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-vf-gibraltar-reino-unido",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En el extremo sur de la Península hay un territorio administrado por otro país." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "Gibraltar es un territorio situado en el sur de la Península que está bajo administración del Reino Unido.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Verdadero o falso: el Guadalquivir y Sevilla",
+    "prompt": "Conocimientos de geografía y organización territorial de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-vf-guadalquivir-sevilla",
+    "guidanceNote": "Tarea 3 del temario CCSE 2026: organización territorial y geografía de España.",
+    "payload": {
+      "tarea": 3,
+      "referenceYear": 2026,
+      "sourceRef": "ign.es (Instituto Geográfico Nacional)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Guadalquivir pasa por varias ciudades importantes de Andalucía." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "El río Guadalquivir pasa por la ciudad de Sevilla.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  }
+]

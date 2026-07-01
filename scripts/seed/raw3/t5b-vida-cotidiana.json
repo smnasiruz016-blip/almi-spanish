@@ -1,0 +1,990 @@
+[
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Contenedor amarillo (envases)",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-contenedor-amarillo",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "ecoembes.com",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En España la basura se separa en contenedores de distintos colores." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué contenedor se deben tirar los envases de plástico, las latas y los briks?",
+          "options": [
+            { "id": "a", "text": "En el contenedor amarillo" },
+            { "id": "b", "text": "En el contenedor azul" },
+            { "id": "c", "text": "En el contenedor verde" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Contenedor azul (papel y cartón)",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-contenedor-azul",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "ecoembes.com",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El reciclaje separa los residuos según el material." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿De qué color es el contenedor donde se deposita el papel y el cartón?",
+          "options": [
+            { "id": "a", "text": "Amarillo" },
+            { "id": "b", "text": "Azul" },
+            { "id": "c", "text": "Verde" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Contenedor verde (vidrio)",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-contenedor-verde",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "ecovidrio.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Las botellas y los tarros de cristal tienen su propio contenedor." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué contenedor se deben tirar las botellas de vidrio?",
+          "options": [
+            { "id": "a", "text": "En el contenedor amarillo" },
+            { "id": "b", "text": "En el contenedor gris" },
+            { "id": "c", "text": "En el contenedor verde" }
+          ],
+          "answer": "c"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Contenedor marrón (orgánico)",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-contenedor-organico",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "miteco.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Muchos municipios tienen ya un contenedor para restos de comida." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿De qué color es el contenedor destinado a los residuos orgánicos, como restos de comida?",
+          "options": [
+            { "id": "a", "text": "Marrón" },
+            { "id": "b", "text": "Amarillo" },
+            { "id": "c", "text": "Azul" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Fiesta Nacional 12 de octubre",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-fiesta-nacional-octubre",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "calendario laboral oficial",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "España celebra su fiesta nacional una vez al año." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué día se celebra la Fiesta Nacional de España?",
+          "options": [
+            { "id": "a", "text": "El 12 de octubre" },
+            { "id": "b", "text": "El 6 de diciembre" },
+            { "id": "c", "text": "El 1 de mayo" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Día del Trabajador (1 de mayo)",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-dia-trabajador",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "calendario laboral oficial",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En España hay un día festivo dedicado al trabajo." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué se celebra el 1 de mayo en España?",
+          "options": [
+            { "id": "a", "text": "El Día de la Constitución" },
+            { "id": "b", "text": "El Día del Trabajador" },
+            { "id": "c", "text": "El Día de la Hispanidad" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Día de la Constitución (6 de diciembre)",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-dia-constitucion",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "calendario laboral oficial",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En diciembre hay un festivo nacional relacionado con la ley fundamental del país." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué día festivo nacional se celebra el 6 de diciembre?",
+          "options": [
+            { "id": "a", "text": "El Día de la Constitución" },
+            { "id": "b", "text": "El Día de Navidad" },
+            { "id": "c", "text": "El Día de Reyes" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Año Nuevo (1 de enero)",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-ano-nuevo",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "calendario laboral oficial",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El primer día del año es festivo en toda España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué día se celebra el Año Nuevo en España?",
+          "options": [
+            { "id": "a", "text": "El 6 de enero" },
+            { "id": "b", "text": "El 1 de enero" },
+            { "id": "c", "text": "El 31 de diciembre" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Carné de conducir por puntos",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-carne-puntos",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "dgt.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En España el permiso de conducir funciona con un sistema de puntos." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué ocurre con los puntos del carné de conducir cuando se cometen infracciones graves?",
+          "options": [
+            { "id": "a", "text": "Se pierden puntos y se puede perder el permiso" },
+            { "id": "b", "text": "Se ganan puntos automáticamente" },
+            { "id": "c", "text": "No pasa nada, los puntos son ilimitados" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La DGT (Tráfico)",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-dgt",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "dgt.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Un organismo público se encarga del tráfico y la seguridad vial en España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué significan las siglas DGT?",
+          "options": [
+            { "id": "a", "text": "Dirección General de Trabajo" },
+            { "id": "b", "text": "Dirección General de Tráfico" },
+            { "id": "c", "text": "Departamento General de Transportes" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Cinturón de seguridad obligatorio",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-cinturon-seguridad",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "dgt.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Las normas de tráfico regulan la seguridad dentro del coche." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Es obligatorio usar el cinturón de seguridad en el coche en España?",
+          "options": [
+            { "id": "a", "text": "Sí, es obligatorio para todos los ocupantes" },
+            { "id": "b", "text": "Solo para el conductor" },
+            { "id": "c", "text": "No, es voluntario" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Casco en motocicleta",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-casco-moto",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "dgt.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Los conductores de moto deben protegerse la cabeza." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué es obligatorio llevar cuando se circula en motocicleta en España?",
+          "options": [
+            { "id": "a", "text": "El casco" },
+            { "id": "b", "text": "Guantes de color" },
+            { "id": "c", "text": "Un chaleco naranja" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Velocidad en autopista",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-limite-autopista",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "dgt.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Cada tipo de vía tiene un límite de velocidad máximo para los coches." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es el límite general de velocidad para un coche en autopista o autovía?",
+          "options": [
+            { "id": "a", "text": "90 km/h" },
+            { "id": "b", "text": "120 km/h" },
+            { "id": "c", "text": "150 km/h" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La ITV del coche",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-itv",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "dgt.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Los coches deben pasar una revisión técnica periódica." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Para qué sirve la ITV (Inspección Técnica de Vehículos)?",
+          "options": [
+            { "id": "a", "text": "Para comprobar que el vehículo está en buen estado para circular" },
+            { "id": "b", "text": "Para pagar el seguro del coche" },
+            { "id": "c", "text": "Para renovar el carné de conducir" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Cercanías de Renfe",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-cercanias-renfe",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "renfe.com",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Muchas ciudades españolas tienen trenes que conectan el centro con las afueras." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué es el servicio de Cercanías de Renfe?",
+          "options": [
+            { "id": "a", "text": "Trenes que conectan una ciudad con los pueblos y barrios cercanos" },
+            { "id": "b", "text": "Aviones nacionales de bajo coste" },
+            { "id": "c", "text": "Autobuses internacionales" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El abono de transporte",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-abono-transporte",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Para usar el transporte público con frecuencia existe una tarjeta especial." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué es el abono de transporte?",
+          "options": [
+            { "id": "a", "text": "Una tarjeta que permite usar el transporte público durante un periodo, normalmente un mes" },
+            { "id": "b", "text": "Un descuento en las gasolineras" },
+            { "id": "c", "text": "Un impuesto sobre el coche" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Horario de la comida",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-horario-comida",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Los horarios de las comidas en España suelen ser más tardíos que en otros países." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿A qué hora suelen comer (almuerzo principal) los españoles habitualmente?",
+          "options": [
+            { "id": "a", "text": "Entre las 14:00 y las 15:00" },
+            { "id": "b", "text": "A las 11:00 de la mañana" },
+            { "id": "c", "text": "A las 18:00 de la tarde" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Horario de la cena",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-horario-cena",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La última comida del día también se hace tarde en España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿A qué hora suelen cenar habitualmente los españoles?",
+          "options": [
+            { "id": "a", "text": "A las 17:00" },
+            { "id": "b", "text": "Entre las 21:00 y las 22:00" },
+            { "id": "c", "text": "A las 12:00 del mediodía" }
+          ],
+          "answer": "b"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La fianza del alquiler",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-fianza-alquiler",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Al alquilar una vivienda se suele entregar un dinero de garantía." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué es la fianza en un contrato de alquiler?",
+          "options": [
+            { "id": "a", "text": "Una cantidad de dinero que se deja como garantía y se devuelve al final si no hay daños" },
+            { "id": "b", "text": "Un impuesto municipal sobre la vivienda" },
+            { "id": "c", "text": "El dinero del seguro del hogar" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La comunidad de vecinos",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-comunidad-vecinos",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Los propietarios de un edificio se organizan para gestionar las zonas comunes." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué es la comunidad de vecinos en un edificio de viviendas?",
+          "options": [
+            { "id": "a", "text": "El conjunto de propietarios que gestiona los gastos y las zonas comunes del edificio" },
+            { "id": "b", "text": "Una asociación deportiva del barrio" },
+            { "id": "c", "text": "Una empresa de limpieza pública" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La hoja de reclamaciones",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-hoja-reclamaciones",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "consumo.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Los consumidores pueden protestar formalmente si un producto o servicio no es correcto." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Para qué sirve la hoja de reclamaciones en un comercio o bar?",
+          "options": [
+            { "id": "a", "text": "Para que el cliente presente una queja oficial sobre un producto o servicio" },
+            { "id": "b", "text": "Para pedir un descuento" },
+            { "id": "c", "text": "Para apuntarse a ofertas" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La OMIC",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-omic",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "consumo.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Los ayuntamientos ofrecen ayuda a los consumidores." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué es la OMIC (Oficina Municipal de Información al Consumidor)?",
+          "options": [
+            { "id": "a", "text": "Una oficina del ayuntamiento que informa y ayuda a los consumidores" },
+            { "id": "b", "text": "Una tienda de productos rebajados" },
+            { "id": "c", "text": "Una compañía de seguros privada" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Las tapas y las cañas",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-tapas-canas",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Salir a los bares es una costumbre social muy arraigada en España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "En España, ¿qué es una \"caña\"?",
+          "options": [
+            { "id": "a", "text": "Un vaso pequeño de cerveza" },
+            { "id": "b", "text": "Un tipo de pan" },
+            { "id": "c", "text": "Una moneda antigua" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Saludo con dos besos",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-saludo-besos",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El saludo informal entre personas tiene sus costumbres en España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "En un saludo informal en España, ¿cómo suelen saludarse dos mujeres o un hombre y una mujer que se conocen?",
+          "options": [
+            { "id": "a", "text": "Con dos besos, uno en cada mejilla" },
+            { "id": "b", "text": "Con una reverencia" },
+            { "id": "c", "text": "Chocando los pies" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La propina en España",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-propina",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En los bares y restaurantes existe la costumbre de dejar una pequeña cantidad extra." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "En España, ¿cómo funciona la propina en un restaurante?",
+          "options": [
+            { "id": "a", "text": "Es voluntaria; se deja si el cliente quiere y no es obligatoria" },
+            { "id": "b", "text": "Es obligatoria y siempre del 20%" },
+            { "id": "c", "text": "Está prohibida por ley" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Recoger los excrementos del perro",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-mascotas-normas",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "ordenanza municipal",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Tener un perro conlleva obligaciones cívicas en la vía pública." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Cuando un perro hace sus necesidades en la calle, ¿qué debe hacer su dueño?",
+          "options": [
+            { "id": "a", "text": "Recoger los excrementos y tirarlos a la basura" },
+            { "id": "b", "text": "Dejarlos en la acera" },
+            { "id": "c", "text": "Avisar a la policía" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La garantía de los productos",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-garantia-productos",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "consumo.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Al comprar un producto nuevo, el consumidor tiene derechos si sale defectuoso." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Para qué sirve la garantía de un producto comprado en España?",
+          "options": [
+            { "id": "a", "text": "Para poder repararlo o cambiarlo gratis si tiene un defecto de fábrica durante un tiempo determinado" },
+            { "id": "b", "text": "Para pagar menos impuestos" },
+            { "id": "c", "text": "Para conseguir puntos en la tienda" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El metro en las grandes ciudades",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-metro-ciudades",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El transporte público subterráneo existe en varias ciudades españolas." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En cuáles de estas ciudades españolas hay servicio de metro?",
+          "options": [
+            { "id": "a", "text": "Madrid y Barcelona" },
+            { "id": "b", "text": "Solo en pueblos pequeños" },
+            { "id": "c", "text": "En ninguna ciudad española" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Verdadero o falso: la siesta obligatoria",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-siesta-vf",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La siesta es una costumbre tradicional asociada a España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "La siesta es una costumbre tradicional en España, pero no es obligatoria ni la hace todo el mundo.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Verdadero o falso: Navidad el 25 de diciembre",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-navidad-vf",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "calendario laboral oficial",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En diciembre hay una fiesta muy importante en España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "El día de Navidad se celebra el 25 de diciembre y es festivo en toda España.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Verdadero o falso: contrato de alquiler por escrito",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-contrato-alquiler-vf",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Al alquilar una vivienda conviene tener las condiciones claras." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "Es recomendable firmar un contrato de alquiler por escrito que recoja las condiciones entre el inquilino y el propietario.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Verdadero o falso: pilas usadas al contenedor amarillo",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-pilas-vf",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "miteco.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Algunos residuos especiales tienen puntos de recogida específicos." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "Las pilas usadas se deben tirar al contenedor amarillo de envases.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "false"
+        }
+      ]
+    }
+  }
+]

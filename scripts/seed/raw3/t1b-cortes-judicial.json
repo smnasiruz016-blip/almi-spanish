@@ -1,0 +1,692 @@
+[
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Las Cortes Generales son bicamerales",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "FOUNDATION",
+"topicTag": "ccse-cortes-generales",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 66 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "Las Cortes Generales representan al pueblo español." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Por qué dos cámaras están formadas las Cortes Generales?",
+"options": [{"id":"a","text":"El Congreso de los Diputados y el Senado"},{"id":"b","text":"El Congreso y el Gobierno"},{"id":"c","text":"El Senado y el Tribunal Supremo"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Número de diputados del Congreso",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "CORE",
+"topicTag": "ccse-numero-diputados",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "congreso.es",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "El Congreso de los Diputados tiene un número fijo de miembros." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Cuántos diputados hay en el Congreso de los Diputados?",
+"options": [{"id":"a","text":"350"},{"id":"b","text":"250"},{"id":"c","text":"500"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — El Senado como cámara territorial",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "CORE",
+"topicTag": "ccse-senado-territorial",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 69 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "La Constitución define la naturaleza del Senado." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Qué es el Senado según la Constitución?",
+"options": [{"id":"a","text":"La cámara de representación territorial"},{"id":"b","text":"El órgano de gobierno de los jueces"},{"id":"c","text":"El tribunal que interpreta la Constitución"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — El poder legislativo reside en las Cortes",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "FOUNDATION",
+"topicTag": "ccse-poder-legislativo",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 66 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "En España el poder legislativo se ejerce en el Parlamento." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Qué institución ejerce el poder legislativo del Estado?",
+"options": [{"id":"a","text":"Las Cortes Generales"},{"id":"b","text":"El Consejo de Ministros"},{"id":"c","text":"El Tribunal Constitucional"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Función principal de las Cortes Generales",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "CORE",
+"topicTag": "ccse-funcion-cortes",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 66 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "Las Cortes Generales tienen varias funciones básicas." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Cuál es una función de las Cortes Generales?",
+"options": [{"id":"a","text":"Aprobar las leyes del Estado"},{"id":"b","text":"Juzgar los delitos más graves"},{"id":"c","text":"Nombrar a los embajadores"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Duración del mandato de los diputados",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "CORE",
+"topicTag": "ccse-mandato-diputados",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 68 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "El Congreso se elige por un periodo determinado." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Cada cuántos años se eligen, como norma, los diputados del Congreso?",
+"options": [{"id":"a","text":"Cada cuatro años"},{"id":"b","text":"Cada dos años"},{"id":"c","text":"Cada seis años"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Proyecto de ley del Gobierno",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "STRETCH",
+"topicTag": "ccse-proyecto-ley",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 88 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "Las normas legales pueden nacer de distintos órganos." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Cómo se llama una iniciativa legislativa que presenta el Gobierno?",
+"options": [{"id":"a","text":"Proyecto de ley"},{"id":"b","text":"Proposición de ley"},{"id":"c","text":"Decreto del Rey"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Proposición de ley",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "STRETCH",
+"topicTag": "ccse-proposicion-ley",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "congreso.es",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "No todas las iniciativas de ley proceden del Gobierno." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Cómo se llama la iniciativa legislativa que presentan los grupos parlamentarios?",
+"options": [{"id":"a","text":"Proposición de ley"},{"id":"b","text":"Proyecto de ley"},{"id":"c","text":"Sentencia"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Quién elabora los Presupuestos Generales",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "CORE",
+"topicTag": "ccse-presupuestos-gobierno",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 134 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "Cada año se preparan las cuentas del Estado." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Quién elabora los Presupuestos Generales del Estado?",
+"options": [{"id":"a","text":"El Gobierno"},{"id":"b","text":"El Tribunal Supremo"},{"id":"c","text":"El Rey"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Quién aprueba los Presupuestos Generales",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "CORE",
+"topicTag": "ccse-presupuestos-aprobacion",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 134 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "El Gobierno elabora las cuentas, pero otro órgano las aprueba." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Quién examina, enmienda y aprueba los Presupuestos Generales del Estado?",
+"options": [{"id":"a","text":"Las Cortes Generales"},{"id":"b","text":"El Consejo General del Poder Judicial"},{"id":"c","text":"La Audiencia Nacional"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Ley orgánica y mayoría absoluta",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "STRETCH",
+"topicTag": "ccse-ley-organica",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 81 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "Algunas materias importantes se regulan por un tipo especial de ley." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Cómo se llama la ley que regula derechos fundamentales y necesita mayoría absoluta del Congreso?",
+"options": [{"id":"a","text":"Ley orgánica"},{"id":"b","text":"Ley ordinaria"},{"id":"c","text":"Decreto ley"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Dónde empieza normalmente la tramitación de las leyes",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "STRETCH",
+"topicTag": "ccse-tramitacion-leyes",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 88-90 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "Un proyecto de ley sigue un recorrido por las cámaras." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿En qué cámara se debaten primero los proyectos de ley del Gobierno?",
+"options": [{"id":"a","text":"En el Congreso de los Diputados"},{"id":"b","text":"En el Tribunal Constitucional"},{"id":"c","text":"En el Consejo de Estado"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Publicación de las leyes en el BOE",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "CORE",
+"topicTag": "ccse-boe-publicacion",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 91 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "Para que una ley tenga efecto debe hacerse pública." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿En qué publicación oficial se publican las leyes aprobadas?",
+"options": [{"id":"a","text":"En el Boletín Oficial del Estado (BOE)"},{"id":"b","text":"En el registro civil"},{"id":"c","text":"En la Gaceta del Congreso"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — El Rey sanciona las leyes",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "STRETCH",
+"topicTag": "ccse-sancion-leyes",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 91 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "Tras su aprobación por las Cortes, las leyes reciben un acto formal." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Quién sanciona y promulga las leyes aprobadas por las Cortes Generales?",
+"options": [{"id":"a","text":"El Rey"},{"id":"b","text":"El Fiscal General del Estado"},{"id":"c","text":"El presidente del Congreso"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — En nombre de quién se administra la justicia",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "STRETCH",
+"topicTag": "ccse-justicia-en-nombre-del-rey",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 117 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "La justicia emana del pueblo y se administra de forma solemne." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿En nombre de quién administran justicia los jueces y magistrados?",
+"options": [{"id":"a","text":"Del Rey"},{"id":"b","text":"Del presidente del Gobierno"},{"id":"c","text":"Del Fiscal General"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Independencia de los jueces",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "CORE",
+"topicTag": "ccse-independencia-jueces",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 117 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "La Constitución protege la actuación de los jueces." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Cómo deben ser los jueces y magistrados en el ejercicio de su función?",
+"options": [{"id":"a","text":"Independientes y sometidos únicamente a la ley"},{"id":"b","text":"Dependientes del Gobierno"},{"id":"c","text":"Elegidos por los ciudadanos en las urnas"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — El Tribunal Supremo como órgano superior",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "CORE",
+"topicTag": "ccse-tribunal-supremo",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 123 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "Existe un tribunal situado en la cúspide del poder judicial." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Cuál es el órgano judicial superior en todos los órdenes, salvo en materia constitucional?",
+"options": [{"id":"a","text":"El Tribunal Supremo"},{"id":"b","text":"El Congreso de los Diputados"},{"id":"c","text":"El Consejo de Estado"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Función del Tribunal Constitucional",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "CORE",
+"topicTag": "ccse-tribunal-constitucional",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, arts. 159-161 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "Un tribunal especial se ocupa de la norma suprema." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Cuál es la función principal del Tribunal Constitucional?",
+"options": [{"id":"a","text":"Interpretar y garantizar la Constitución"},{"id":"b","text":"Aprobar los Presupuestos del Estado"},{"id":"c","text":"Nombrar al presidente del Gobierno"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Número de magistrados del Tribunal Constitucional",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "STRETCH",
+"topicTag": "ccse-tc-magistrados",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 159 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "El Tribunal Constitucional se compone de un número fijo de miembros." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Cuántos magistrados componen el Tribunal Constitucional?",
+"options": [{"id":"a","text":"12"},{"id":"b","text":"20"},{"id":"c","text":"9"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — El CGPJ, gobierno de los jueces",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "CORE",
+"topicTag": "ccse-cgpj",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 122 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "El poder judicial cuenta con su propio órgano de gobierno." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Cuál es el órgano de gobierno del poder judicial?",
+"options": [{"id":"a","text":"El Consejo General del Poder Judicial"},{"id":"b","text":"El Ministerio de Justicia"},{"id":"c","text":"El Senado"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — La Audiencia Nacional",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "STRETCH",
+"topicTag": "ccse-audiencia-nacional",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "poderjudicial.es",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "Existe un tribunal con competencia en toda España para ciertos delitos." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Qué tribunal, con sede en Madrid, juzga delitos como el terrorismo o el narcotráfico a gran escala?",
+"options": [{"id":"a","text":"La Audiencia Nacional"},{"id":"b","text":"El Tribunal de Cuentas"},{"id":"c","text":"El Defensor del Pueblo"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — El tribunal del jurado y los ciudadanos",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "CORE",
+"topicTag": "ccse-jurado",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 125 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "Los ciudadanos pueden participar en la Administración de Justicia." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿A través de qué institución participan los ciudadanos directamente en la justicia?",
+"options": [{"id":"a","text":"El tribunal del jurado"},{"id":"b","text":"El Consejo de Estado"},{"id":"c","text":"La Junta Electoral"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Función del Ministerio Fiscal",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "STRETCH",
+"topicTag": "ccse-ministerio-fiscal",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 124 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "La Fiscalía tiene una misión concreta ante los tribunales." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Cuál es una misión del Ministerio Fiscal?",
+"options": [{"id":"a","text":"Promover la acción de la justicia en defensa de la legalidad"},{"id":"b","text":"Aprobar las leyes del Estado"},{"id":"c","text":"Dirigir la política exterior"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — El Fiscal General del Estado",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "STRETCH",
+"topicTag": "ccse-fiscal-general",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 124 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "La Fiscalía tiene una persona al frente." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Quién dirige el Ministerio Fiscal en España?",
+"options": [{"id":"a","text":"El Fiscal General del Estado"},{"id":"b","text":"El presidente del Tribunal Supremo"},{"id":"c","text":"El presidente del Congreso"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Composición del Senado por CCAA",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "STRETCH",
+"topicTag": "ccse-senadores-autonomicos",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 69 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "No todos los senadores llegan al Senado de la misma manera." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "Además de los senadores elegidos por los ciudadanos, ¿quién designa a otros senadores?",
+"options": [{"id":"a","text":"Las Comunidades Autónomas"},{"id":"b","text":"El Tribunal Supremo"},{"id":"c","text":"El Banco de España"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — El presidente del Congreso",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "CORE",
+"topicTag": "ccse-presidente-congreso",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "congreso.es",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "Cada cámara tiene una persona que dirige sus sesiones." }],
+"questions": [
+{ "id": "q1", "kind": "mcq", "stem": "¿Quién dirige los debates y ordena los trabajos del Congreso de los Diputados?",
+"options": [{"id":"a","text":"El presidente del Congreso"},{"id":"b","text":"El Fiscal General del Estado"},{"id":"c","text":"El presidente del Tribunal Constitucional"}],
+"answer": "a" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Verdadero o falso: 350 diputados",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "FOUNDATION",
+"topicTag": "ccse-vf-350-diputados",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "congreso.es",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "Lea la afirmación sobre el Congreso." }],
+"questions": [
+{ "id": "q1", "kind": "truefalse", "stem": "El Congreso de los Diputados está formado por 350 diputados.",
+"options": [{"id":"true","text":"Verdadero"},{"id":"false","text":"Falso"}],
+"answer": "true" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Verdadero o falso: función del Tribunal Supremo",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "CORE",
+"topicTag": "ccse-vf-tribunal-supremo",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 123 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "Lea la afirmación sobre los tribunales." }],
+"questions": [
+{ "id": "q1", "kind": "truefalse", "stem": "El Tribunal Supremo es el órgano judicial superior en todos los órdenes, salvo en materia de garantías constitucionales.",
+"options": [{"id":"true","text":"Verdadero"},{"id":"false","text":"Falso"}],
+"answer": "true" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Verdadero o falso: quién aprueba las leyes",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "FOUNDATION",
+"topicTag": "ccse-vf-aprobar-leyes",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 66 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "Lea la afirmación sobre el poder legislativo." }],
+"questions": [
+{ "id": "q1", "kind": "truefalse", "stem": "El Tribunal Constitucional es el órgano encargado de aprobar las leyes del Estado.",
+"options": [{"id":"true","text":"Verdadero"},{"id":"false","text":"Falso"}],
+"answer": "false" }
+]
+}
+},
+{
+"level": "A2",
+"skill": "COMPRENSION_LECTORA",
+"taskType": "MCQ",
+"examFamily": "CCSE",
+"title": "CCSE — Verdadero o falso: el jurado y los ciudadanos",
+"prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+"difficulty": "CORE",
+"topicTag": "ccse-vf-jurado",
+"guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+"payload": {
+"tarea": 1,
+"referenceYear": 2026,
+"sourceRef": "Constitución Española, art. 125 (BOE)",
+"timeSensitive": false,
+"passages": [{ "id": "p1", "body": "Lea la afirmación sobre la participación ciudadana." }],
+"questions": [
+{ "id": "q1", "kind": "truefalse", "stem": "Los ciudadanos pueden participar en la Administración de Justicia mediante la institución del jurado.",
+"options": [{"id":"true","text":"Verdadero"},{"id":"false","text":"Falso"}],
+"answer": "true" }
+]
+}
+}
+]

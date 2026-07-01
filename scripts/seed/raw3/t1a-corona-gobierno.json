@@ -1,0 +1,692 @@
+[
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — forma política del Estado español",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-forma-politica-estado",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 1.3 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución define la forma política del Estado español." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Cuál es la forma política del Estado español según la Constitución?",
+          "options": [{"id":"a","text":"La monarquía parlamentaria"},{"id":"b","text":"La república federal"},{"id":"c","text":"La república presidencialista"}],
+          "answer": "a" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — el Rey como Jefe del Estado",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-rey-jefe-estado",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 56 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución atribuye la Jefatura del Estado a una institución concreta." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Quién es el Jefe del Estado en España?",
+          "options": [{"id":"a","text":"El presidente del Gobierno"},{"id":"b","text":"El Rey"},{"id":"c","text":"El presidente del Congreso"}],
+          "answer": "b" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — nombre del Rey actual de España",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-rey-actual-felipe-vi",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "casareal.es",
+      "timeSensitive": true,
+      "passages": [{ "id": "p1", "body": "En la actualidad España tiene un rey que ejerce la Jefatura del Estado." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Cómo se llama el Rey de España en la actualidad?",
+          "options": [{"id":"a","text":"Juan Carlos I"},{"id":"b","text":"Felipe VI"},{"id":"c","text":"Alfonso XIII"}],
+          "answer": "b" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — sanción y promulgación de las leyes por el Rey",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-rey-sancion-leyes",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 62 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Entre las funciones del Rey figura una relacionada con las leyes aprobadas por las Cortes." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Qué corresponde al Rey respecto de las leyes aprobadas por las Cortes Generales?",
+          "options": [{"id":"a","text":"Redactarlas y votarlas"},{"id":"b","text":"Sancionarlas y promulgarlas"},{"id":"c","text":"Anularlas cuando no le gustan"}],
+          "answer": "b" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — sucesión de la Corona por primogenitura",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-sucesion-corona-primogenitura",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 57 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución establece el orden en que se transmite la Corona." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Cómo se transmite la Corona de España?",
+          "options": [{"id":"a","text":"Por elección del pueblo cada cinco años"},{"id":"b","text":"Por sucesión hereditaria en los sucesores de Juan Carlos I de Borbón"},{"id":"c","text":"Por decisión del presidente del Gobierno"}],
+          "answer": "b" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — título del heredero de la Corona",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-heredero-principe-asturias",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 57.2 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El heredero de la Corona ostenta un título tradicional." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Qué título ostenta el heredero de la Corona de España?",
+          "options": [{"id":"a","text":"Príncipe o Princesa de Asturias"},{"id":"b","text":"Duque de Madrid"},{"id":"c","text":"Regente del Reino"}],
+          "answer": "a" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — heredera actual de la Corona",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-princesa-leonor-heredera",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "casareal.es",
+      "timeSensitive": true,
+      "passages": [{ "id": "p1", "body": "La heredera de la Corona es la hija mayor del Rey Felipe VI." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Quién es la actual heredera de la Corona de España?",
+          "options": [{"id":"a","text":"La infanta Sofía"},{"id":"b","text":"La princesa Leonor"},{"id":"c","text":"La reina Letizia"}],
+          "answer": "b" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — el Rey como jefe supremo de las Fuerzas Armadas",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-rey-mando-fuerzas-armadas",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 62.h (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución otorga al Rey el mando de las Fuerzas Armadas." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Qué papel tiene el Rey respecto de las Fuerzas Armadas?",
+          "options": [{"id":"a","text":"Ejerce el mando supremo de las Fuerzas Armadas"},{"id":"b","text":"No tiene ninguna relación con ellas"},{"id":"c","text":"Dirige personalmente cada operación militar"}],
+          "answer": "a" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — el Rey acredita a embajadores",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-rey-embajadores",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 63 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Rey ejerce funciones en el ámbito de las relaciones internacionales." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Qué función ejerce el Rey en las relaciones internacionales?",
+          "options": [{"id":"a","text":"Acredita a los embajadores y otros representantes diplomáticos"},{"id":"b","text":"Aprueba los presupuestos de la Unión Europea"},{"id":"c","text":"Nombra a los jueces del Tribunal Constitucional"}],
+          "answer": "a" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — el Rey convoca y disuelve las Cortes",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-rey-convoca-disuelve-cortes",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 62.b (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Corresponde al Rey una función relacionada con las Cortes Generales." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Qué corresponde al Rey respecto de las Cortes Generales?",
+          "options": [{"id":"a","text":"Convocarlas y disolverlas en los términos previstos en la Constitución"},{"id":"b","text":"Aprobar todas sus leyes en su lugar"},{"id":"c","text":"Presidir sus sesiones cada semana"}],
+          "answer": "a" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — el Rey propone y nombra al presidente del Gobierno",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-rey-propone-presidente",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 62.d (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Rey participa en el proceso de designación del presidente del Gobierno." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Qué función tiene el Rey en relación con el presidente del Gobierno?",
+          "options": [{"id":"a","text":"Proponer al candidato y nombrarlo tras la investidura"},{"id":"b","text":"Elegirlo libremente sin intervención del Congreso"},{"id":"c","text":"No interviene de ninguna manera"}],
+          "answer": "a" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "TRUEFALSE",
+    "examFamily": "CCSE",
+    "title": "CCSE — inviolabilidad de la persona del Rey",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-rey-inviolable",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 56.3 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución regula la posición jurídica de la persona del Rey." }],
+      "questions": [
+        { "id": "q1", "kind": "truefalse", "stem": "La persona del Rey es inviolable y no está sujeta a responsabilidad.",
+          "options": [{"id":"true","text":"Verdadero"},{"id":"false","text":"Falso"}],
+          "answer": "true" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — el Gobierno dirige el poder ejecutivo",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-gobierno-poder-ejecutivo",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 97 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución atribuye la función ejecutiva a una institución concreta." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Qué poder del Estado dirige el Gobierno?",
+          "options": [{"id":"a","text":"El poder legislativo"},{"id":"b","text":"El poder judicial"},{"id":"c","text":"El poder ejecutivo"}],
+          "answer": "c" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — composición del Gobierno",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-composicion-gobierno",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 98 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Gobierno está formado por varios cargos definidos en la Constitución." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Por quiénes se compone el Gobierno de España?",
+          "options": [{"id":"a","text":"El presidente, los vicepresidentes, los ministros y los demás miembros que establezca la ley"},{"id":"b","text":"Únicamente por el Rey y el presidente"},{"id":"c","text":"Por los diputados y senadores de las Cortes"}],
+          "answer": "a" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — presidente del Gobierno actual",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-presidente-gobierno-actual",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "lamoncloa.gob.es",
+      "timeSensitive": true,
+      "passages": [{ "id": "p1", "body": "El presidente del Gobierno dirige la acción del ejecutivo en la actualidad." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Quién es el presidente del Gobierno de España en la actualidad?",
+          "options": [{"id":"a","text":"Pedro Sánchez"},{"id":"b","text":"Mariano Rajoy"},{"id":"c","text":"José Luis Rodríguez Zapatero"}],
+          "answer": "a" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — residencia oficial del presidente del Gobierno",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-moncloa-sede-gobierno",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "lamoncloa.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El presidente del Gobierno tiene una sede oficial en Madrid." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Cómo se llama el complejo que es sede de la Presidencia del Gobierno?",
+          "options": [{"id":"a","text":"El Palacio de la Zarzuela"},{"id":"b","text":"El Palacio de la Moncloa"},{"id":"c","text":"El Palacio de las Cortes"}],
+          "answer": "b" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — investidura del presidente por el Congreso",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-investidura-congreso",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 99 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El candidato a la Presidencia debe obtener la confianza de una cámara." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Qué cámara otorga su confianza al candidato en la sesión de investidura?",
+          "options": [{"id":"a","text":"El Senado"},{"id":"b","text":"El Congreso de los Diputados"},{"id":"c","text":"El Tribunal Constitucional"}],
+          "answer": "b" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — nombramiento de los ministros",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-nombramiento-ministros",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 100 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución regula quién designa a los ministros." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Quién nombra y separa a los ministros?",
+          "options": [{"id":"a","text":"El Rey, a propuesta del presidente del Gobierno"},{"id":"b","text":"El Congreso de los Diputados por votación"},{"id":"c","text":"El presidente del Senado"}],
+          "answer": "a" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — el Consejo de Ministros",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-consejo-ministros",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "lamoncloa.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Gobierno se reúne de forma colegiada en un órgano concreto." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Cómo se llama la reunión colegiada del presidente y los ministros del Gobierno?",
+          "options": [{"id":"a","text":"El Pleno del Congreso"},{"id":"b","text":"El Consejo de Ministros"},{"id":"c","text":"La Diputación Permanente"}],
+          "answer": "b" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — día habitual del Consejo de Ministros",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-consejo-ministros-martes",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "lamoncloa.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Consejo de Ministros suele reunirse un día concreto de la semana." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Qué día de la semana se reúne habitualmente el Consejo de Ministros?",
+          "options": [{"id":"a","text":"Los martes"},{"id":"b","text":"Los domingos"},{"id":"c","text":"Los sábados"}],
+          "answer": "a" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — quién preside el Consejo de Ministros",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-preside-consejo-ministros",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "lamoncloa.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Consejo de Ministros está presidido por un cargo determinado." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Quién preside habitualmente el Consejo de Ministros?",
+          "options": [{"id":"a","text":"El presidente del Congreso"},{"id":"b","text":"El presidente del Gobierno"},{"id":"c","text":"El presidente del Tribunal Supremo"}],
+          "answer": "b" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — la vicepresidencia del Gobierno",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-vicepresidencia-gobierno",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 98.1 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Gobierno puede contar con uno o varios cargos que apoyan al presidente." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Qué cargo del Gobierno puede sustituir al presidente en sus funciones cuando este lo delega?",
+          "options": [{"id":"a","text":"El vicepresidente o vicepresidenta del Gobierno"},{"id":"b","text":"El presidente del Senado"},{"id":"c","text":"El Defensor del Pueblo"}],
+          "answer": "a" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — la moción de censura",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-mocion-censura",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 113 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Congreso puede exigir la responsabilidad política del Gobierno." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Qué instrumento permite al Congreso exigir la responsabilidad política del Gobierno y forzar su cese?",
+          "options": [{"id":"a","text":"La moción de censura"},{"id":"b","text":"El referéndum consultivo"},{"id":"c","text":"La iniciativa legislativa popular"}],
+          "answer": "a" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — carácter constructivo de la moción de censura",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-mocion-censura-candidato",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 113.2 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En España la moción de censura tiene un requisito especial." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Qué debe incluir obligatoriamente una moción de censura en España?",
+          "options": [{"id":"a","text":"Un candidato alternativo a la Presidencia del Gobierno"},{"id":"b","text":"La disolución inmediata del Senado"},{"id":"c","text":"La convocatoria de un referéndum"}],
+          "answer": "a" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — la cuestión de confianza",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-cuestion-confianza",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 112 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El presidente del Gobierno puede pedir el respaldo del Congreso sobre su programa." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿Quién puede plantear la cuestión de confianza ante el Congreso de los Diputados?",
+          "options": [{"id":"a","text":"El presidente del Gobierno, previa deliberación del Consejo de Ministros"},{"id":"b","text":"Cualquier diputado de la oposición"},{"id":"c","text":"El presidente del Tribunal Constitucional"}],
+          "answer": "a" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "TRUEFALSE",
+    "examFamily": "CCSE",
+    "title": "CCSE — el Gobierno responde ante el Congreso",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-gobierno-responsabilidad-congreso",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 108 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución establece ante quién responde políticamente el Gobierno." }],
+      "questions": [
+        { "id": "q1", "kind": "truefalse", "stem": "El Gobierno responde solidariamente de su gestión política ante el Congreso de los Diputados.",
+          "options": [{"id":"true","text":"Verdadero"},{"id":"false","text":"Falso"}],
+          "answer": "true" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — aprobación del proyecto de Presupuestos por el Gobierno",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-gobierno-presupuestos",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 134 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución señala a quién corresponde elaborar los Presupuestos Generales del Estado." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "¿A quién corresponde elaborar el proyecto de los Presupuestos Generales del Estado?",
+          "options": [{"id":"a","text":"Al Gobierno"},{"id":"b","text":"Al Rey"},{"id":"c","text":"Al Tribunal de Cuentas"}],
+          "answer": "a" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — el Gobierno dirige la Administración",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-gobierno-dirige-administracion",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 97 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Gobierno tiene atribuida la dirección de una gran organización pública." }],
+      "questions": [
+        { "id": "q1", "kind": "mcq", "stem": "Además de la política interior y exterior, ¿qué dirige el Gobierno?",
+          "options": [{"id":"a","text":"La Administración civil y militar y la defensa del Estado"},{"id":"b","text":"Los tribunales de justicia"},{"id":"c","text":"Las elecciones al Congreso"}],
+          "answer": "a" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "TRUEFALSE",
+    "examFamily": "CCSE",
+    "title": "CCSE — la Administración sirve con objetividad al interés general",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-administracion-interes-general",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 103 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución define cómo debe actuar la Administración pública." }],
+      "questions": [
+        { "id": "q1", "kind": "truefalse", "stem": "La Administración pública sirve con objetividad los intereses generales.",
+          "options": [{"id":"true","text":"Verdadero"},{"id":"false","text":"Falso"}],
+          "answer": "true" }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "TRUEFALSE",
+    "examFamily": "CCSE",
+    "title": "CCSE — cese del Gobierno tras las elecciones generales",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-cese-gobierno-elecciones",
+    "guidanceNote": "Tarea 1 del temario CCSE 2026: gobierno, legislación y participación ciudadana.",
+    "payload": {
+      "tarea": 1,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 101 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La Constitución indica en qué casos cesa el Gobierno." }],
+      "questions": [
+        { "id": "q1", "kind": "truefalse", "stem": "El Gobierno cesa tras la celebración de elecciones generales.",
+          "options": [{"id":"true","text":"Verdadero"},{"id":"false","text":"Falso"}],
+          "answer": "true" }
+      ]
+    }
+  }
+]

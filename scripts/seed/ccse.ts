@@ -5,8 +5,8 @@
 // AMAANAT NOTE: these are CIVIC FACTS. Every answer must match the official
 // curriculum EXACTLY — never fabricate a civic fact or answer. The questions below
 // cover stable, verifiable facts about the Spanish Constitution and society, in the
-// spirit of the official public 300-question pool published by Instituto Cervantes
-// for the Spanish Ministry of Justice. Before a real exam, candidates must study the
+// spirit of the official public 300-question pool published by the Instituto
+// Cervantes. Before a real exam, candidates must study the
 // CURRENT annual convocatoria (the pool is updated each year). This is practice
 // only — it is not the official manual.
 //

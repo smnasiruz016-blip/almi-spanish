@@ -1,0 +1,990 @@
+[
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Teléfono único de emergencias",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-telefono-112",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "112.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Ante una emergencia grave en España se puede pedir ayuda por teléfono de forma gratuita." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué número se marca en España para pedir ayuda ante una emergencia (bomberos, policía o ambulancia)?",
+          "options": [
+            { "id": "a", "text": "El 112" },
+            { "id": "b", "text": "El 100" },
+            { "id": "c", "text": "El 999" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Tarjeta sanitaria individual",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-tarjeta-sanitaria",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "sanidad.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Para ser atendido en el sistema sanitario público se necesita un documento personal." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cómo se llama el documento que identifica a cada persona en la sanidad pública española?",
+          "options": [
+            { "id": "a", "text": "La tarjeta sanitaria individual" },
+            { "id": "b", "text": "El carné de conducir" },
+            { "id": "c", "text": "La cartilla de ahorros" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Médico de familia en el centro de salud",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-medico-familia",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "sanidad.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La atención sanitaria básica se recibe cerca del domicilio." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Dónde atiende habitualmente el médico de familia en la atención primaria?",
+          "options": [
+            { "id": "a", "text": "En el centro de salud" },
+            { "id": "b", "text": "En el ayuntamiento" },
+            { "id": "c", "text": "En la comisaría" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Servicio de urgencias hospitalarias",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-urgencias",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "sanidad.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Cuando un problema de salud no puede esperar a la cita con el médico de familia, hay un servicio específico." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿A qué servicio del hospital se acude cuando se necesita atención médica inmediata?",
+          "options": [
+            { "id": "a", "text": "A urgencias" },
+            { "id": "b", "text": "A recursos humanos" },
+            { "id": "c", "text": "A administración" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La Seguridad Social",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-seguridad-social",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "seg-social.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El sistema público que gestiona pensiones y prestaciones de los trabajadores tiene un nombre concreto." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cómo se llama el organismo público que gestiona las pensiones y prestaciones de los trabajadores en España?",
+          "options": [
+            { "id": "a", "text": "La Seguridad Social" },
+            { "id": "b", "text": "La Agencia Tributaria" },
+            { "id": "c", "text": "El Registro Civil" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Edad de escolarización obligatoria",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-escolarizacion-obligatoria",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "educacionfpydeportes.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En España la ley obliga a los menores a estar escolarizados durante un periodo concreto." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Hasta qué edad es obligatoria la escolarización en España?",
+          "options": [
+            { "id": "a", "text": "Hasta los 16 años" },
+            { "id": "b", "text": "Hasta los 12 años" },
+            { "id": "c", "text": "Hasta los 21 años" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La etapa de Educación Primaria",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-educacion-primaria",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "educacionfpydeportes.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La educación obligatoria en España se organiza en varias etapas." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cómo se llama la etapa educativa obligatoria que empieza normalmente a los 6 años?",
+          "options": [
+            { "id": "a", "text": "Educación Primaria" },
+            { "id": "b", "text": "Bachillerato" },
+            { "id": "c", "text": "Formación Profesional de grado superior" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La ESO",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-eso",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "educacionfpydeportes.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Después de la Educación Primaria viene otra etapa obligatoria." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué significan las siglas ESO?",
+          "options": [
+            { "id": "a", "text": "Educación Secundaria Obligatoria" },
+            { "id": "b", "text": "Escuela Superior Oficial" },
+            { "id": "c", "text": "Enseñanza Social Obligatoria" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El Bachillerato",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-bachillerato",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "educacionfpydeportes.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Tras terminar la ESO, una de las opciones prepara para acceder a la universidad." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué etapa, posterior a la ESO y no obligatoria, prepara habitualmente para acceder a la universidad?",
+          "options": [
+            { "id": "a", "text": "El Bachillerato" },
+            { "id": "b", "text": "La Educación Infantil" },
+            { "id": "c", "text": "La Educación Primaria" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La Formación Profesional (FP)",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-formacion-profesional",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "todofp.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Hay estudios orientados directamente a aprender un oficio o profesión concreta." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué estudios están orientados a preparar para el ejercicio de una profesión concreta?",
+          "options": [
+            { "id": "a", "text": "La Formación Profesional (FP)" },
+            { "id": "b", "text": "La Educación Infantil" },
+            { "id": "c", "text": "El padrón municipal" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El empadronamiento en el ayuntamiento",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-empadronamiento",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Al vivir en un municipio hay que registrarse en un listado oficial de vecinos." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué administración se realiza el empadronamiento?",
+          "options": [
+            { "id": "a", "text": "En el ayuntamiento del municipio donde se vive" },
+            { "id": "b", "text": "En la Agencia Tributaria" },
+            { "id": "c", "text": "En el centro de salud" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El padrón municipal",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-padron-municipal",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "ine.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Existe un registro con las personas que viven en cada municipio." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué es el padrón municipal?",
+          "options": [
+            { "id": "a", "text": "El registro de las personas que residen en un municipio" },
+            { "id": "b", "text": "Un impuesto sobre las viviendas" },
+            { "id": "c", "text": "Un tipo de contrato de trabajo" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El DNI de los ciudadanos españoles",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-dni",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "dnielectronico.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Los ciudadanos españoles tienen un documento oficial de identidad." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué significan las siglas DNI?",
+          "options": [
+            { "id": "a", "text": "Documento Nacional de Identidad" },
+            { "id": "b", "text": "Documento Numérico Individual" },
+            { "id": "c", "text": "Declaración Nacional de Impuestos" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El NIE para extranjeros",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-nie",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Las personas extranjeras que hacen trámites en España reciben un número de identificación." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿A quién se asigna el NIE (Número de Identidad de Extranjero)?",
+          "options": [
+            { "id": "a", "text": "A las personas extranjeras que realizan trámites en España" },
+            { "id": "b", "text": "Solo a los menores de edad españoles" },
+            { "id": "c", "text": "A las empresas del sector público" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El pasaporte para viajar",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-pasaporte",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Para viajar a muchos países fuera de la Unión Europea se necesita un documento concreto." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué documento se necesita habitualmente para viajar a países de fuera de la Unión Europea?",
+          "options": [
+            { "id": "a", "text": "El pasaporte" },
+            { "id": "b", "text": "La tarjeta sanitaria" },
+            { "id": "c", "text": "El certificado de empadronamiento" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El SEPE y el desempleo",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-sepe",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "sepe.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Existe un organismo público estatal que gestiona el empleo y las prestaciones por desempleo." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué significan las siglas SEPE?",
+          "options": [
+            { "id": "a", "text": "Servicio Público de Empleo Estatal" },
+            { "id": "b", "text": "Sociedad Española de Pensiones y Empleo" },
+            { "id": "c", "text": "Seguro Especial de Prestaciones Económicas" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El paro o prestación por desempleo",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-paro-desempleo",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "sepe.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Cuando una persona pierde su empleo puede recibir una ayuda económica si cumple los requisitos." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cómo se conoce popularmente la prestación por desempleo?",
+          "options": [
+            { "id": "a", "text": "El paro" },
+            { "id": "b", "text": "La nómina" },
+            { "id": "c", "text": "El IVA" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La nómina del trabajador",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-nomina",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "seg-social.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Cada mes el trabajador recibe un documento que detalla su salario y las cantidades descontadas." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué es la nómina?",
+          "options": [
+            { "id": "a", "text": "El documento que detalla el salario y las deducciones del trabajador" },
+            { "id": "b", "text": "El registro de vecinos del municipio" },
+            { "id": "c", "text": "El documento de identidad de los extranjeros" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El contrato de trabajo",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-contrato-trabajo",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "sepe.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El acuerdo entre una empresa y un trabajador establece las condiciones de trabajo." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué documento recoge las condiciones acordadas entre la empresa y el trabajador?",
+          "options": [
+            { "id": "a", "text": "El contrato de trabajo" },
+            { "id": "b", "text": "La declaración de la renta" },
+            { "id": "c", "text": "El pasaporte" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La jubilación",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-jubilacion",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "seg-social.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Al final de la vida laboral, los trabajadores pueden dejar de trabajar y cobrar una pensión." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cómo se llama la situación en la que un trabajador deja su actividad laboral y cobra una pensión por edad?",
+          "options": [
+            { "id": "a", "text": "La jubilación" },
+            { "id": "b", "text": "El empadronamiento" },
+            { "id": "c", "text": "La escolarización" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El IRPF sobre las rentas",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-irpf",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "agenciatributaria.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Existe un impuesto que grava los ingresos que obtienen las personas físicas." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué grava el IRPF (Impuesto sobre la Renta de las Personas Físicas)?",
+          "options": [
+            { "id": "a", "text": "Los ingresos o rentas de las personas físicas" },
+            { "id": "b", "text": "El precio de los productos en las tiendas" },
+            { "id": "c", "text": "El número de hijos de una familia" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El IVA en las compras",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-iva",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "agenciatributaria.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Al comprar productos y servicios se paga un impuesto incluido en el precio." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué significan las siglas IVA?",
+          "options": [
+            { "id": "a", "text": "Impuesto sobre el Valor Añadido" },
+            { "id": "b", "text": "Impuesto de Vehículos y Autopistas" },
+            { "id": "c", "text": "Índice de Vida Anual" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La Agencia Tributaria (Hacienda)",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-agencia-tributaria",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "agenciatributaria.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Hay un organismo público encargado de gestionar y recaudar los impuestos del Estado." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cómo se conoce popularmente a la Agencia Tributaria?",
+          "options": [
+            { "id": "a", "text": "Hacienda" },
+            { "id": "b", "text": "Correos" },
+            { "id": "c", "text": "El SEPE" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La declaración de la renta",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-declaracion-renta",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "agenciatributaria.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Cada año muchos contribuyentes informan a Hacienda de sus ingresos del año anterior." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Con qué impuesto se relaciona la declaración de la renta?",
+          "options": [
+            { "id": "a", "text": "Con el IRPF" },
+            { "id": "b", "text": "Con el padrón municipal" },
+            { "id": "c", "text": "Con la tarjeta sanitaria" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El certificado digital",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-certificado-digital",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "sede.fnmt.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Para hacer trámites por internet con la Administración de forma segura se usa una herramienta de identificación." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Para qué sirve el certificado digital?",
+          "options": [
+            { "id": "a", "text": "Para identificarse y hacer trámites por internet con la Administración" },
+            { "id": "b", "text": "Para viajar fuera de la Unión Europea" },
+            { "id": "c", "text": "Para pedir cita en el médico solo por teléfono" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Correos, el servicio postal",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-correos",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "correos.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En España hay una empresa pública que se encarga del envío de cartas y paquetes." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cómo se llama el principal servicio postal público de España?",
+          "options": [
+            { "id": "a", "text": "Correos" },
+            { "id": "b", "text": "Hacienda" },
+            { "id": "c", "text": "La Seguridad Social" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La cuenta bancaria y la nómina",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-cuenta-bancaria",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "bde.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Para cobrar el salario y domiciliar recibos suele ser necesario tener un producto bancario." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué se necesita normalmente para que una empresa ingrese la nómina a un trabajador?",
+          "options": [
+            { "id": "a", "text": "Una cuenta bancaria" },
+            { "id": "b", "text": "Un pasaporte en vigor" },
+            { "id": "c", "text": "Un certificado de empadronamiento" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La administración electrónica",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-administracion-electronica",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Muchos trámites con el Estado se pueden realizar hoy en día a través de internet." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué permite la administración electrónica?",
+          "options": [
+            { "id": "a", "text": "Hacer trámites con la Administración a través de internet" },
+            { "id": "b", "text": "Recibir asistencia médica urgente en casa" },
+            { "id": "c", "text": "Viajar sin pasaporte fuera de Europa" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La sanidad pública es universal",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-sanidad-publica-verdadero",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "sanidad.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Sistema Nacional de Salud presta atención sanitaria a la población en España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "La atención primaria en el centro de salud forma parte del Sistema Nacional de Salud público.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El empadronamiento no es un impuesto",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-empadronamiento-falso",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El empadronamiento es el registro de los vecinos en el ayuntamiento." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "El empadronamiento en el ayuntamiento es un impuesto que se paga cada año a Hacienda.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "false"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El 112 es gratuito",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-112-gratuito-verdadero",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "112.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El 112 es el número europeo de emergencias, disponible en España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "Llamar al 112 en caso de emergencia es gratuito.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El NIE no es para españoles",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-nie-falso",
+    "guidanceNote": "Tarea 5 del temario CCSE 2026: sociedad española y vida cotidiana.",
+    "payload": {
+      "tarea": 5,
+      "referenceYear": 2026,
+      "sourceRef": "administracion.gob.es",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El DNI y el NIE son documentos de identificación distintos." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "El NIE es el documento de identidad que tienen los ciudadanos españoles desde su nacimiento.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "false"
+        }
+      ]
+    }
+  }
+]

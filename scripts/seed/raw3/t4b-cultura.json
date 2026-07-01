@@ -1,0 +1,1021 @@
+[
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Cervantes y Don Quijote",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-cervantes-quijote",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: literatura española",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "La novela más famosa de la literatura española." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Quién escribió 'Don Quijote de la Mancha'?",
+          "options": [
+            { "id": "a", "text": "Miguel de Cervantes" },
+            { "id": "b", "text": "Lope de Vega" },
+            { "id": "c", "text": "Federico García Lorca" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El protagonista del Quijote",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-quijote-sancho",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: literatura española",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Don Quijote viaja acompañado de su escudero." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cómo se llama el escudero que acompaña a Don Quijote?",
+          "options": [
+            { "id": "a", "text": "Sancho Panza" },
+            { "id": "b", "text": "Dulcinea del Toboso" },
+            { "id": "c", "text": "Rocinante" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Lope de Vega, dramaturgo del Siglo de Oro",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-lope-de-vega",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: literatura española del Siglo de Oro",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Uno de los grandes autores del teatro del Siglo de Oro." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿A qué género literario se dedicó principalmente Lope de Vega?",
+          "options": [
+            { "id": "a", "text": "Al teatro" },
+            { "id": "b", "text": "A la novela histórica" },
+            { "id": "c", "text": "Al ensayo científico" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Federico García Lorca y la Generación del 27",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-lorca-poeta",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: literatura española",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Poeta y dramaturgo nacido en Granada." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Federico García Lorca fue un famoso poeta y autor de obras de teatro. ¿Cuál de estas es una obra suya?",
+          "options": [
+            { "id": "a", "text": "'La casa de Bernarda Alba'" },
+            { "id": "b", "text": "'Don Juan Tenorio'" },
+            { "id": "c", "text": "'La Celestina'" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Antonio Machado, poeta",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-machado-poeta",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: literatura española",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Autor del libro de poemas 'Campos de Castilla'." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿A qué se dedicó Antonio Machado?",
+          "options": [
+            { "id": "a", "text": "Fue poeta" },
+            { "id": "b", "text": "Fue pintor" },
+            { "id": "c", "text": "Fue arquitecto" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Camilo José Cela, Nobel de Literatura",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-cela-nobel",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: Premio Nobel de Literatura 1989",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Escritor español autor de 'La familia de Pascual Duarte'." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Camilo José Cela recibió en 1989 un importante premio internacional. ¿Cuál fue?",
+          "options": [
+            { "id": "a", "text": "El Premio Nobel de Literatura" },
+            { "id": "b", "text": "El Premio Nobel de la Paz" },
+            { "id": "c", "text": "El Premio Nobel de Medicina" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Juan Ramón Jiménez y Platero",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-jimenez-platero",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: Premio Nobel de Literatura 1956",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Poeta español autor de 'Platero y yo'." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Quién escribió el libro 'Platero y yo'?",
+          "options": [
+            { "id": "a", "text": "Juan Ramón Jiménez" },
+            { "id": "b", "text": "Antonio Machado" },
+            { "id": "c", "text": "Miguel de Unamuno" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Velázquez y Las Meninas",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-velazquez-meninas",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Museo Nacional del Prado",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Uno de los cuadros más famosos del Museo del Prado." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Quién pintó el cuadro 'Las meninas'?",
+          "options": [
+            { "id": "a", "text": "Diego Velázquez" },
+            { "id": "b", "text": "Francisco de Goya" },
+            { "id": "c", "text": "El Greco" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Goya, pintor de la corte",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-goya-pintor",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Museo Nacional del Prado",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Pintor aragonés autor de 'La maja vestida'." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Francisco de Goya fue un famoso español. ¿A qué se dedicó?",
+          "options": [
+            { "id": "a", "text": "A la pintura" },
+            { "id": "b", "text": "A la música" },
+            { "id": "c", "text": "A la literatura" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El Greco en Toledo",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-el-greco-toledo",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: pintura española",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Pintor que vivió gran parte de su vida en Toledo." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué ciudad española vivió y trabajó sobre todo el pintor El Greco?",
+          "options": [
+            { "id": "a", "text": "En Toledo" },
+            { "id": "b", "text": "En Sevilla" },
+            { "id": "c", "text": "En Bilbao" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Picasso y el Guernica",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-picasso-guernica",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Museo Nacional Centro de Arte Reina Sofía",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Uno de los cuadros más conocidos del siglo XX." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Quién pintó el cuadro 'Guernica'?",
+          "options": [
+            { "id": "a", "text": "Pablo Picasso" },
+            { "id": "b", "text": "Salvador Dalí" },
+            { "id": "c", "text": "Joan Miró" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Dónde se expone el Guernica",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-guernica-reina-sofia",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Museo Nacional Centro de Arte Reina Sofía",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El 'Guernica' se puede visitar en un museo de Madrid." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué museo de Madrid se expone el 'Guernica' de Picasso?",
+          "options": [
+            { "id": "a", "text": "En el Museo Reina Sofía" },
+            { "id": "b", "text": "En el Museo del Prado" },
+            { "id": "c", "text": "En el Museo Guggenheim" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Salvador Dalí, pintor surrealista",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-dali-surrealismo",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: pintura española",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Pintor español nacido en Figueres, Cataluña." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Salvador Dalí fue un famoso representante de un movimiento artístico. ¿Cuál?",
+          "options": [
+            { "id": "a", "text": "El surrealismo" },
+            { "id": "b", "text": "El Renacimiento" },
+            { "id": "c", "text": "El Barroco" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El Museo del Prado en Madrid",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-museo-prado-madrid",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Museo Nacional del Prado",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Uno de los museos de pintura más importantes del mundo." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué ciudad española se encuentra el Museo del Prado?",
+          "options": [
+            { "id": "a", "text": "En Madrid" },
+            { "id": "b", "text": "En Barcelona" },
+            { "id": "c", "text": "En Valencia" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El Museo Guggenheim de Bilbao",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-guggenheim-bilbao",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: museos de España",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Museo de arte moderno de arquitectura muy famosa." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué ciudad española está el Museo Guggenheim?",
+          "options": [
+            { "id": "a", "text": "En Bilbao" },
+            { "id": "b", "text": "En Sevilla" },
+            { "id": "c", "text": "En Málaga" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Gaudí y la Sagrada Familia",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-gaudi-sagrada-familia",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: arquitectura española",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Templo de Barcelona diseñado por un famoso arquitecto." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Quién diseñó la basílica de la Sagrada Familia de Barcelona?",
+          "options": [
+            { "id": "a", "text": "Antoni Gaudí" },
+            { "id": "b", "text": "Diego Velázquez" },
+            { "id": "c", "text": "Santiago Calatrava" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La Alhambra de Granada",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-alhambra-granada",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Patrimonio Mundial UNESCO",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Conjunto de palacios de origen andalusí." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué ciudad española se encuentra la Alhambra?",
+          "options": [
+            { "id": "a", "text": "En Granada" },
+            { "id": "b", "text": "En Córdoba" },
+            { "id": "c", "text": "En Segovia" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El acueducto de Segovia",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-acueducto-segovia",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Patrimonio Mundial UNESCO",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Monumento de origen romano muy conocido." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "El acueducto de Segovia es una construcción de origen...",
+          "options": [
+            { "id": "a", "text": "romano" },
+            { "id": "b", "text": "árabe" },
+            { "id": "c", "text": "moderno" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El flamenco, Patrimonio de la Humanidad",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-flamenco-patrimonio",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Patrimonio Cultural Inmaterial de la Humanidad UNESCO",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Arte tradicional de música y baile del sur de España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "El flamenco fue declarado por la UNESCO...",
+          "options": [
+            { "id": "a", "text": "Patrimonio Cultural Inmaterial de la Humanidad" },
+            { "id": "b", "text": "un deporte olímpico" },
+            { "id": "c", "text": "una lengua oficial" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Pedro Almodóvar, cineasta",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-almodovar-cine",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: cine español",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Director de cine español ganador de premios Óscar." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Pedro Almodóvar es un famoso español. ¿A qué se dedica?",
+          "options": [
+            { "id": "a", "text": "Es director de cine" },
+            { "id": "b", "text": "Es futbolista" },
+            { "id": "c", "text": "Es cantante de ópera" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Los premios Goya del cine",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-premios-goya-cine",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: cine español",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Premios anuales del cine en España." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿A qué se dedican los premios Goya en España?",
+          "options": [
+            { "id": "a", "text": "Premian lo mejor del cine español" },
+            { "id": "b", "text": "Premian la mejor novela del año" },
+            { "id": "c", "text": "Premian a los mejores deportistas" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Los Reyes Magos, 6 de enero",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-reyes-magos-enero",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: fiestas y tradiciones de España",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Tradición en la que los niños reciben regalos." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué día se celebra la fiesta de los Reyes Magos en España?",
+          "options": [
+            { "id": "a", "text": "El 6 de enero" },
+            { "id": "b", "text": "El 25 de diciembre" },
+            { "id": "c", "text": "El 1 de noviembre" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Los San Fermines de Pamplona",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-san-fermin-pamplona",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: fiestas y tradiciones de España",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Fiesta conocida por sus encierros de toros." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Los San Fermines, con sus famosos encierros, se celebran en...",
+          "options": [
+            { "id": "a", "text": "Pamplona" },
+            { "id": "b", "text": "Valencia" },
+            { "id": "c", "text": "Sevilla" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Las Fallas de Valencia",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-fallas-valencia",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "Patrimonio Cultural Inmaterial de la Humanidad UNESCO",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Fiesta en la que se queman grandes figuras de cartón." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué ciudad española se celebran las Fallas?",
+          "options": [
+            { "id": "a", "text": "En Valencia" },
+            { "id": "b", "text": "En Bilbao" },
+            { "id": "c", "text": "En Granada" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La Feria de Abril de Sevilla",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-feria-abril-sevilla",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: fiestas y tradiciones de España",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Fiesta con casetas, trajes de flamenca y caballos." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿En qué ciudad se celebra la Feria de Abril?",
+          "options": [
+            { "id": "a", "text": "En Sevilla" },
+            { "id": "b", "text": "En Madrid" },
+            { "id": "c", "text": "En Zaragoza" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La Tomatina de Buñol",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-tomatina-bunol",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: fiestas y tradiciones de España",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Fiesta popular en la que la gente se lanza tomates." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "En la fiesta de la Tomatina, ¿qué se lanza la gente?",
+          "options": [
+            { "id": "a", "text": "Tomates" },
+            { "id": "b", "text": "Naranjas" },
+            { "id": "c", "text": "Harina" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Las uvas de Nochevieja",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-uvas-nochevieja",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: fiestas y tradiciones de España",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Tradición española de la última noche del año." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "En Nochevieja, es tradición en España tomar doce uvas con las campanadas. ¿Cuándo se hace?",
+          "options": [
+            { "id": "a", "text": "A medianoche del 31 de diciembre" },
+            { "id": "b", "text": "Al mediodía del 1 de enero" },
+            { "id": "c", "text": "La noche del 6 de enero" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — La paella, plato valenciano",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-paella-valenciana",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: gastronomía española",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Plato tradicional español hecho con arroz." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es el ingrediente principal de la paella?",
+          "options": [
+            { "id": "a", "text": "El arroz" },
+            { "id": "b", "text": "La patata" },
+            { "id": "c", "text": "El pan" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El gazpacho andaluz",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-gazpacho-andaluz",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: gastronomía española",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Plato típico del sur de España, ideal para el verano." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "El gazpacho es una sopa que normalmente se toma...",
+          "options": [
+            { "id": "a", "text": "fría" },
+            { "id": "b", "text": "muy caliente" },
+            { "id": "c", "text": "congelada como un helado" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Verdadero o falso: la tortilla de patatas",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-tortilla-patatas-vf",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: gastronomía española",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Plato español muy común hecho con huevo y patata." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "La tortilla de patatas (también llamada tortilla española) se prepara con huevo y patatas.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Verdadero o falso: la guitarra española",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-guitarra-espanola-vf",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: música española",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Instrumento muy importante en la música española." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "La guitarra española es el instrumento principal que acompaña al cante flamenco.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Verdadero o falso: Miró y la pintura",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-miro-pintura-vf",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: pintura española",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Artista español nacido en Barcelona." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "Joan Miró fue un pintor y escultor español.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Verdadero o falso: el jamón ibérico",
+    "prompt": "Conocimientos socioculturales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-jamon-iberico-vf",
+    "guidanceNote": "Tarea 4 del temario CCSE 2026: cultura e historia de España.",
+    "payload": {
+      "tarea": 4,
+      "referenceYear": 2026,
+      "sourceRef": "hecho cultural verificable: gastronomía española",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "Producto típico de la gastronomía española." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "El jamón ibérico es un producto que se obtiene del cerdo.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  }
+]

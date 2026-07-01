@@ -4,7 +4,7 @@
 // with DELE A2 as the language+civics route to Spanish nationality.
 //
 // Format (VERIFIED): 25 multiple-choice / true-false questions, drawn from the
-// official public pool of 300 questions ("manual" / tarea pool) published by
+// official public pool of 300 questions ("manual" / tarea pool) published by the
 // Instituto Cervantes. PASS = 15/25 correct (60%). The pool is updated annually
 // (a new "convocatoria" manual each year) — practice content must track the
 // CURRENT official pool, and civic answers must match the official curriculum
@@ -54,7 +54,7 @@ export function scoreCcse(correct: number, total: number = CCSE_QUESTIONS): Ccse
     pairingNote:
       "CCSE tests civic knowledge (the Spanish constitution + society), not language. For Spanish nationality it is paired with DELE A2 (the language requirement) for applicants who are not from a Spanish-speaking country.",
     sourceNote:
-      "Practice is built from the official public 300-question pool published by Instituto Cervantes (Ministry of Justice). The pool is updated annually — confirm you are studying the current convocatoria.",
+      "Practice uses original questions covering the official CCSE curriculum (temario 2026) published by the Instituto Cervantes — never the official questions themselves. The pool is updated annually — confirm you are studying the current convocatoria.",
     confirm: CONFIRM_LINE,
   };
 }

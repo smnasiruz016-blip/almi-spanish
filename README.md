@@ -27,13 +27,30 @@ oral** (Speaking) are AI-graded (Claude Sonnet, plus Whisper for speaking) and P
 Scores are practice **estimates** on each exam's real scale, shown honestly (DELE's
 APTO/NO APTO + group breakdown, SIELE's per-skill /250 + CEFR band, CCSE's
 correct/25) — **never a fabricated overall**. All content is original and
-**pan-Hispanic** — never copied from Instituto Cervantes / Universidad de Salamanca
-/ the Ministry of Justice. CCSE civic facts match the official curriculum exactly.
+**pan-Hispanic** — never copied from Instituto Cervantes / Universidad de Salamanca.
+CCSE civic facts match the official curriculum exactly.
 Admission, registration or naturalisation is not a visa — confirm with the Spanish
 consulate, registro civil, or your university. 25% of AlmiWorld income supports the
 Shamool Foundation. $12/month + 7-day trial; objective tasks free, AI feedback paid.
 
+## CCSE annual maintenance (standing doctrine)
+
+The CCSE question pool and manual are published by the **Instituto Cervantes** (not
+the Ministry of the Interior); the *Manual CCSE 2026* governs all 2026 sittings. Our
+practice bank is **original** questions covering the same public civic facts —
+reproducing no official question — and is **actualizado al temario CCSE 2026**. Every
+CCSE item carries `payload.tarea` (1–5), `referenceYear`, `sourceRef` (the primary
+official source verifying the answer), and `timeSensitive`.
+
+Instituto Cervantes renews ~25% of the pool each year (new manual ~December). **Every
+January:** re-verify all `timeSensitive: true` items against current official sources,
+review the new manual's fact inventory for added/removed topics, bump `referenceYear`,
+and re-seed changed items. Site copy must always state which curriculum year the bank
+covers.
+
 ## Scripts
 
 `npm run validate:seed` — validate every seed payload. `npm run seed:a1 … seed:c2`,
-`npm run seed:ccse`, `npm run seed:append` (idempotent aggregate) — need `DATABASE_URL`.
+`npm run seed:ccse`, `npm run seed:batch1`, `npm run seed:batch2`, `npm run seed:batch3`
+(exam-specific Writing+Speaking / full CCSE 2026 curriculum), `npm run seed:append`
+(idempotent aggregate) — need `DATABASE_URL`.

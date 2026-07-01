@@ -1,0 +1,898 @@
+[
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Igualdad ante la ley (art. 14)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-igualdad-ley",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 14 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 14 de la Constitución recoge un principio básico de la convivencia." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Según el artículo 14 de la Constitución, ¿qué principio se garantiza a todos los españoles?",
+          "options": [
+            { "id": "a", "text": "La igualdad ante la ley, sin discriminación por nacimiento, raza, sexo, religión u opinión" },
+            { "id": "b", "text": "El derecho a no pagar impuestos" },
+            { "id": "c", "text": "El derecho a votar a partir de los 16 años" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Derecho a la vida (art. 15)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-derecho-vida",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 15 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 15 protege uno de los derechos más importantes de la persona." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Además del derecho a la vida, ¿qué prohíbe expresamente el artículo 15 de la Constitución?",
+          "options": [
+            { "id": "a", "text": "La tortura y las penas o tratos inhumanos o degradantes" },
+            { "id": "b", "text": "El derecho de huelga" },
+            { "id": "c", "text": "La libertad de circulación" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Abolición de la pena de muerte",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-pena-muerte",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 15 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 15 de la Constitución se refiere también a la pena de muerte." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué establece la Constitución española sobre la pena de muerte?",
+          "options": [
+            { "id": "a", "text": "Queda abolida, salvo lo que puedan disponer las leyes penales militares para tiempos de guerra" },
+            { "id": "b", "text": "Se aplica a los delitos más graves" },
+            { "id": "c", "text": "La deciden los tribunales de cada comunidad autónoma" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Libertad ideológica y religiosa (art. 16)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-libertad-religiosa",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 16 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 16 garantiza una libertad relacionada con las creencias." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué garantiza el artículo 16 de la Constitución española?",
+          "options": [
+            { "id": "a", "text": "La libertad ideológica, religiosa y de culto de los individuos y las comunidades" },
+            { "id": "b", "text": "Que todos los españoles deben tener la misma religión" },
+            { "id": "c", "text": "El derecho a la propiedad privada" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El Estado no es confesional",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-estado-aconfesional",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 16.3 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 16.3 se refiere a la relación entre el Estado y las religiones." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Según la Constitución, ¿qué se afirma sobre la religión del Estado español?",
+          "options": [
+            { "id": "a", "text": "Ninguna confesión tendrá carácter estatal; los poderes públicos tendrán en cuenta las creencias religiosas de la sociedad" },
+            { "id": "b", "text": "La religión católica es la religión oficial del Estado" },
+            { "id": "c", "text": "Está prohibido practicar cualquier religión" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Libertad de expresión (art. 20)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-libertad-expresion",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 20 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 20 protege un derecho esencial para la vida democrática." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué derecho reconoce el artículo 20 de la Constitución española?",
+          "options": [
+            { "id": "a", "text": "El derecho a expresar y difundir libremente pensamientos, ideas y opiniones" },
+            { "id": "b", "text": "El derecho a la vivienda gratuita" },
+            { "id": "c", "text": "El derecho a la nacionalidad automática" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Prohibición de la censura previa",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-censura-previa",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 20.2 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 20 protege la libertad de información frente a controles previos." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Según el artículo 20 de la Constitución, ¿qué no puede existir sobre el ejercicio de la libertad de expresión?",
+          "options": [
+            { "id": "a", "text": "La censura previa" },
+            { "id": "b", "text": "El derecho de rectificación" },
+            { "id": "c", "text": "El secreto profesional de los periodistas" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "TRUEFALSE",
+    "examFamily": "CCSE",
+    "title": "CCSE — Derecho de reunión pacífica",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-derecho-reunion",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 21 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 21 de la Constitución reconoce el derecho de reunión." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "La Constitución española reconoce el derecho de reunión pacífica y sin armas.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Manifestaciones en lugares públicos",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-manifestacion-aviso",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 21.2 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 21 regula las reuniones y manifestaciones en lugares de tránsito público." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Según la Constitución, para las manifestaciones en lugares de tránsito público se exige:",
+          "options": [
+            { "id": "a", "text": "Comunicación previa a la autoridad" },
+            { "id": "b", "text": "Autorización del Rey" },
+            { "id": "c", "text": "Un mínimo de mil participantes" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Derecho de asociación (art. 22)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-derecho-asociacion",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 22 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 22 reconoce el derecho a crear asociaciones." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Según la Constitución, ¿qué tipo de asociaciones son ilegales?",
+          "options": [
+            { "id": "a", "text": "Las que persigan fines o utilicen medios tipificados como delito" },
+            { "id": "b", "text": "Las asociaciones culturales" },
+            { "id": "c", "text": "Las asociaciones de vecinos" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Derecho a la educación (art. 27)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-derecho-educacion",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 27 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 27 de la Constitución trata sobre la enseñanza." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Según el artículo 27 de la Constitución, la enseñanza básica es:",
+          "options": [
+            { "id": "a", "text": "Obligatoria y gratuita" },
+            { "id": "b", "text": "Voluntaria y de pago" },
+            { "id": "c", "text": "Solo para mayores de edad" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Derecho al trabajo (art. 35)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-derecho-trabajo",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 35 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 35 de la Constitución se refiere al trabajo de los españoles." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Según el artículo 35, además de un derecho, el trabajo es para todos los españoles:",
+          "options": [
+            { "id": "a", "text": "Un deber" },
+            { "id": "b", "text": "Un privilegio de los mayores de 50 años" },
+            { "id": "c", "text": "Una opción reservada a los funcionarios" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Derecho a la propiedad privada (art. 33)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-derecho-propiedad",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 33 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 33 de la Constitución reconoce un derecho de contenido económico." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué derecho reconoce el artículo 33 de la Constitución española?",
+          "options": [
+            { "id": "a", "text": "El derecho a la propiedad privada y a la herencia" },
+            { "id": "b", "text": "El derecho a la asistencia sanitaria gratuita" },
+            { "id": "c", "text": "El derecho a la objeción de conciencia" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Tutela judicial efectiva (art. 24)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-tutela-judicial",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 24 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 24 protege a las personas en sus relaciones con la justicia." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Según el artículo 24 de la Constitución, toda persona tiene derecho a:",
+          "options": [
+            { "id": "a", "text": "La tutela judicial efectiva de los jueces y tribunales" },
+            { "id": "b", "text": "Elegir a su propio juez" },
+            { "id": "c", "text": "No acudir nunca a los tribunales" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Presunción de inocencia",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-presuncion-inocencia",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 24.2 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 24 de la Constitución incluye una garantía procesal fundamental." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Según la Constitución, mientras no se demuestre lo contrario, toda persona se considera:",
+          "options": [
+            { "id": "a", "text": "Inocente (presunción de inocencia)" },
+            { "id": "b", "text": "Culpable hasta el juicio" },
+            { "id": "c", "text": "Responsable si la acusa la policía" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Habeas corpus (art. 17)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-habeas-corpus",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 17.4 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 17 de la Constitución protege la libertad personal frente a detenciones." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Para qué sirve el procedimiento de habeas corpus previsto en la Constitución?",
+          "options": [
+            { "id": "a", "text": "Para poner a disposición judicial de forma inmediata a toda persona detenida ilegalmente" },
+            { "id": "b", "text": "Para reclamar el pago de una deuda" },
+            { "id": "c", "text": "Para solicitar la nacionalidad española" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Duración máxima de la detención preventiva",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-detencion-72-horas",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 17.2 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 17 fija un límite temporal para la detención preventiva." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Según la Constitución, la detención preventiva no puede durar más de:",
+          "options": [
+            { "id": "a", "text": "72 horas" },
+            { "id": "b", "text": "24 horas" },
+            { "id": "c", "text": "10 días" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Inviolabilidad del domicilio (art. 18)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-inviolabilidad-domicilio",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 18.2 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 18 de la Constitución protege el domicilio de las personas." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Según la Constitución, ¿en qué caso puede entrarse en el domicilio de una persona sin su consentimiento?",
+          "options": [
+            { "id": "a", "text": "Con resolución judicial o en caso de flagrante delito" },
+            { "id": "b", "text": "Siempre que lo decida un vecino" },
+            { "id": "c", "text": "Nunca, en ninguna circunstancia" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Secreto de las comunicaciones",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-secreto-comunicaciones",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 18.3 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 18 de la Constitución también protege las comunicaciones privadas." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Según el artículo 18 de la Constitución, ¿qué se garantiza, salvo resolución judicial?",
+          "options": [
+            { "id": "a", "text": "El secreto de las comunicaciones, en especial las postales, telegráficas y telefónicas" },
+            { "id": "b", "text": "El derecho a no trabajar" },
+            { "id": "c", "text": "La gratuidad del transporte público" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Derecho al honor y a la intimidad",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-honor-intimidad",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 18.1 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 18 de la Constitución protege la esfera personal del individuo." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Qué derechos garantiza el artículo 18.1 de la Constitución española?",
+          "options": [
+            { "id": "a", "text": "El derecho al honor, a la intimidad personal y familiar y a la propia imagen" },
+            { "id": "b", "text": "El derecho a la educación universitaria gratuita" },
+            { "id": "c", "text": "El derecho al voto de los extranjeros" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "TRUEFALSE",
+    "examFamily": "CCSE",
+    "title": "CCSE — Protección de datos personales",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-proteccion-datos",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 18.4 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 18.4 de la Constitución encomienda a la ley limitar el uso de la informática." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "La Constitución española prevé que la ley limite el uso de la informática para garantizar el honor y la intimidad de los ciudadanos, lo que fundamenta la protección de datos personales.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Deber de pagar impuestos (art. 31)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-deber-impuestos",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 31 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 31 de la Constitución establece un deber económico de los ciudadanos." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Según el artículo 31 de la Constitución, ¿cómo deben contribuir los ciudadanos al sostenimiento de los gastos públicos?",
+          "options": [
+            { "id": "a", "text": "De acuerdo con su capacidad económica, mediante un sistema tributario justo" },
+            { "id": "b", "text": "Todos pagan la misma cantidad fija" },
+            { "id": "c", "text": "Solo pagan impuestos los mayores de 65 años" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Deber de defender España (art. 30)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-deber-defensa",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 30 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 30 de la Constitución recoge un deber relacionado con el país." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Según el artículo 30 de la Constitución, los españoles tienen el derecho y el deber de:",
+          "options": [
+            { "id": "a", "text": "Defender a España" },
+            { "id": "b", "text": "Aprender un segundo idioma extranjero" },
+            { "id": "c", "text": "Comprar una vivienda" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Deber de conocer el castellano (art. 3)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-deber-castellano",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 3.1 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 3 de la Constitución trata sobre la lengua oficial del Estado." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Según el artículo 3 de la Constitución, respecto al castellano, todos los españoles tienen:",
+          "options": [
+            { "id": "a", "text": "El deber de conocerlo y el derecho a usarlo" },
+            { "id": "b", "text": "La obligación de no usarlo en público" },
+            { "id": "c", "text": "El derecho a sustituirlo por el inglés" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "TRUEFALSE",
+    "examFamily": "CCSE",
+    "title": "CCSE — Escolarización obligatoria de los menores",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-escolarizacion-obligatoria",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Ley Orgánica 2/2006 de Educación (LOE); Constitución Española, art. 27",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "En España la educación básica es obligatoria para los menores en una determinada franja de edad." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "truefalse",
+          "stem": "En España la enseñanza básica es obligatoria y comprende, con carácter general, de los 6 a los 16 años.",
+          "options": [
+            { "id": "true", "text": "Verdadero" },
+            { "id": "false", "text": "Falso" }
+          ],
+          "answer": "true"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — El Defensor del Pueblo (art. 54)",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-defensor-pueblo",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 54 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 54 de la Constitución crea una figura para proteger los derechos de los ciudadanos." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "¿Cuál es la función principal del Defensor del Pueblo según la Constitución?",
+          "options": [
+            { "id": "a", "text": "Defender los derechos fundamentales de los ciudadanos, supervisando la actividad de la Administración" },
+            { "id": "b", "text": "Aprobar los Presupuestos Generales del Estado" },
+            { "id": "c", "text": "Nombrar al presidente del Gobierno" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Quién designa al Defensor del Pueblo",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "STRETCH",
+    "topicTag": "ccse-defensor-designacion",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 54 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El Defensor del Pueblo depende de una de las instituciones del Estado." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "El Defensor del Pueblo es un alto comisionado designado por:",
+          "options": [
+            { "id": "a", "text": "Las Cortes Generales" },
+            { "id": "b", "text": "El Tribunal Constitucional" },
+            { "id": "c", "text": "El Rey en solitario" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Igualdad entre mujeres y hombres",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "FOUNDATION",
+    "topicTag": "ccse-igualdad-mujeres-hombres",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 14; Ley Orgánica 3/2007 de igualdad efectiva",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El ordenamiento español garantiza la igualdad entre mujeres y hombres." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "En España, respecto a mujeres y hombres, la ley garantiza:",
+          "options": [
+            { "id": "a", "text": "La igualdad de derechos y de trato, sin discriminación por razón de sexo" },
+            { "id": "b", "text": "Que solo los hombres pueden votar" },
+            { "id": "c", "text": "Que las mujeres no pueden ser funcionarias" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  },
+  {
+    "level": "A2",
+    "skill": "COMPRENSION_LECTORA",
+    "taskType": "MCQ",
+    "examFamily": "CCSE",
+    "title": "CCSE — Prohibición de la discriminación",
+    "prompt": "Conocimientos constitucionales de España. Elige la respuesta correcta.",
+    "difficulty": "CORE",
+    "topicTag": "ccse-no-discriminacion",
+    "guidanceNote": "Tarea 2 del temario CCSE 2026: derechos y deberes fundamentales.",
+    "payload": {
+      "tarea": 2,
+      "referenceYear": 2026,
+      "sourceRef": "Constitución Española, art. 14 (BOE)",
+      "timeSensitive": false,
+      "passages": [{ "id": "p1", "body": "El artículo 14 de la Constitución prohíbe tratar de forma desigual a las personas por ciertos motivos." }],
+      "questions": [
+        {
+          "id": "q1",
+          "kind": "mcq",
+          "stem": "Según el artículo 14, ¿por cuál de estos motivos NO puede discriminarse a una persona?",
+          "options": [
+            { "id": "a", "text": "Por su religión, raza, sexo, opinión o cualquier condición o circunstancia personal o social" },
+            { "id": "b", "text": "Únicamente por su nacionalidad extranjera" },
+            { "id": "c", "text": "La Constitución no prohíbe ninguna discriminación" }
+          ],
+          "answer": "a"
+        }
+      ]
+    }
+  }
+]
