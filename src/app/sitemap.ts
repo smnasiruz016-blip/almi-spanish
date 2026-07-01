@@ -7,26 +7,12 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/site";
 import { ORIGINS } from "@/lib/seo/origins";
-import { UNIVERSITIES } from "@/lib/seo/universities";
-import { PROGRAMMES, isIndexableProgramme } from "@/lib/seo/programmes";
+import { CHUNK, N, UNIS, PROGS, uniChunks, CHUNKS } from "@/lib/seo/sitemap-plan";
 
 export const revalidate = 86_400;
 
-const CHUNK = 40_000;
-const N = ORIGINS.length; // 196
-
-// Indexable destination sets (noindex rows excluded from the sitemap).
-const UNIS = UNIVERSITIES.filter((u) => u.verified);
-const PROGS = PROGRAMMES.filter(isIndexableProgramme);
-
-const uniProducts = UNIS.length * N;
-const progProducts = PROGS.length * N;
-const uniChunks = Math.ceil(uniProducts / CHUNK);
-const progChunks = Math.ceil(progProducts / CHUNK);
-
 export async function generateSitemaps() {
-  const total = 1 + uniChunks + progChunks;
-  return Array.from({ length: total }, (_, i) => ({ id: i }));
+  return Array.from({ length: CHUNKS }, (_, i) => ({ id: i }));
 }
 
 function entry(path: string, priority = 0.6): MetadataRoute.Sitemap[number] {

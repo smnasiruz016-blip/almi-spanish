@@ -5,6 +5,6 @@ const SITE_URL = "https://almispanish.almiworld.com";
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [{ userAgent: "*", allow: "/", disallow: ["/practice/", "/account", "/admin", "/api/"] }],
-    sitemap: `${SITE_URL}/sitemap.xml`,
+    sitemap: `${SITE_URL}/sitemap-index.xml`,
   };
 }
