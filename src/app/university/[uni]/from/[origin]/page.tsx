@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SITE_URL } from "@/lib/site";
-import { findUniversity, languageLine } from "@/lib/seo/universities";
-import { findOrigin, visaRoute, type Origin } from "@/lib/seo/origins";
+import { findUniversity, languageLine, entryLine } from "@/lib/seo/universities";
+import { findOrigin, type Origin } from "@/lib/seo/origins";
 import type { University } from "@/lib/seo/universities";
 
 // On-demand ISR: 465 unis × 196 origins is ~90k pages — built on first request and
@@ -28,7 +28,7 @@ export async function generateMetadata({
     title: `Study at ${u.name} from ${o.name} — Spanish level & entry`,
     description:
       `From ${o.name} to ${u.name} in ${u.country.name}: the Spanish level commonly required (around ` +
-      `DELE B2, confirm per programme), your entry route (${visaRoute(o).short}), and honest DELE/SIELE practice.`,
+      `DELE B2, confirm per programme), your entry route (${entryLine(u, o).short}), and honest DELE/SIELE practice.`,
     alternates: { canonical: url },
     robots: u.verified ? undefined : { index: false, follow: true },
   };
@@ -44,8 +44,7 @@ export default async function UniversityFromOriginPage({
   const o: Origin | undefined = findOrigin(origin);
   if (!u || !o) notFound();
 
-  const visa = visaRoute(o);
-  const sameCountry = u.country.iso2 === o.iso2;
+  const entry = entryLine(u, o);
 
   return (
     <main>
@@ -75,15 +74,9 @@ export default async function UniversityFromOriginPage({
 
           <div className="rounded-2xl border border-almi-bg-peach bg-almi-paper p-6">
             <p className="text-xs font-bold uppercase tracking-wider text-almi-coral">
-              Entry from {o.name}
+              Entry from {o.name} · {entry.short}
             </p>
-            <p className="mt-2 text-sm leading-relaxed text-almi-text">
-              {sameCountry ? (
-                <>As a national of {u.country.name}, you study at {u.name} at home — no student visa needed.</>
-              ) : (
-                visa.line.replace("study in Spain", `study in ${u.country.name}`)
-              )}
-            </p>
+            <p className="mt-2 text-sm leading-relaxed text-almi-text">{entry.line}</p>
           </div>
 
           {u.subjects.length > 0 && (
@@ -118,7 +111,7 @@ export default async function UniversityFromOriginPage({
         </div>
         <p className="mx-auto mt-8 max-w-2xl text-center text-sm text-almi-text-muted">
           Admission is not a visa, and language requirements are set per programme — confirm the current
-          requirement with {u.name} and the Spanish (or {u.country.name}) authorities.
+          requirement with {u.name} and the {u.country.name} immigration authorities.
           {u.source?.publisher && <> University details via {u.source.publisher}.</>}
         </p>
       </section>
