@@ -44,7 +44,7 @@ export default async function ProgrammePage({
       <section className="px-6 pt-16 pb-8">
         <div className="mx-auto max-w-3xl">
           <p className="text-xs font-semibold uppercase tracking-widest text-almi-coral">
-            ALMISPANISH · {p.level.toUpperCase()} · {p.region.toUpperCase()}
+            ALMISPANISH · {p.level.toUpperCase()} · {p.country.name.toUpperCase()}
           </p>
           <h1 className="mt-4 font-display text-3xl font-bold text-almi-ink sm:text-4xl">{p.name}</h1>
           <p className="mt-2 text-base text-almi-text-muted">{p.university}</p>

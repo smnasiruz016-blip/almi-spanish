@@ -13,8 +13,9 @@ import progData from "@/data/spanish-programmes.json";
 export type Programme = {
   slug: string;
   name: string;
-  level: string; // Grado | Máster | Doctorado | Doble Grado
+  level: string; // Grado | Máster | Doctorado | Doble Grado | Pregrado | Posgrado | …
   university: string;
+  country: { iso2: string; name: string }; // destination country (ES or a LatAm country)
   region: string;
   source: { publisher: string; url: string };
   dated?: boolean; // true => older catalogue vintage, noindex
@@ -43,9 +44,9 @@ export function programmesByUniversity(): Map<string, Programme[]> {
 // its exact required level.
 export function programmeLanguageLine(p: Programme): string {
   return (
-    `${p.name} is taught in Spanish at ${p.university}. Spanish universities commonly ask for around ` +
-    `DELE B2 (or an equivalent SIELE level) for a Spanish-taught ${p.level.toLowerCase()}, but the exact ` +
-    `requirement is set by the programme — confirm it with ${p.university}.`
+    `${p.name} is taught in Spanish at ${p.university}. Universities in ${p.country.name} commonly ask for ` +
+    `around DELE B2 (or an equivalent SIELE level) for a Spanish-taught ${p.level.toLowerCase()}, but the ` +
+    `exact requirement is set by the programme — confirm it with ${p.university}.`
   );
 }
 

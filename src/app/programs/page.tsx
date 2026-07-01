@@ -6,7 +6,7 @@ import { programmesByUniversity, PROGRAMME_COUNT } from "@/lib/seo/programmes";
 export const metadata: Metadata = {
   title: "Spanish degree programmes — DELE / SIELE level by programme",
   description:
-    "Named degree programmes across 25 Spanish universities (from open-data catalogues), with the Spanish level commonly required. Practise DELE and SIELE honestly on the real scale.",
+    "Named degree programmes across universities in Spain and Latin America (from public open-data catalogues), with the Spanish level commonly required. Practise DELE and SIELE honestly on the real scale.",
   alternates: { canonical: `${SITE_URL}/programs` },
 };
 
@@ -19,12 +19,12 @@ export default function ProgramsIndex() {
       <section className="px-6 pt-16 pb-8">
         <div className="mx-auto max-w-4xl">
           <h1 className="font-display text-4xl font-bold text-almi-ink sm:text-5xl">
-            Spanish degree programmes
+            Spanish-taught degree programmes
           </h1>
           <p className="mt-5 max-w-2xl text-lg text-almi-text">
-            {PROGRAMME_COUNT.toLocaleString()} named programmes across 25 Spanish universities, from public
-            open-data catalogues. Each is taught in Spanish; the exact entry level is set per programme —
-            always confirm with the university.
+            {PROGRAMME_COUNT.toLocaleString()} named programmes across {unis.length} universities in Spain
+            and Latin America, from public open-data catalogues. Each is taught in Spanish; the exact entry
+            level is set per programme — always confirm with the university.
           </p>
         </div>
       </section>

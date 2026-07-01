@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SITE_URL } from "@/lib/site";
 import { findProgramme, programmeLanguageLine, isIndexableProgramme } from "@/lib/seo/programmes";
-import { findOrigin, visaRoute, type Origin } from "@/lib/seo/origins";
+import { findOrigin, destinationEntryLine, type Origin } from "@/lib/seo/origins";
 
 // On-demand ISR: 2,024 programmes × 196 origins ≈ 397k pages — built on first request,
 // not prerendered. The chunked sitemap lists them for discovery.
@@ -27,7 +27,7 @@ export async function generateMetadata({
     title: `${p.name} from ${o.name} — Spanish level & entry`,
     description:
       `Study ${p.name} (${p.level}) at ${p.university} from ${o.name}: the Spanish level commonly required, ` +
-      `your entry route (${visaRoute(o).short}), and honest DELE / SIELE practice.`,
+      `your entry route (${destinationEntryLine(p.country.iso2, p.country.name, o).short}), and honest DELE / SIELE practice.`,
     alternates: { canonical: url },
     robots: isIndexableProgramme(p) ? undefined : { index: false, follow: true },
   };
@@ -43,14 +43,14 @@ export default async function ProgrammeFromOriginPage({
   const o: Origin | undefined = findOrigin(origin);
   if (!p || !o) notFound();
 
-  const visa = visaRoute(o);
+  const entry = destinationEntryLine(p.country.iso2, p.country.name, o);
 
   return (
     <main>
       <section className="px-6 pt-16 pb-8">
         <div className="mx-auto max-w-3xl">
           <p className="text-xs font-semibold uppercase tracking-widest text-almi-coral">
-            ALMISPANISH · {o.name.toUpperCase()} → {p.region.toUpperCase()}
+            ALMISPANISH · {o.name.toUpperCase()} → {p.country.name.toUpperCase()}
           </p>
           <h1 className="mt-4 font-display text-3xl font-bold text-almi-ink sm:text-4xl">
             {p.name} — from {o.name}
@@ -71,8 +71,10 @@ export default async function ProgrammeFromOriginPage({
             <p className="mt-2 text-sm leading-relaxed text-almi-text">{programmeLanguageLine(p)}</p>
           </div>
           <div className="rounded-2xl border border-almi-bg-peach bg-almi-paper p-6">
-            <p className="text-xs font-bold uppercase tracking-wider text-almi-coral">Entry from {o.name}</p>
-            <p className="mt-2 text-sm leading-relaxed text-almi-text">{visa.line}</p>
+            <p className="text-xs font-bold uppercase tracking-wider text-almi-coral">
+              Entry from {o.name} · {entry.short}
+            </p>
+            <p className="mt-2 text-sm leading-relaxed text-almi-text">{entry.line}</p>
           </div>
         </div>
       </section>

@@ -25,7 +25,7 @@ const out = [];
 const push = (name, level, university, region, pub, url, extra = {}, caps = false) => {
   const nm = (caps ? titleCaseCaps(name) : String(name).replace(/\s+/g, " ").trim());
   if (!nm || nm.length < 4) return;
-  out.push({ name: nm, level: normLevel(level), university, region, source: { publisher: pub, url }, ...extra });
+  out.push({ name: nm, level: normLevel(level), university, country: { iso2: "ES", name: "Spain" }, region, source: { publisher: pub, url }, ...extra });
 };
 
 // ---- 1. Murcia (datos.um.es JSON) — grado + máster ----

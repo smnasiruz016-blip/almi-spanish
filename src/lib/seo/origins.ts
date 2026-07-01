@@ -106,6 +106,34 @@ export function nationalityLine(o: Origin): {
   };
 }
 
+// Destination-aware entry line for ANY Spanish-speaking destination (Spain or Latin
+// America). visaRoute() is Spain-specific, so it may only be used for Spain; for a
+// Latin-American destination we give an honest generic line pointing to that country's
+// own authority — never a Spanish visa for e.g. a Colombian university.
+export function destinationEntryLine(
+  destIso2: string,
+  destName: string,
+  o: Origin,
+): { short: string; line: string } {
+  if (destIso2 === o.iso2) {
+    return {
+      short: "Study at home",
+      line: `As a national of ${destName}, you study at home — no student visa needed.`,
+    };
+  }
+  if (destIso2 === "ES") {
+    return visaRoute(o); // Spain-specific EU/visado logic is correct here
+  }
+  return {
+    short: "Student visa / residence permit",
+    line:
+      `Entry to ${destName} depends on your nationality. From ${o.name}, most international students need ` +
+      `a student visa or residence permit for a course longer than 90 days — confirm the current requirement ` +
+      `with ${destName}'s consulate or immigration authority. Some Latin-American countries have simplified ` +
+      `arrangements for regional (e.g. Mercosur) nationals.`,
+  };
+}
+
 // Every origin carries a real corridor (visa route), a real nationality track, and
 // native search wording, so every origin page is substantive and indexable.
 export function isIndexableOrigin(_o: Origin): boolean {

@@ -9,7 +9,7 @@
 // upgrades to programme-level; everything else stays uni-level here.
 
 import uniData from "@/data/spanish-universities.json";
-import { visaRoute, type Origin } from "@/lib/seo/origins";
+import { destinationEntryLine, type Origin } from "@/lib/seo/origins";
 
 export type University = {
   slug: string;
@@ -49,23 +49,7 @@ export function universitiesByCountry(): Map<string, University[]> {
 // every origin, so we give an honest generic line and point to the real authority —
 // never claim a "Spanish visa" for an Argentine (etc.) university.
 export function entryLine(u: University, o: Origin): { short: string; line: string } {
-  if (u.country.iso2 === o.iso2) {
-    return {
-      short: "Study at home",
-      line: `As a national of ${u.country.name}, you study at ${u.name} at home — no student visa needed.`,
-    };
-  }
-  if (u.country.iso2 === "ES") {
-    return visaRoute(o); // Spain-specific logic is correct here
-  }
-  return {
-    short: "Student visa / residence permit",
-    line:
-      `Entry to ${u.country.name} depends on your nationality. From ${o.name}, most international students ` +
-      `need a student visa or residence permit for a course longer than 90 days — confirm the current ` +
-      `requirement with ${u.country.name}'s consulate or immigration authority. Some Latin-American ` +
-      `countries have simplified arrangements for regional (e.g. Mercosur) nationals.`,
-  };
+  return destinationEntryLine(u.country.iso2, u.country.name, o);
 }
 
 // Honest, uni-level language line. NEVER a fabricated per-programme requirement.
