@@ -1,35 +1,92 @@
-// Sitemap of the public surface. Core static pages + the Wave-2 origin surface
-// (study-in-Spain / which-test / nationality × 196 origins). Still flat and well
-// under the 50k limit; when the programme×origin and university×origin clusters
-// land this returns to a chunked generateSitemaps() plan (Next 16 chunking pattern).
+// Chunked sitemap for the full Wave-2 surface. Under Google's 50k-per-file cap.
+//
+// CRITICAL (Next 16): `id` arrives as Promise<string> — must be awaited + Number()'d,
+// or every chunk silently emits 0 URLs. See docs/SITEMAP_CHUNKING.md. Test only with a
+// real `npm run build` + production server, never direct function invocation.
 
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/site";
 import { ORIGINS } from "@/lib/seo/origins";
+import { UNIVERSITIES } from "@/lib/seo/universities";
+import { PROGRAMMES, isIndexableProgramme } from "@/lib/seo/programmes";
 
-export const revalidate = 86_400; // 1 day
+export const revalidate = 86_400;
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+const CHUNK = 40_000;
+const N = ORIGINS.length; // 196
 
-  const staticPaths = ["", "/which-spanish-test", "/study-in-spain", "/pricing", "/login", "/signup"];
+// Indexable destination sets (noindex rows excluded from the sitemap).
+const UNIS = UNIVERSITIES.filter((u) => u.verified);
+const PROGS = PROGRAMMES.filter(isIndexableProgramme);
 
-  const originPaths: string[] = [];
-  for (const o of ORIGINS) {
-    originPaths.push(`/study-in-spain/${o.slug}`);
-    originPaths.push(`/which-spanish-test/${o.slug}`);
-    originPaths.push(`/spanish-nationality/${o.slug}`);
+const uniProducts = UNIS.length * N;
+const progProducts = PROGS.length * N;
+const uniChunks = Math.ceil(uniProducts / CHUNK);
+const progChunks = Math.ceil(progProducts / CHUNK);
+
+export async function generateSitemaps() {
+  const total = 1 + uniChunks + progChunks;
+  return Array.from({ length: total }, (_, i) => ({ id: i }));
+}
+
+function entry(path: string, priority = 0.6): MetadataRoute.Sitemap[number] {
+  return { url: `${SITE_URL}${path}`, changeFrequency: "weekly", priority };
+}
+
+// Slice a (destinations × origins) product space by global index, without
+// materialising the full list.
+function productSlice<T extends { slug: string }>(
+  list: T[],
+  lo: number,
+  hi: number,
+  make: (item: T, originSlug: string) => string,
+): MetadataRoute.Sitemap {
+  const end = Math.min(hi, list.length * N);
+  const out: MetadataRoute.Sitemap = [];
+  for (let gi = lo; gi < end; gi++) {
+    const item = list[Math.floor(gi / N)];
+    const origin = ORIGINS[gi % N];
+    out.push(entry(make(item, origin.slug), 0.5));
+  }
+  return out;
+}
+
+export default async function sitemap({
+  id,
+}: {
+  id: Promise<string>;
+}): Promise<MetadataRoute.Sitemap> {
+  const idNum = Number(await id);
+
+  // Chunk 0 — statics, hubs, and all base (non-origin) pages.
+  if (idNum === 0) {
+    const out: MetadataRoute.Sitemap = [
+      entry("", 1),
+      entry("/which-spanish-test", 0.7),
+      entry("/study-in-spain", 0.8),
+      entry("/universities", 0.7),
+      entry("/programs", 0.7),
+      entry("/pricing", 0.6),
+      entry("/signup", 0.5),
+      entry("/login", 0.4),
+    ];
+    for (const o of ORIGINS) {
+      out.push(entry(`/study-in-spain/${o.slug}`, 0.8));
+      out.push(entry(`/which-spanish-test/${o.slug}`, 0.7));
+      out.push(entry(`/spanish-nationality/${o.slug}`, 0.8));
+    }
+    for (const u of UNIS) out.push(entry(`/university/${u.slug}`, 0.6));
+    for (const p of PROGS) out.push(entry(`/program/${p.slug}`, 0.6));
+    return out;
   }
 
-  return [...staticPaths, ...originPaths].map((p) => ({
-    url: `${SITE_URL}${p}`,
-    lastModified: now,
-    changeFrequency: "weekly" as const,
-    priority:
-      p === ""
-        ? 1
-        : p.startsWith("/study-in-spain/") || p.startsWith("/spanish-nationality/")
-          ? 0.8
-          : 0.7,
-  }));
+  // University × origin chunks.
+  if (idNum <= uniChunks) {
+    const k = idNum - 1;
+    return productSlice(UNIS, k * CHUNK, (k + 1) * CHUNK, (u, o) => `/university/${u.slug}/from/${o}`);
+  }
+
+  // Programme × origin chunks.
+  const k = idNum - 1 - uniChunks;
+  return productSlice(PROGS, k * CHUNK, (k + 1) * CHUNK, (p, o) => `/program/${p.slug}/from/${o}`);
 }
