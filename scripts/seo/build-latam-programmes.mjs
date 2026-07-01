@@ -119,8 +119,57 @@ if (ipnUni) {
   }
 }
 
+// ---- 2c. Costa Rica — CONARE diplomas 2021-2025 (datos abiertos, CC BY-SA 4.0) ----
+// Distinct (universidad, carrera, grado) pre-extracted from the 32MB CONARE XLSX.
+const crRaw = JSON.parse(fs.readFileSync(`${REPO_RAW}/cr-conare-distinct.json`, "utf8"));
+const crUnis = JSON.parse(fs.readFileSync("C:/Projects/almi-spanish/src/data/spanish-universities.json", "utf8"))
+  .filter((u) => u.country.iso2 === "CR");
+// Our CR uni names are English; CONARE uses Spanish — map the state + main private unis.
+const CR_ALIASES = {
+  "university-of-costa-rica": "Universidad de Costa Rica",
+  "national-university-of-costa-rica": "Universidad Nacional",
+  "costa-rica-institute-of-technology": "Tecnológico de Costa Rica",
+  "distance-state-university-costa-rica": "Universidad Estatal a Distancia",
+  "national-technical-university-costa-rica": "Universidad Técnica Nacional",
+  "ulacit": "Universidad Latinoamericana de Ciencia y Tecnología",
+  "universidad-autonoma-de-centro-america": "Universidad Autónoma de Centro América",
+  "universidad-de-iberoamerica": "Universidad de Iberoamérica",
+  "universidad-internacional-de-las-americas": "Universidad Internacional de las Américas",
+  // EARTH, INCAE, University for Peace are not in the CONARE diploma registry → stay uni-level.
+};
+const crByNorm = new Map();
+for (const u of crUnis) {
+  crByNorm.set(norm(u.name), u);
+  if (CR_ALIASES[u.slug]) crByNorm.set(norm(CR_ALIASES[u.slug]), u);
+}
+const titleGrado = (g) =>
+  g.toLowerCase().replace(/(^|\s)([a-záéíóúñü])/g, (a, s, c) => s + c.toUpperCase());
+const cr = [];
+const seenCr = new Set();
+for (const r of crRaw) {
+  const u = crByNorm.get(norm(r.u));
+  if (!u) continue;
+  const carrera = String(r.c).replace(/\s+/g, " ").trim();
+  const grado = titleGrado(String(r.g).trim());
+  if (carrera.length < 4) continue;
+  const key = u.slug + "|" + norm(carrera) + "|" + grado;
+  if (seenCr.has(key)) continue;
+  seenCr.add(key);
+  cr.push({
+    name: carrera,
+    level: grado,
+    university: u.name,
+    country: { iso2: "CR", name: "Costa Rica" },
+    region: "Costa Rica",
+    source: {
+      publisher: "CONARE — Consejo Nacional de Rectores (datos abiertos, CC BY-SA 4.0)",
+      url: "https://www.conare.ac.cr/transparencia/datos-abiertos/",
+    },
+  });
+}
+
 // ---- 3. combine + unique slugs across the whole set ----
-const all = [...spain, ...co, ...mx];
+const all = [...spain, ...co, ...mx, ...cr];
 const used = new Map();
 for (const p of all) {
   let base = slugify(`${p.name}-${p.university}`) || "programa";
@@ -134,10 +183,9 @@ fs.writeFileSync(OUT, JSON.stringify(all) + "\n");
 
 const byCountry = {};
 all.forEach((p) => (byCountry[p.country.name] = (byCountry[p.country.name] || 0) + 1));
-console.log("TOTAL programmes:", all.length, "| Spain:", spain.length, "| Colombia:", co.length, "| Mexico(IPN):", mx.length);
+console.log("TOTAL programmes:", all.length, "| Spain:", spain.length, "| Colombia:", co.length, "| Mexico(IPN):", mx.length, "| Costa Rica:", cr.length);
 console.log("Colombia unis covered:", new Set(co.map((p) => p.university)).size, "/", coUnis.length);
-const lv = {}; co.forEach((p) => (lv[p.level] = (lv[p.level] || 0) + 1));
-console.log("CO levels:", JSON.stringify(lv));
-const mlv = {}; mx.forEach((p) => (mlv[p.level] = (mlv[p.level] || 0) + 1));
-console.log("MX(IPN) levels:", JSON.stringify(mlv));
+console.log("Costa Rica unis covered:", new Set(cr.map((p) => p.university)).size, "/", crUnis.length);
+const clv = {}; cr.forEach((p) => (clv[p.level] = (clv[p.level] || 0) + 1));
+console.log("CR levels:", JSON.stringify(clv));
 console.log("by country:", JSON.stringify(byCountry));
