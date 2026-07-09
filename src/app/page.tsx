@@ -340,6 +340,47 @@ export default function HomePage() {
           </p>
         </div>
       </section>
+
+      {/* Q&A */}
+      <section className="px-6 py-16">
+        <div className="mx-auto max-w-3xl">
+          <h2 className="font-display text-3xl font-semibold text-almi-ink">Questions, answered</h2>
+          <dl className="mt-8 space-y-6">
+            {[
+              {
+                q: "How much does it cost?",
+                a: "$12/month with a 7-day free trial. Comprensión auditiva and de lectura practice is free; AI feedback on Expresión escrita and oral is part of Pro.",
+              },
+              {
+                q: "Which Spanish exams do you cover?",
+                a: "DELE, SIELE and CCSE, across all six CEFR levels.",
+              },
+              {
+                q: "Are the Writing and Speaking scores official?",
+                a: "No. They are AI criteria-based estimates to guide your preparation — only the Instituto Cervantes and SIELE award real results.",
+              },
+              {
+                q: "Do I need an account?",
+                a: "Yes — create a free account to practise Comprensión auditiva and de lectura; a 7-day trial adds AI Expresión escrita and oral feedback.",
+              },
+              {
+                q: "Can I cancel?",
+                a: "Yes, anytime, from your account. Cancel before the trial ends and you pay nothing.",
+              },
+            ].map((item) => (
+              <div key={item.q} className="rounded-2xl border border-almi-bg-peach bg-almi-paper p-6">
+                <dt className="font-semibold text-almi-ink">{item.q}</dt>
+                <dd className="mt-2 text-sm text-almi-text">{item.a}</dd>
+              </div>
+            ))}
+          </dl>
+          <div className="mt-8 text-center">
+            <Link href="/signup" className="inline-flex min-h-[48px] items-center justify-center rounded-full bg-almi-coral px-7 py-3 text-base font-semibold text-almi-ink hover:bg-almi-coral-deep">
+              Create your account
+            </Link>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

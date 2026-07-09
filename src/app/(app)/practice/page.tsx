@@ -19,8 +19,8 @@ export default async function PracticePage({
     <div className="mx-auto max-w-3xl px-6 py-12">
       <h1 className="font-display text-3xl font-bold text-almi-ink">Choose your practice</h1>
       <p className="mt-2 text-sm text-almi-text-muted">
-        Pick the exam your goal needs, your level, then a skill. Compréhension de l&apos;oral &amp; écrite
-        are free; Expression écrite &amp; orale get AI feedback (Pro). Estimates only — confirm with the
+        Pick the exam your goal needs, your level, then a skill. Comprensión auditiva &amp; de lectura
+        are free; Expresión escrita &amp; oral get AI feedback (Pro). Estimates only — confirm with the
         official body.
       </p>
 
