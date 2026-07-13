@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { SITE_URL } from "@/lib/site";
 import { UNIVERSITIES, findUniversity, languageLine } from "@/lib/seo/universities";
 
-export const revalidate = 86_400;
+export const revalidate = false;
 export const dynamicParams = true;
 
 export function generateStaticParams() {

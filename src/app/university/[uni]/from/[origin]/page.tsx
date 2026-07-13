@@ -8,7 +8,7 @@ import type { University } from "@/lib/seo/universities";
 
 // On-demand ISR: 465 unis × 196 origins is ~90k pages — built on first request and
 // cached, not prerendered at build. The sitemap lists them so Google discovers them.
-export const revalidate = 86_400;
+export const revalidate = false;
 export const dynamicParams = true;
 export function generateStaticParams() {
   return [] as { uni: string; origin: string }[];

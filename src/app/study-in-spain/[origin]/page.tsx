@@ -11,7 +11,7 @@ import {
 } from "@/lib/seo/origins";
 import { CEFR_LEVELS, CEFR_LABEL } from "@/lib/spanish/cefr";
 
-export const revalidate = 86_400;
+export const revalidate = false;
 export const dynamicParams = true;
 
 export function generateStaticParams() {

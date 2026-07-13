@@ -5,7 +5,7 @@
 import { SITE_URL } from "@/lib/site";
 import { CHUNKS } from "@/lib/seo/sitemap-plan";
 
-export const revalidate = 86_400; // 1 day
+export const revalidate = false;
 
 export function GET() {
   const items = Array.from(
