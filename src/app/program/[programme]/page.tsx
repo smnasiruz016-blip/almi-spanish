@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { SITE_URL } from "@/lib/site";
 import { PROGRAMMES, findProgramme, programmeLanguageLine, isIndexableProgramme } from "@/lib/seo/programmes";
 
-export const revalidate = 86_400;
+export const revalidate = false;
 export const dynamicParams = true;
 
 export function generateStaticParams() {

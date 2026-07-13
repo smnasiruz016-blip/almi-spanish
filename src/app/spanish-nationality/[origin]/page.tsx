@@ -9,7 +9,7 @@ import {
   type Origin,
 } from "@/lib/seo/origins";
 
-export const revalidate = 86_400;
+export const revalidate = false;
 export const dynamicParams = true;
 
 export function generateStaticParams() {

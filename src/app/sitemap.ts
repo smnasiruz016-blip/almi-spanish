@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/site";
 import { ORIGINS } from "@/lib/seo/origins";
 import { CHUNK, N, UNIS, PROGS, uniChunks, CHUNKS } from "@/lib/seo/sitemap-plan";
 
-export const revalidate = 86_400;
+export const revalidate = false;
 
 export async function generateSitemaps() {
   return Array.from({ length: CHUNKS }, (_, i) => ({ id: i }));
