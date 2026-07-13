@@ -3,6 +3,10 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
+  // Homepage self-brands; absolute opts out of the layout's "%s · AlmiSpanish" template.
+  title: { absolute: "Spanish Exam Practice — DELE, SIELE, CCSE | AlmiSpanish" },
+  description:
+    "DELE, SIELE and CCSE practice on their own real scales, never mixed. DELE A2 + CCSE for Spanish nationality. Honest per-skill readiness, not a fake score.",
   alternates: { canonical: SITE_URL },
 };
 
