@@ -4,10 +4,12 @@ import { notFound } from "next/navigation";
 import { SITE_URL } from "@/lib/site";
 import { findProgramme, programmeLanguageLine, isIndexableProgramme } from "@/lib/seo/programmes";
 import { findOrigin, destinationEntryLine, type Origin } from "@/lib/seo/origins";
+import { resolveOriginStudy } from "@/lib/seo/origin-recognition";
 
 // On-demand ISR: 2,024 programmes × 196 origins ≈ 397k pages — built on first request,
-// not prerendered. The chunked sitemap lists them for discovery.
-export const revalidate = 86_400;
+// not prerendered. Cache indefinitely (Localization Standard rule #5): programme +
+// origin data change only on redeploy, which cold-starts the ISR cache.
+export const revalidate = false;
 export const dynamicParams = true;
 export function generateStaticParams() {
   return [] as { programme: string; origin: string }[];
@@ -44,6 +46,7 @@ export default async function ProgrammeFromOriginPage({
   if (!p || !o) notFound();
 
   const entry = destinationEntryLine(p.country.iso2, p.country.name, o);
+  const rec = resolveOriginStudy(o.slug, o.name);
 
   return (
     <main>
@@ -75,6 +78,23 @@ export default async function ProgrammeFromOriginPage({
               Entry from {o.name} · {entry.short}
             </p>
             <p className="mt-2 text-sm leading-relaxed text-almi-text">{entry.line}</p>
+          </div>
+          {/* Home-country recognition + real search vocabulary (Localization
+              Standard) — verified per origin, honest-generic otherwise. */}
+          <div className="rounded-2xl border border-almi-bg-peach bg-almi-paper p-6">
+            <p className="text-xs font-bold uppercase tracking-wider text-almi-coral">
+              Using a Spanish degree back in {o.name}
+            </p>
+            <p className="mt-2 text-sm leading-relaxed text-almi-text">
+              {rec.localized
+                ? `Recognition of a foreign degree in ${o.name} goes through ${rec.recognitionBody}${rec.recognitionUrl ? ` (${rec.recognitionUrl.replace(/^https?:\/\//, "")})` : ""}. ${rec.equivalenceNote} A common concern from ${o.name} is “${rec.commonConcern}” — worth planning early alongside the Spanish requirement.${rec.sourceNote ? ` Note: ${rec.sourceNote}` : ""}`
+                : rec.equivalenceNote}
+            </p>
+            {rec.searchTerms.length > 0 && (
+              <p className="mt-2 text-xs text-almi-text-muted">
+                Students from {o.name} commonly search for: {rec.searchTerms.join(" · ")}.
+              </p>
+            )}
           </div>
         </div>
       </section>
