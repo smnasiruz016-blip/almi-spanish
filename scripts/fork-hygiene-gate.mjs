@@ -37,12 +37,9 @@ const SCAN_EXT = /\.(ts|tsx|js|mjs|json|prisma|css|md)$/;
 const ALLOWLIST = new Map([
   ["src/lib/nav/family.ts", "links to sibling AlmiWorld products by name"],
   ["scripts/fork-hygiene-gate.mjs", "documents the banned nouns"],
-  // Vestigial one-off dev generator: it read french's origins.json ONCE to seed spanish's
-  // (spanish was scaffolded off french), then wrote src/data/origins.json — which already
-  // exists (44KB). It is not in the build chain and is referenced by nothing (package.json,
-  // CI). The `C:/Projects/almi-french/...` path is a dev-time seed source, not shipped copy.
-  // A hole, but a dev-only, single-line one over a build tool that no longer runs.
-  ["scripts/seo/build-origins.mjs", "vestigial one-off generator that seeded origins from french; not in build, not shipped"],
+  // (scripts/seo/build-origins.mjs was a vestigial one-off generator reading french's
+  //  origins.json; DELETED rather than allowlisted — removing the leak beats preserving a
+  //  blind spot. No allowlist hole remains.)
 ]);
 
 const LINE_ESCAPE = "hygiene-allow";
