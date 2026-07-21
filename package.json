@@ -5,7 +5,7 @@
   "description": "AlmiSpanish — AI-powered Spanish exam practice in the AlmiWorld family. DELE, SIELE and CCSE across four skills and six CEFR levels (A1–C2), with three honest scoring engines — DELE's APTO/NO APTO per-group floor, SIELE's 0–1000 placement, CCSE's 15/25 civic pass — each on its own real scale, mapped to CEFR. Separate product (almispanish.almiworld.com). Original, pan-Hispanic content — never copied from the test-makers. Practice estimates only; confirm with the official body.",
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/uniqueness-gate.mjs && prisma generate && next build",
+    "build": "node scripts/fork-hygiene-gate.mjs && node scripts/uniqueness-gate.mjs && prisma generate && next build",
     "start": "next start",
     "postinstall": "prisma generate",
     "seed:a1": "tsx --env-file-if-exists=.env scripts/seed/a1.ts",
