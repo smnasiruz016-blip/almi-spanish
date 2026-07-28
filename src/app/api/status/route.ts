@@ -3,14 +3,17 @@
 // deploy's auto-seed step landed.
 
 import { NextResponse } from "next/server";
-import { prisma } from "@/lib/prisma";
+import { prisma, withDbRetry } from "@/lib/prisma";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 export async function GET(): Promise<NextResponse> {
   try {
-    const [byModule, total, approvedReviews] = await Promise.all([
+    // ONE retry on a connection-class failure — see withDbRetry(). A Neon compute
+    // resuming from autosuspend can fail the first query on a low-traffic product, and
+    // without this that single failure is reported as the product being down.
+    const [byModule, total, approvedReviews] = await withDbRetry(() => Promise.all([
       prisma.spanishItem.groupBy({
         by: ["level", "skill"],
         where: { active: true },
@@ -18,7 +21,7 @@ export async function GET(): Promise<NextResponse> {
       }),
       prisma.spanishItem.count({ where: { active: true } }),
       prisma.review.count({ where: { approved: true } }),
-    ]);
+    ]));
     const items: Record<string, number> = {};
     for (const r of byModule) items[`${r.level}.${r.skill}`] = r._count;
     return NextResponse.json(
