@@ -3,13 +3,16 @@
 // <sitemapindex> here and point robots.txt + GSC at /sitemap-index.xml.
 
 import { SITE_URL } from "@/lib/site";
-import { CHUNKS } from "@/lib/seo/sitemap-plan";
+
+// HOLDING 2026-08-09 — one chunk, mirroring sitemap.ts. Advertising more chunks than sitemap.ts
+// fills leaves the tail as phantom 404s in GSC. Restore the CHUNKS import to reverse.
+const HOLDING_CHUNKS = 1;
 
 export const revalidate = false;
 
 export function GET() {
   const items = Array.from(
-    { length: CHUNKS },
+    { length: HOLDING_CHUNKS },
     (_, id) => `<sitemap><loc>${SITE_URL}/sitemap/${id}.xml</loc></sitemap>`,
   ).join("");
   const xml = `<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${items}</sitemapindex>`;

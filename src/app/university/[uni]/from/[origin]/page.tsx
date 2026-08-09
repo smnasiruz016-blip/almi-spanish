@@ -9,7 +9,10 @@ import type { University } from "@/lib/seo/universities";
 // On-demand ISR: 465 unis × 196 origins is ~90k pages — built on first request and
 // cached, not prerendered at build. The sitemap lists them so Google discovers them.
 export const revalidate = false;
-export const dynamicParams = true;
+// HOLDING 2026-08-09 — ISR page-generation frozen (university x origin). Nothing is prerendered and
+// nothing renders on demand, so every URL under this route 404s and no ISR write can occur.
+// Data and templates are untouched. Reverse by restoring `dynamicParams = true`.
+export const dynamicParams = false;
 export function generateStaticParams() {
   return [] as { uni: string; origin: string }[];
 }

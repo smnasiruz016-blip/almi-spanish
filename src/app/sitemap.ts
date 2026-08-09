@@ -11,8 +11,14 @@ import { CHUNK, N, UNIS, PROGS, uniChunks, CHUNKS } from "@/lib/seo/sitemap-plan
 
 export const revalidate = false;
 
+// HOLDING 2026-08-09 — one keep-set chunk. Chunk 0 already holds exactly the bounded, prerendered
+// surface (statics, hubs, per-origin routes, university and programme hubs). The university x origin
+// and programme x origin chunks are withdrawn because those routes no longer render; advertising
+// them would only burn crawl budget and point Google at 404s. @/lib/seo/sitemap-plan keeps the full
+// chunk math untouched — restore `Array.from({ length: CHUNKS }, ...)` to reverse, in step with
+// sitemap-index.xml.
 export async function generateSitemaps() {
-  return Array.from({ length: CHUNKS }, (_, i) => ({ id: i }));
+  return [{ id: 0 }];
 }
 
 function entry(path: string, priority = 0.6): MetadataRoute.Sitemap[number] {
