@@ -10,7 +10,11 @@ import {
 } from "@/lib/seo/origins";
 
 export const revalidate = false;
-export const dynamicParams = true;
+// HOLDING 2026-08-09 — keep-set. generateStaticParams below already enumerates this bounded
+// tier, so it prerenders at build and serves as static HTML; flipping this flag stops
+// anything OUTSIDE that set from rendering on demand, which is where the ISR writes came
+// from. Reverse by restoring `dynamicParams = true`.
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return ORIGINS.map((o) => ({ origin: o.slug }));

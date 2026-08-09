@@ -10,7 +10,10 @@ import { resolveOriginStudy } from "@/lib/seo/origin-recognition";
 // not prerendered. Cache indefinitely (Localization Standard rule #5): programme +
 // origin data change only on redeploy, which cold-starts the ISR cache.
 export const revalidate = false;
-export const dynamicParams = true;
+// HOLDING 2026-08-09 — ISR page-generation frozen (programme x origin). Nothing is prerendered and
+// nothing renders on demand, so every URL under this route 404s and no ISR write can occur.
+// Data and templates are untouched. Reverse by restoring `dynamicParams = true`.
+export const dynamicParams = false;
 export function generateStaticParams() {
   return [] as { programme: string; origin: string }[];
 }
