@@ -81,6 +81,7 @@ export default async function SignupPage({
   return (
     <div className="rounded-2xl border border-almi-bg-peach bg-almi-paper p-8 shadow-sm">
       <h1 className="text-2xl font-semibold text-almi-ink">Create your account</h1>
+      <p className="mt-2 text-sm text-almi-text-muted">Then $12/month. Cancel anytime.</p>
       <p className="mt-2 text-sm text-almi-text-muted">
         Practise DELE, SIELE and CCSE with honest AI feedback across every CEFR level.
       </p>
