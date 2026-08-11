@@ -100,7 +100,7 @@ export default function WhichSpanishTestPage() {
             href="/signup"
             className="inline-flex min-h-[48px] items-center justify-center rounded-full bg-almi-coral px-7 py-3 text-base font-semibold text-almi-ink hover:bg-almi-coral-deep"
           >
-            Practise free for your exam
+            Practise for your exam
           </Link>
         </div>
       </div>

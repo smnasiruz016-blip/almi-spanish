@@ -42,6 +42,15 @@ export async function POST(req: Request): Promise<NextResponse> {
   let pointsEarned = 0;
   let pointsMax = 0;
 
+  // Every skill needs a subscription now -- objective marking used to be
+  // the free path, and there is no free tier any more.
+  if (!hasPaidAccess(user)) {
+    return NextResponse.json(
+      { error: "Start your 7-day free trial to practise — $12/month after, cancel anytime." },
+      { status: 402 },
+    );
+  }
+
   if (isObjective(item.skill)) {
     const resp = (body.response ?? { answers: {} }) as ObjectiveResponse;
     const mark = markObjective(answerKey(item), resp);

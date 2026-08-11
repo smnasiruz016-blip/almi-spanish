@@ -20,13 +20,13 @@ const SKILLS = [
   {
     es: "Comprensión auditiva",
     en: "Listening",
-    tier: "Auto-marked · Free",
+    tier: "Auto-marked",
     blurb: "Listen to authentic pan-Hispanic audio and answer real comprehension tasks, with accents from across the Spanish-speaking world.",
   },
   {
     es: "Comprensión de lectura",
     en: "Reading",
-    tier: "Auto-marked · Free",
+    tier: "Auto-marked",
     blurb: "Read complex Spanish texts and build fast, accurate comprehension across real document types.",
   },
   {
@@ -178,7 +178,7 @@ export default function HomePage() {
                 href="/signup"
                 className="inline-flex min-h-[48px] items-center justify-center rounded-full bg-almi-coral px-7 py-3 text-base font-semibold text-almi-ink hover:bg-almi-coral-deep"
               >
-                Practise free
+                Start 7-day free trial
               </Link>
               <span className="text-sm text-almi-text-muted">
                 Already have an account?{" "}
@@ -353,7 +353,7 @@ export default function HomePage() {
             {[
               {
                 q: "How much does it cost?",
-                a: "$12/month with a 7-day free trial. Comprensión auditiva and de lectura practice is free; AI feedback on Expresión escrita and oral is part of Pro.",
+                a: "$12/month with a 7-day free trial. Comprensión auditiva and de lectura practice, AI feedback on Expresión escrita and oral is part of Pro.",
               },
               {
                 q: "Which Spanish exams do you cover?",
@@ -365,7 +365,7 @@ export default function HomePage() {
               },
               {
                 q: "Do I need an account?",
-                a: "Yes — create a free account to practise Comprensión auditiva and de lectura; a 7-day trial adds AI Expresión escrita and oral feedback.",
+                a: "Yes — start a 7-day free trial. Your card is saved but not charged, and you can cancel inside the 7 days and pay nothing.",
               },
               {
                 q: "Can I cancel?",
