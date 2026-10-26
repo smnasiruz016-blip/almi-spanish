@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { SITE_URL } from "@/lib/site";
 import { ORIGINS, REGION_ORDER } from "@/lib/seo/origins";
 
@@ -28,8 +27,8 @@ export default function StudyInSpainIndex() {
           </h1>
           <p className="mt-5 max-w-2xl text-lg text-almi-text">
             Every country has its own real corridor to Spain: EU nationals move freely, everyone else needs
-            a student visa, and only some countries get the 2-year nationality track. Pick yours for the
-            honest picture — which Spanish exam you need, and where you stand.
+            a student visa, and only some countries get the 2-year nationality track. The countries we
+            cover are listed below.
           </p>
         </div>
       </section>
@@ -47,12 +46,9 @@ export default function StudyInSpainIndex() {
                   .sort((a, b) => a.name.localeCompare(b.name))
                   .map((o) => (
                     <li key={o.slug}>
-                      <Link
-                        href={`/study-in-spain/${o.slug}`}
-                        className="block rounded-xl border border-almi-bg-peach bg-almi-paper px-4 py-2.5 text-sm text-almi-ink hover:bg-almi-bg-peach/50"
-                      >
+                      <span className="block rounded-xl border border-almi-bg-peach bg-almi-paper px-4 py-2.5 text-sm text-almi-ink">
                         {o.name}
-                      </Link>
+                      </span>
                     </li>
                   ))}
               </ul>

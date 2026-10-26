@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { SITE_URL } from "@/lib/site";
 import { programmesByUniversity, PROGRAMME_COUNT } from "@/lib/seo/programmes";
 
@@ -42,12 +41,9 @@ export default function ProgramsIndex() {
                   .sort((a, b) => a.name.localeCompare(b.name))
                   .map((p) => (
                     <li key={p.slug}>
-                      <Link
-                        href={`/program/${p.slug}`}
-                        className="block rounded-lg px-3 py-1.5 text-sm text-almi-ink hover:bg-almi-bg-peach/50"
-                      >
+                      <span className="block rounded-lg px-3 py-1.5 text-sm text-almi-ink">
                         <span className="text-xs text-almi-text-muted">{p.level}</span> · {p.name}
-                      </Link>
+                      </span>
                     </li>
                   ))}
               </ul>

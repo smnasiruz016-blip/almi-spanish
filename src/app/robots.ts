@@ -2,25 +2,24 @@ import type { MetadataRoute } from "next";
 
 const SITE_URL = "https://almispanish.almiworld.com";
 
-// Deep per-origin long-tail leaves. Origin HUBS (/spanish-nationality/<origin>,
-// /study-in-spain/<origin>, /which-spanish-test/<origin>) stay crawlable; only
-// /from/ leaves are trimmed.
-const DEEP_LEAVES = ["/program/*/from/", "/university/*/from/"];
+const PRIVATE = ["/practice/", "/account", "/admin", "/api/"];
 
-const HEAVY_BOTS = [
-  "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "anthropic-ai",
-  "CCBot", "Bytespider", "Amazonbot", "PerplexityBot", "Google-Extended",
-  "AhrefsBot", "SemrushBot", "MJ12bot", "DotBot", "DataForSeoBot", "PetalBot",
-];
+// AI crawlers are NEVER blocked (owner ruling 27 Oct 2026: AI visibility is the product goal).
+// GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-SearchBot, anthropic-ai, PerplexityBot,
+// Google-Extended, CCBot, Amazonbot, Bytespider, Meta-ExternalAgent and the like fall under `*`.
+// Only pure SEO-tool scrapers (no search or AI audience) stay off entirely.
+//
+// The old DEEP_LEAVES disallow (/program/*/from/, /university/*/from/) is gone too: it covered
+// only the removed programmatic pages, which now answer 410 Gone from src/proxy.ts — crawlers
+// must be able to SEE the 410 to drop those URLs.
+const SEO_TOOL_SCRAPERS = ["AhrefsBot", "SemrushBot", "MJ12bot", "DotBot", "DataForSeoBot"];
 
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
-      // HOLDING 2026-08-09 — DEEP_LEAVES now applies to Googlebot and Bingbot too; those routes no
-      // longer render. Advisory only — the route config is what stops the ISR writes.
-      { userAgent: ["Googlebot", "Bingbot"], allow: "/", disallow: ["/practice/", "/account", "/admin", "/api/", ...DEEP_LEAVES] },
-      { userAgent: "*", allow: "/", disallow: ["/practice/", "/account", "/admin", "/api/", ...DEEP_LEAVES], crawlDelay: 10 },
-      { userAgent: HEAVY_BOTS, disallow: "/" },
+      { userAgent: ["Googlebot", "Bingbot"], allow: "/", disallow: PRIVATE },
+      { userAgent: "*", allow: "/", disallow: PRIVATE, crawlDelay: 10 },
+      { userAgent: SEO_TOOL_SCRAPERS, disallow: "/" },
     ],
     sitemap: `${SITE_URL}/sitemap-index.xml`,
   };
