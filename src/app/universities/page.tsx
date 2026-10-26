@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { SITE_URL } from "@/lib/site";
 import { universitiesByCountry, UNIVERSITY_COUNT } from "@/lib/seo/universities";
 
@@ -42,12 +41,9 @@ export default function UniversitiesIndex() {
                   .sort((a, b) => a.name.localeCompare(b.name))
                   .map((u) => (
                     <li key={u.slug}>
-                      <Link
-                        href={`/university/${u.slug}`}
-                        className="block rounded-xl border border-almi-bg-peach bg-almi-paper px-4 py-2.5 text-sm text-almi-ink hover:bg-almi-bg-peach/50"
-                      >
+                      <span className="block rounded-xl border border-almi-bg-peach bg-almi-paper px-4 py-2.5 text-sm text-almi-ink">
                         {u.name}
-                      </Link>
+                      </span>
                     </li>
                   ))}
               </ul>
