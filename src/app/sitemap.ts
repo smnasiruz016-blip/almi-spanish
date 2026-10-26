@@ -1,22 +1,18 @@
-// Chunked sitemap for the full Wave-2 surface. Under Google's 50k-per-file cap.
+// Sitemap (one chunk, served at /sitemap/0.xml; the index is app/sitemap-index.xml/route.ts).
 //
-// CRITICAL (Next 16): `id` arrives as Promise<string> — must be awaited + Number()'d,
-// or every chunk silently emits 0 URLs. See docs/SITEMAP_CHUNKING.md. Test only with a
-// real `npm run build` + production server, never direct function invocation.
+// CRITICAL (Next 16): `id` arrives as Promise<string> — must be awaited even though only
+// chunk 0 exists. See docs/SITEMAP_CHUNKING.md.
+//
+// COST FIX 26 Oct 2026 — every programmatic family was removed (owner ruling 17 Oct: deleted,
+// no redirects) and answers 410 Gone from src/proxy.ts: /program/*, /university/*,
+// /study-in-spain/<origin>, /which-spanish-test/<origin>, /spanish-nationality/*. Only the
+// kept pages are listed.
 
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/site";
-import { ORIGINS } from "@/lib/seo/origins";
-import { CHUNK, N, UNIS, PROGS, uniChunks, CHUNKS } from "@/lib/seo/sitemap-plan";
 
 export const revalidate = false;
 
-// HOLDING 2026-08-09 — one keep-set chunk. Chunk 0 already holds exactly the bounded, prerendered
-// surface (statics, hubs, per-origin routes, university and programme hubs). The university x origin
-// and programme x origin chunks are withdrawn because those routes no longer render; advertising
-// them would only burn crawl budget and point Google at 404s. @/lib/seo/sitemap-plan keeps the full
-// chunk math untouched — restore `Array.from({ length: CHUNKS }, ...)` to reverse, in step with
-// sitemap-index.xml.
 export async function generateSitemaps() {
   return [{ id: 0 }];
 }
@@ -25,60 +21,20 @@ function entry(path: string, priority = 0.6): MetadataRoute.Sitemap[number] {
   return { url: `${SITE_URL}${path}`, changeFrequency: "weekly", priority };
 }
 
-// Slice a (destinations × origins) product space by global index, without
-// materialising the full list.
-function productSlice<T extends { slug: string }>(
-  list: T[],
-  lo: number,
-  hi: number,
-  make: (item: T, originSlug: string) => string,
-): MetadataRoute.Sitemap {
-  const end = Math.min(hi, list.length * N);
-  const out: MetadataRoute.Sitemap = [];
-  for (let gi = lo; gi < end; gi++) {
-    const item = list[Math.floor(gi / N)];
-    const origin = ORIGINS[gi % N];
-    out.push(entry(make(item, origin.slug), 0.5));
-  }
-  return out;
-}
-
 export default async function sitemap({
   id,
 }: {
   id: Promise<string>;
 }): Promise<MetadataRoute.Sitemap> {
-  const idNum = Number(await id);
-
-  // Chunk 0 — statics, hubs, and all base (non-origin) pages.
-  if (idNum === 0) {
-    const out: MetadataRoute.Sitemap = [
-      entry("", 1),
-      entry("/which-spanish-test", 0.7),
-      entry("/study-in-spain", 0.8),
-      entry("/universities", 0.7),
-      entry("/programs", 0.7),
-      entry("/pricing", 0.6),
-      entry("/signup", 0.5),
-      entry("/login", 0.4),
-    ];
-    for (const o of ORIGINS) {
-      out.push(entry(`/study-in-spain/${o.slug}`, 0.8));
-      out.push(entry(`/which-spanish-test/${o.slug}`, 0.7));
-      out.push(entry(`/spanish-nationality/${o.slug}`, 0.8));
-    }
-    for (const u of UNIS) out.push(entry(`/university/${u.slug}`, 0.6));
-    for (const p of PROGS) out.push(entry(`/program/${p.slug}`, 0.6));
-    return out;
-  }
-
-  // University × origin chunks.
-  if (idNum <= uniChunks) {
-    const k = idNum - 1;
-    return productSlice(UNIS, k * CHUNK, (k + 1) * CHUNK, (u, o) => `/university/${u.slug}/from/${o}`);
-  }
-
-  // Programme × origin chunks.
-  const k = idNum - 1 - uniChunks;
-  return productSlice(PROGS, k * CHUNK, (k + 1) * CHUNK, (p, o) => `/program/${p.slug}/from/${o}`);
+  void (await id);
+  return [
+    entry("", 1),
+    entry("/which-spanish-test", 0.7),
+    entry("/study-in-spain", 0.8),
+    entry("/universities", 0.7),
+    entry("/programs", 0.7),
+    entry("/pricing", 0.6),
+    entry("/signup", 0.5),
+    entry("/login", 0.4),
+  ];
 }
