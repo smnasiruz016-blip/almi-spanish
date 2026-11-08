@@ -36,6 +36,7 @@ const SCAN_EXT = /\.(ts|tsx|js|mjs|json|prisma|css|md)$/;
 
 const ALLOWLIST = new Map([
   ["src/lib/nav/family.ts", "links to sibling AlmiWorld products by name"],
+  ["src/lib/almiworld-family.ts", "RR-398: the generated AlmiWorld family kit links to sibling AlmiWorld products by name"],
   ["scripts/fork-hygiene-gate.mjs", "documents the banned nouns"],
   // (scripts/seo/build-origins.mjs was a vestigial one-off generator reading french's
   //  origins.json; DELETED rather than allowlisted — removing the leak beats preserving a
