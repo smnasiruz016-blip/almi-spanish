@@ -1,5 +1,5 @@
 // Practice picker: choose an exam → CEFR level → skill, then run a practice item.
-// Reading/Listening are free (auto-marked); Writing/Speaking are Pro (AI feedback).
+// Reading/Listening are free (auto-marked); Writing/Speaking are Pro (AI feedback), 1 of each in the free 48 hours (RR-397).
 
 import Link from "next/link";
 import { EXAMS, EXAM_FAMILIES, examsByFamily } from "@/lib/spanish/exams";
@@ -20,7 +20,8 @@ export default async function PracticePage({
       <h1 className="font-display text-3xl font-bold text-almi-ink">Choose your practice</h1>
       <p className="mt-2 text-sm text-almi-text-muted">
         Pick the exam your goal needs, your level, then a skill. Comprensión auditiva &amp; de lectura
-        are free; Expresión escrita &amp; oral get AI feedback (Pro). Estimates only — confirm with the
+        are free; Expresión escrita &amp; oral get AI feedback (Pro, and one of each in your free 48 hours, no card).
+        Estimates only — confirm with the
         official body.
       </p>
 
@@ -103,7 +104,7 @@ export default async function PracticePage({
               >
                 <span className="font-display font-semibold text-almi-ink">{SKILL_LABEL[s]}</span>
                 <span className="mt-1 text-xs text-almi-text-muted">
-                  {isObjective(s) ? "Auto-marked · Free" : "AI feedback · Pro"}
+                  {isObjective(s) ? "Auto-marked · Free" : "AI feedback · Pro (1 free in your 48 hours)"}
                 </span>
               </Link>
             ))}

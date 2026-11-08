@@ -188,7 +188,7 @@ export default function HomePage() {
               </span>
             </div>
             <p className="mt-5 text-xs text-almi-text-muted">
-              Try free for 48 hours, then $12/month · cancel anytime · Listening &amp; Reading free · Original
+              Try free for 48 hours, no card. Then $12/month · cancel anytime · Listening &amp; Reading free · Original
               pan-Hispanic material, never copied
             </p>
           </div>
@@ -308,7 +308,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-xl text-center">
           <h2 className="font-display text-3xl font-semibold text-almi-ink">One flat rate. No hidden billing games.</h2>
           <p className="mt-3 text-base text-almi-text">
-            Try free for 48 hours, then <span className="font-semibold text-almi-ink">$12/month</span>. Cancel anytime.
+            Try free for 48 hours, no card. Then <span className="font-semibold text-almi-ink">$12/month</span>. Cancel anytime.
           </p>
           <ul className="mx-auto mt-6 max-w-md space-y-2 text-left text-sm text-almi-text">
             {[
@@ -353,7 +353,7 @@ export default function HomePage() {
             {[
               {
                 q: "How much does it cost?",
-                a: "Try free for 48 hours, then $12/month. Comprensión auditiva and de lectura practice is free; AI feedback on Expresión escrita and oral is part of Pro.",
+                a: "Try free for 48 hours, no card. Then $12/month. Comprensión auditiva and de lectura practice is free; AI feedback on Expresión escrita and oral is part of Pro.",
               },
               {
                 q: "Which Spanish exams do you cover?",
@@ -365,11 +365,11 @@ export default function HomePage() {
               },
               {
                 q: "Do I need an account?",
-                a: "Yes — create a free account to practise Comprensión auditiva and de lectura; a 48-hour trial adds AI Expresión escrita and oral feedback.",
+                a: "Yes — create a free account to practise Comprensión auditiva and de lectura. Your first 48 hours are free with no card and include one AI-scored Expresión escrita and one Expresión oral.",
               },
               {
                 q: "Can I cancel?",
-                a: "Yes, anytime, from your account. Cancel before the trial ends and you pay nothing.",
+                a: "Yes, anytime, from your account. The free 48 hours need no card, so you pay nothing unless you unlock for $12/month.",
               },
             ].map((item) => (
               <div key={item.q} className="rounded-2xl border border-almi-bg-peach bg-almi-paper p-6">
