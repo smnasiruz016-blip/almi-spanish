@@ -3,7 +3,9 @@
 
 import Link from "next/link";
 import { findExam } from "@/lib/spanish/exams";
-import { LEVELS, SKILL_SLUG, SKILL_LABEL } from "@/lib/spanish/types";
+import { LEVELS, SKILL_SLUG, SKILL_LABEL, isObjective } from "@/lib/spanish/types";
+import { requireUser } from "@/lib/auth";
+import { FreeTimeBanner } from "@/components/FreeTimeBanner";
 import type { CefrLevel, SpanishSkill } from "@prisma/client";
 import { pickItems, stripAnswers } from "@/lib/spanish/session";
 import { Composer, type ComposerItem } from "@/components/spanish/Composer";
@@ -19,6 +21,7 @@ export default async function RunPage({
 }: {
   searchParams: Promise<{ exam?: string; level?: string; skill?: string }>;
 }) {
+  const user = await requireUser();
   const sp = await searchParams;
   const exam = findExam(sp.exam ?? "");
   const level = sp.level as CefrLevel | undefined;
@@ -59,6 +62,12 @@ export default async function RunPage({
       <p className="text-xs font-semibold uppercase tracking-wide text-almi-text-muted">
         {exam.name} · {level} · {SKILL_LABEL[skill]}
       </p>
+      {/* RR-397: Writing/Speaking get AI feedback: paid, or 1 of each in the free 48 hours (no card). Reading/Listening stay free. */}
+      {!isObjective(skill) && (
+        <div className="mt-3">
+          <FreeTimeBanner user={user} ai={skill === "EXPRESION_ORAL" ? "SPEAKING" : "WRITING"} />
+        </div>
+      )}
       <Composer item={stripAnswers(item) as unknown as ComposerItem} examId={exam.id} />
     </div>
   );

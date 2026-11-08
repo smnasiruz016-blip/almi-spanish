@@ -2,6 +2,8 @@
 // Generates the audio server-side from the item's `audioScript` so the script
 // (which would give away the answers) never reaches the client. Any signed-in
 // user may fetch practice audio. Two-or-more-speaker scripts alternate voices.
+// RR-397: free part kept — Listening was free for every signed-in account before RR-397 and stays so; this route reads audio aloud
+// and scores nothing, so it has no free-48-hours AI door.
 
 import { NextResponse } from "next/server";
 import { z } from "zod";

@@ -1,12 +1,12 @@
 // Score a practice attempt. Reading/Listening: deterministic marking (free).
-// Writing/Speaking: AI grader (Pro). Both convert to the chosen exam's scale and
+// Writing/Speaking: AI grader (paid, or 1 of each in the free 48 hours). Both convert to the chosen exam's scale and
 // route to its engine for an honest per-skill estimate. No fabricated official
 // score; we always tell the user to confirm with the official body.
 
 import { NextResponse } from "next/server";
 import { requireUser } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
-import { hasPaidAccess } from "@/lib/billing/plans";
+import { aiGate } from "@/lib/billing/free-access";
 import { findExam } from "@/lib/spanish/exams";
 import { isObjective } from "@/lib/spanish/types";
 import { markObjective, estimateSkill, toCefrSkill, type ObjectiveResponse } from "@/lib/spanish/scoring";
@@ -49,13 +49,13 @@ export async function POST(req: Request): Promise<NextResponse> {
     pointsEarned = mark.correct;
     pointsMax = mark.total;
   } else {
-    // Productive (Writing/Speaking) = Pro.
-    if (!hasPaidAccess(user)) {
-      return NextResponse.json(
-        { error: "Expresión escrita and Expresión oral feedback is a Pro feature." },
-        { status: 402 },
-      );
-    }
+    // Productive (Writing/Speaking) uses the AI grader. RR-397: paid users as before; a free account (48 hours, no card) gets ONE
+    // AI-scored Expresión escrita and ONE AI-scored Expresión oral, within today's free-AI budget. "Used" = a SCORED attempt of that
+    // skill (written only after the grader returned), never a click.
+    const gate = await aiGate(user, item.skill === "EXPRESION_ORAL" ? "SPEAKING" : "WRITING", () =>
+      prisma.spanishAttempt.count({ where: { userId: user.id, skill: item.skill, status: "SCORED" } }),
+    );
+    if (!gate.ok) return NextResponse.json(gate.body, { status: gate.status });
     const payload = item.payload as Record<string, unknown>;
     const taskPrompt = [item.prompt, payload?.situation, payload?.instruction, payload?.taskPrompt]
       .filter((x): x is string => typeof x === "string" && x.length > 0)
