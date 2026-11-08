@@ -32,7 +32,7 @@ export default function UniversitiesIndex() {
         <div className="mx-auto max-w-4xl space-y-8">
           {countries.map((country) => (
             <div key={country}>
-              <h2 className="font-display text-sm font-bold uppercase tracking-wider text-almi-coral">
+              <h2 className="font-display text-sm font-bold uppercase tracking-wider text-almi-coral-text">
                 {country}
               </h2>
               <ul className="mt-3 grid gap-2 sm:grid-cols-2">

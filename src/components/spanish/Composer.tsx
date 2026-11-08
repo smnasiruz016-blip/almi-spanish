@@ -138,7 +138,7 @@ export function Composer({ item, examId }: { item: ComposerItem; examId: string 
         </div>
       )}
 
-      {error && <p className="mt-4 text-sm font-medium text-almi-coral-deep">{error}</p>}
+      {error && <p className="mt-4 text-sm font-medium text-almi-coral-text">{error}</p>}
 
       <button
         type="button"

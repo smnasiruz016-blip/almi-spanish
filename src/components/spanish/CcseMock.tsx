@@ -132,7 +132,7 @@ export function CcseMock({ questions }: { questions: MockQuestion[] }) {
           {answered}/{questions.length} respondidas
         </span>
         <span
-          className={`font-mono text-sm font-semibold ${remaining <= 60 ? "text-almi-coral-deep" : "text-almi-ink"}`}
+          className={`font-mono text-sm font-semibold ${remaining <= 60 ? "text-almi-coral-text" : "text-almi-ink"}`}
         >
           {mm}:{ss}
         </span>
@@ -168,7 +168,7 @@ export function CcseMock({ questions }: { questions: MockQuestion[] }) {
         ))}
       </div>
 
-      {error && <p className="mt-4 text-sm font-medium text-almi-coral-deep">{error}</p>}
+      {error && <p className="mt-4 text-sm font-medium text-almi-coral-text">{error}</p>}
 
       <button
         type="button"

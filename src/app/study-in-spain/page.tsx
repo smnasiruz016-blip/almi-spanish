@@ -37,7 +37,7 @@ export default function StudyInSpainIndex() {
         <div className="mx-auto max-w-4xl space-y-8">
           {regions.map((region) => (
             <div key={region}>
-              <h2 className="font-display text-sm font-bold uppercase tracking-wider text-almi-coral">
+              <h2 className="font-display text-sm font-bold uppercase tracking-wider text-almi-coral-text">
                 {region}
               </h2>
               <ul className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">

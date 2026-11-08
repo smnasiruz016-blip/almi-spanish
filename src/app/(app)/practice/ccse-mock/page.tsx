@@ -18,7 +18,7 @@ export default async function CcseMockPage() {
       <div className="mx-auto max-w-2xl px-6 py-16 text-center">
         <h1 className="font-display text-2xl font-bold text-almi-ink">El simulacro CCSE aún no está listo</h1>
         <p className="mt-3 text-sm text-almi-text-muted">Estamos añadiendo el banco de preguntas cívicas.</p>
-        <Link href="/practice" className="mt-5 inline-block font-semibold text-almi-coral hover:underline">
+        <Link href="/practice" className="mt-5 inline-block font-semibold text-almi-coral-text hover:underline">
           ← Volver a practicar
         </Link>
       </div>

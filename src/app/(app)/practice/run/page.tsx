@@ -31,7 +31,7 @@ export default async function RunPage({
     return (
       <div className="mx-auto max-w-2xl px-6 py-16 text-center">
         <p className="text-almi-text">That practice link is incomplete.</p>
-        <Link href="/practice" className="mt-4 inline-block font-semibold text-almi-coral hover:underline">
+        <Link href="/practice" className="mt-4 inline-block font-semibold text-almi-coral-text hover:underline">
           ← Back to practice
         </Link>
       </div>
@@ -50,7 +50,7 @@ export default async function RunPage({
         <p className="mt-3 text-sm text-almi-text-muted">
           Original Spanish content is being added wave by wave. Try another level or skill.
         </p>
-        <Link href="/practice" className="mt-5 inline-block font-semibold text-almi-coral hover:underline">
+        <Link href="/practice" className="mt-5 inline-block font-semibold text-almi-coral-text hover:underline">
           ← Back to practice
         </Link>
       </div>
