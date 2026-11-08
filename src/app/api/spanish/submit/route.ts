@@ -6,7 +6,7 @@
 import { NextResponse } from "next/server";
 import { requireUser } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
-import { aiGate } from "@/lib/billing/free-access";
+import { aiGate, freeAiNeedsVerifiedEmail, VERIFY_EMAIL_FOR_FREE_AI } from "@/lib/billing/free-access";
 import { findExam } from "@/lib/spanish/exams";
 import { isObjective } from "@/lib/spanish/types";
 import { markObjective, estimateSkill, toCefrSkill, type ObjectiveResponse } from "@/lib/spanish/scoring";
@@ -52,6 +52,13 @@ export async function POST(req: Request): Promise<NextResponse> {
     // Productive (Writing/Speaking) uses the AI grader. RR-397: paid users as before; a free account (48 hours, no card) gets ONE
     // AI-scored Expresión escrita and ONE AI-scored Expresión oral, within today's free-AI budget. "Used" = a SCORED attempt of that
     // skill (written only after the grader returned), never a click.
+    // RR-399 A4: a non-paid account verifies its email before its free AI scoring (practice without AI never asks).
+    if (freeAiNeedsVerifiedEmail(user)) {
+      return NextResponse.json({ error: VERIFY_EMAIL_FOR_FREE_AI }, { status: 403 });
+    }
+    const r = (body.response ?? {}) as { text?: string; transcript?: string };
+    const text = (r.text ?? r.transcript ?? "").trim();
+    if (!text) return NextResponse.json({ error: "Empty response" }, { status: 400 });
     const gate = await aiGate(user, item.skill === "EXPRESION_ORAL" ? "SPEAKING" : "WRITING", () =>
       prisma.spanishAttempt.count({ where: { userId: user.id, skill: item.skill, status: "SCORED" } }),
     );
@@ -60,17 +67,21 @@ export async function POST(req: Request): Promise<NextResponse> {
     const taskPrompt = [item.prompt, payload?.situation, payload?.instruction, payload?.taskPrompt]
       .filter((x): x is string => typeof x === "string" && x.length > 0)
       .join("\n");
-    const r = (body.response ?? {}) as { text?: string; transcript?: string };
-    const text = (r.text ?? r.transcript ?? "").trim();
-    if (!text) return NextResponse.json({ error: "Empty response" }, { status: 400 });
-    const grade = (await gradeProductive({
-      exam,
-      level: item.level,
-      skill: item.skill,
-      taskPrompt,
-      response: text,
-      userId: user.id,
-    })) as Awaited<ReturnType<typeof gradeProductive>> & { latencyMs?: number };
+    let grade: Awaited<ReturnType<typeof gradeProductive>> & { latencyMs?: number };
+    try {
+      grade = (await gradeProductive({
+        exam,
+        level: item.level,
+        skill: item.skill,
+        taskPrompt,
+        response: text,
+        userId: user.id,
+      })) as Awaited<ReturnType<typeof gradeProductive>> & { latencyMs?: number };
+    } catch (err) {
+      // RR-399 A3: the AI call failed, so the learner received nothing: give the free use back before the error goes out.
+      await gate.release();
+      throw err;
+    }
     fraction = grade.fraction;
     feedback = {
       levelEstimate: grade.level_estimate,
