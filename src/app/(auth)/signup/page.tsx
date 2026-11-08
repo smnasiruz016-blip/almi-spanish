@@ -86,17 +86,17 @@ export default async function SignupPage({
       </p>
 
       {error === "taken" && (
-        <p className="mt-4 rounded-xl border border-almi-coral/30 bg-almi-coral/10 px-4 py-3 text-sm text-almi-coral-deep">
+        <p className="mt-4 rounded-xl border border-almi-coral/30 bg-almi-coral/10 px-4 py-3 text-sm text-almi-coral-text">
           An account with that email already exists.
         </p>
       )}
       {error === "invalid" && (
-        <p className="mt-4 rounded-xl border border-almi-coral/30 bg-almi-coral/10 px-4 py-3 text-sm text-almi-coral-deep">
+        <p className="mt-4 rounded-xl border border-almi-coral/30 bg-almi-coral/10 px-4 py-3 text-sm text-almi-coral-text">
           Please fill in all fields. Password must be at least 8 characters.
         </p>
       )}
       {error === "server" && (
-        <p className="mt-4 rounded-xl border border-almi-coral/30 bg-almi-coral/10 px-4 py-3 text-sm text-almi-coral-deep">
+        <p className="mt-4 rounded-xl border border-almi-coral/30 bg-almi-coral/10 px-4 py-3 text-sm text-almi-coral-text">
           Something went wrong on our side. Please try again in a moment.
         </p>
       )}
@@ -154,7 +154,7 @@ export default async function SignupPage({
 
       <p className="mt-6 text-center text-sm text-almi-text-muted">
         Already have an account?{" "}
-        <Link href="/login" className="font-medium text-almi-coral hover:underline">
+        <Link href="/login" className="font-medium text-almi-coral-text hover:underline">
           Log in
         </Link>
       </p>

@@ -63,7 +63,7 @@ export default function WhichSpanishTestPage() {
     <main className="px-6 py-14">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }} />
       <div className="mx-auto max-w-4xl">
-        <p className="text-xs font-semibold uppercase tracking-widest text-almi-coral">ALMISPANISH GUIDE</p>
+        <p className="text-xs font-semibold uppercase tracking-widest text-almi-coral-text">ALMISPANISH GUIDE</p>
         <h1 className="mt-3 font-display text-4xl font-bold text-almi-ink">
           Which Spanish test do you need?
         </h1>
@@ -78,7 +78,7 @@ export default function WhichSpanishTestPage() {
             <div key={r.goal} className="rounded-2xl border border-almi-bg-peach bg-almi-paper p-6">
               <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
                 <h2 className="font-display text-lg font-semibold text-almi-ink">{r.goal}</h2>
-                <span className="text-sm font-semibold text-almi-coral">{r.exam}</span>
+                <span className="text-sm font-semibold text-almi-coral-text">{r.exam}</span>
               </div>
               <p className="mt-2 text-sm text-almi-text">{r.fact}</p>
               <p className="mt-2 text-xs text-almi-text-muted">{CONFIRM}</p>

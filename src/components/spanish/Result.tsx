@@ -44,7 +44,7 @@ export function Result({ estimate, feedback }: { estimate: SkillEstimate; feedba
             <span className="ml-2 align-middle text-sm font-medium text-almi-text-muted">Group {estimate.group}</span>
           )}
           {estimate.belowSkillFloor && (
-            <span className="ml-2 align-middle text-sm font-semibold text-almi-coral-deep">
+            <span className="ml-2 align-middle text-sm font-semibold text-almi-coral-text">
               below 25% skill floor
             </span>
           )}
@@ -55,7 +55,7 @@ export function Result({ estimate, feedback }: { estimate: SkillEstimate; feedba
           <span
             className={
               "ml-2 align-middle text-sm font-semibold " +
-              (estimate.passed ? "text-almi-teal" : "text-almi-coral-deep")
+              (estimate.passed ? "text-almi-teal-text" : "text-almi-coral-text")
             }
           >
             {estimate.passed ? "APTO" : "NO APTO"}

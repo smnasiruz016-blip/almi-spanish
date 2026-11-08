@@ -114,7 +114,7 @@ export default async function PracticePage({
 
       <p className="mt-10 text-xs text-almi-text-muted">
         Not sure which exam?{" "}
-        <Link href="/which-spanish-test" className="font-semibold text-almi-coral hover:underline">
+        <Link href="/which-spanish-test" className="font-semibold text-almi-coral-text hover:underline">
           Which Spanish test do you need? →
         </Link>
       </p>

@@ -32,7 +32,7 @@ export default function ProgramsIndex() {
         <div className="mx-auto max-w-4xl space-y-8">
           {unis.map((uni) => (
             <div key={uni}>
-              <h2 className="font-display text-sm font-bold uppercase tracking-wider text-almi-coral">
+              <h2 className="font-display text-sm font-bold uppercase tracking-wider text-almi-coral-text">
                 {uni} <span className="text-almi-text-muted">({byUni.get(uni)!.length})</span>
               </h2>
               <ul className="mt-3 grid gap-1.5 sm:grid-cols-2">

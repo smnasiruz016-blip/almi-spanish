@@ -48,17 +48,17 @@ export default async function LoginPage({
       <p className="mt-2 text-sm text-almi-text-muted">Log in to continue.</p>
 
       {error === "invalid" && (
-        <p className="mt-4 rounded-xl border border-almi-coral/30 bg-almi-coral/10 px-4 py-3 text-sm text-almi-coral-deep">
+        <p className="mt-4 rounded-xl border border-almi-coral/30 bg-almi-coral/10 px-4 py-3 text-sm text-almi-coral-text">
           Email or password is incorrect.
         </p>
       )}
       {error === "missing" && (
-        <p className="mt-4 rounded-xl border border-almi-coral/30 bg-almi-coral/10 px-4 py-3 text-sm text-almi-coral-deep">
+        <p className="mt-4 rounded-xl border border-almi-coral/30 bg-almi-coral/10 px-4 py-3 text-sm text-almi-coral-text">
           Please enter both email and password.
         </p>
       )}
       {error === "server" && (
-        <p className="mt-4 rounded-xl border border-almi-coral/30 bg-almi-coral/10 px-4 py-3 text-sm text-almi-coral-deep">
+        <p className="mt-4 rounded-xl border border-almi-coral/30 bg-almi-coral/10 px-4 py-3 text-sm text-almi-coral-text">
           Something went wrong on our side. Please try again in a moment.
         </p>
       )}
@@ -100,12 +100,12 @@ export default async function LoginPage({
       </form>
 
       <div className="mt-6 flex flex-col items-center gap-2 text-sm text-almi-text-muted">
-        <Link href="/forgot-password" className="font-medium text-almi-coral hover:underline">
+        <Link href="/forgot-password" className="font-medium text-almi-coral-text hover:underline">
           Forgot password?
         </Link>
         <p>
           New here?{" "}
-          <Link href="/signup" className="font-medium text-almi-coral hover:underline">
+          <Link href="/signup" className="font-medium text-almi-coral-text hover:underline">
             Create an account
           </Link>
         </p>
